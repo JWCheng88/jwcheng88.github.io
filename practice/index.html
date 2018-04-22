@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Caran d'Ache</title>
+    <link rel="Shortcut Icon" type="image/x-icon" href="img/caran_logo_small.png">
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+	<!-- <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'> -->
+	<style>
+	@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+	
+	*{
+		margin: 0;
+		padding: 0;
+		list-style:none;
+		text-decoration: none;
+	}
+	body{
+		position: relative;
+		font-family:'Prompt', 'Noto Sans TC',sans-serif;
+	}
+	::-webkit-scrollbar { 
+    display: none; 
+	}
+
+	/*VIDEO*/
+	
+	.box1{
+		position: relative;
+		overflow: hidden;
+	}
+	.tri{
+		width: 100vw;
+		height: 100vh;
+		top: 0; right: 0; bottom: 0; left: 0;
+		z-index: 3;
+		position: absolute;
+		overflow: hidden;
+	}
+	.tri img{
+		/*width: 100%;*/
+		height: 930px;
+
+	}
+	.videobox{
+		width: 100vw;
+		height: 100vh;
+		top: 0; right: 0; bottom: 0; left: 0;
+		z-index: -10;
+		position: relative;
+	}
+	.cover{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-color: rgba(5,5,5,.3);
+		/*background: url(images/trame.png) ;*/
+		z-index: 0;
+	}
+	.logo{
+		top: 30vh;	
+		/*left: 20vw;*/
+		left: 0;right: 0;margin: auto;
+		width: 750px;
+		position: absolute;
+		z-index: 2;
+	}
+	.logo img{
+		position: absolute;
+/*		top: 0;
+		left: 0;*/
+	}
+	.logo1{
+		animation:go1 2s 1s 1 both;
+	}
+	@keyframes go1{
+		0%{top:-250px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo2{
+		animation:go2 2s 1s 1 both;
+	}
+	@keyframes go2{
+		0%{top:450px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo3{
+		animation:go3 2s 1s 1 both;
+	}
+	@keyframes go3{
+		0%{top:-230px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo4{
+		animation:go4 2s 1s 1 both;
+	}
+	@keyframes go4{
+		0%{top:120px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo5{
+		animation:go5 2s 1s 1 both;
+	}
+	@keyframes go5{
+		0%{top:-380px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo6{
+		animation:go6 2s 1s 1 both;
+		/*top: -150px;*/
+	}
+	@keyframes go6{
+		0%{top:400px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo7{
+		animation:go7 2s 1s 1 both;
+	}
+	@keyframes go7{
+		0%{top:-140px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo8{
+		animation:go8 2s 1s 1 both;
+	}
+	@keyframes go8{
+		0%{top:320px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo9{
+		animation:go9 2s 1s 1 both;
+	}
+	@keyframes go9{
+		0%{top:-300px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo10{
+		animation:go10 2s 1s 1 both;
+	}
+	@keyframes go10{
+		0%{top:350px;opacity: 0;}
+		100%{top:0;opacity: 1;}
+	}
+	.logo11{
+		animation:go11 1s 3s 1 both;
+	}
+	@keyframes go11{
+		0%{opacity: 0;}
+		100%{opacity: 1;}
+	}
+    .fullvd{
+    	position: fixed;
+    	top: 50%;
+    	left: 50%;
+    	min-width: 100%;
+    	min-height: 100%;
+    	width: auto;
+    	height: auto;
+    	z-index: -100;
+    	-ms-transform: translateX(-50%) translateY(-50%);
+    	-moz-transform: translateX(-50%) translateY(-50%);
+   	 	-webkit-transform: translateX(-50%) translateY(-50%);
+    	transform: translateX(-50%) translateY(-50%);
+    	background-size: cover; 
+    }
+    .navopen{
+		position: absolute;
+		top: 80vh;
+		right:0;left: 0;margin: auto;
+		text-align: center;
+		font-size: 20px;
+		color: #f1f1f1;
+		width: 50px;
+		height: 50px;
+		z-index: 6;
+		cursor: pointer;
+		transition:.5s;
+		border-radius: 50%;
+		/*border:2px solid #fff;*/
+		animation:go12 1s 4s 1 both;
+	}
+	@keyframes go12{
+		0%{opacity:0;}
+		100%{opacity:1;}
+	}
+	.navopen svg{
+		width: 50px;
+		height: 50px;
+	}
+	.navopen .shadow{
+		/*content:'';*/
+		position: absolute;
+		top: 0;
+		display: block;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		box-shadow: 0 0 2px 2px rgba(255,255,255,.7), 0 0 4px 4px rgba(255,255,255,.7) inset;
+		animation: expand 1.5s linear infinite;
+	}
+	@keyframes expand{
+		  0%{ transform:scale(1);opacity:.0; }
+		  5%{ transform:scale(1);opacity:.8; }
+		100%{ transform:scale(1.6);opacity:0; }
+	}
+	.navopen svg path{
+		fill:rgba(255,255,255,.7);
+	}
+	.navopen:hover svg path{
+		fill:#fff;
+	}
+	.navopen:hover .shadow{
+		box-shadow: 0 0 3px 3px #fff, 0 0 5px 5px rgba(255,255,255,1) inset;
+	}
+	.navopen.open{
+		top:50px;
+	}
+	/*----------------------------------------navbar--------------------------------------*/
+	.nav{
+			position: fixed;
+			top: 0px;
+			width: 100vw;
+			height: 100vh;
+			background: url(img/navbg4.png) 100% 100% no-repeat; 
+			display: none;
+			color: #fff;
+			z-index: 5;
+			/*font-family: arial;*/
+			/*transition:.5s;*/
+		}
+		.navmain{
+			width: 25vw;
+			height: 100vh;
+			float: left;
+			text-align: center;	
+			background-color: rgba(0,2,34,.95);
+			transition: .5s;
+			/*font-size: 30px;*/
+			position: relative;
+		}
+		.navmain:hover{
+			background-color: rgba(0,2,34,0);
+			transition: .5s;
+		}
+		.navmain h2{
+			font-size: 50px;
+			margin-top: 30vh;
+			transition:.5s;
+		}
+		.navmain h2.up{
+			margin-top: 5vh;			
+			transition:.5s;
+		}
+		.navmain a {
+			color: #fff;
+		}
+		.navmain hr{
+			width: 10vw;
+			margin: 40px auto;
+			transition: .5s;
+		}
+		.navmain hr.hide{
+			display: none;
+			transition: .5s;
+		}
+		.navmain_dis{
+			transition: .5s;
+		}
+		.navmain_dis.hided{
+			display: none;
+			transition: .5s;
+		}
+		.navsub{
+			height: 150px;
+			width: 21vw;
+			padding: 2vw;
+			position: absolute;
+			bottom: 0;
+			background-color: rgba(255,255,255,.5);
+			color: #303136;
+			transition: .5s;
+			text-align: left;
+		}
+				.navsub .title {
+			margin-bottom: 2px;
+			border-bottom: 1px solid #969696;
+		}
+		.navsub.hover{
+			height:250px;
+			transition:.5s;
+		}
+		.navsub.long{
+			height: 700px;
+			overflow: auto;
+		}
+		.navsub::-webkit-scrollbar { 
+    		display: none; 
+		}
+		.togglebtn{
+			/*display: none;*/
+			height: 2.5vw;
+			width: 2.5vw;
+			background-color: #D14629;
+			opacity:.0;
+			margin: auto;
+			bottom: 30px;
+			position: absolute;
+			border-radius: 50%;
+			left: 11.25vw;
+			z-index: 10;
+			text-align: center;
+			line-height: 2.5vw;
+			transition:.5s;
+		}
+		.togglebtn.clicked{
+			bottom:700px;
+			transition:.5s;
+		}
+		.togglebtn img{
+			position: relative;
+			top: 5px;
+			height: 1.5vw;
+			width: 1.5vw;
+			transition:.5s;
+			transform:rotate(0deg);	
+		}
+		.togglebtn img.down{
+			transition:.5s;
+			transform:rotate(180deg);
+		}		
+		.navsub .title{
+			font-size: 20px;
+			margin-top: 5px;
+		}
+		.navsub .title a{
+			color: #555;
+		}
+		.navsub .title a:hover{
+			color: #D14629;
+		}
+		.navprolist{
+			width: 100%;
+			margin-bottom: 10px;	
+			height: 200px;
+			position: relative;
+			transition:.5s;
+		}
+		.navprolist:hover{
+			background-color: rgba(255,255,255,.8);
+			/*opacity: .5;*/
+			transition:.5s;
+		}
+		.navsub a{
+			color: #333;
+		}
+		.navprocat{
+			display: inline-block;
+		}
+		.navprocat p{
+			font-size: 20px;
+			margin: 20px;
+			color: #303136;
+		}
+		.cattitle:hover{
+			color: #D14629;
+		}
+		.navpropic{
+			display: inline-block;
+			position: absolute;
+			right: 0;
+		}
+		.navpropic img{
+			max-height: 200px;
+		}
+    </style>
+
+</head>
+<body>
+	<div class="box1">
+	<div class="logo">
+		<img class="logo1" src="img/logo_corpo1.svg" alt="">
+		<img class="logo2" src="img/logo_corpo2.svg" alt="">
+		<img class="logo3" src="img/logo_corpo3.svg" alt="">
+		<img class="logo4" src="img/logo_corpo4.svg" alt="">
+		<img class="logo5" src="img/logo_corpo5.svg" alt="">
+		<img class="logo6" src="img/logo_corpo6.svg" alt="">
+		<img class="logo7" src="img/logo_corpo7.svg" alt="">
+		<img class="logo8" src="img/logo_corpo8.svg" alt="">
+		<img class="logo9" src="img/logo_corpo9.svg" alt="">
+		<img class="logo10" src="img/logo_corpo10.svg" alt="">
+		<img class="logo11" src="img/logo_corpo11.svg" alt="">
+	</div>
+	<div class="cover"></div>
+	<div class="videobox">
+
+		<video autoplay class="fullvd" loop> 
+    		<source src="intro_ns.mp4"  type="video/mp4" >
+		</video >
+
+	</div>
+	<!-- <nav class="nav">
+		<ul>
+			<li><a href="javascript:;">NEWS</a></li>
+			<li><a href="javascript:;">STORY</a></li>
+			<li><a href="javascript:;">PRODUCT</a></li>
+			<li><a href="javascript:;">STORE</a></li>
+		</ul>
+	</nav> -->	
+</div>
+<div class="navopen"><div class="shadow"></div><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="79.461px" height="79.332px" viewBox="0 0 79.461 79.332" enable-background="new 0 0 79.461 79.332" xml:space="preserve">
+<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M39.815,0.028c20.138-0.671,39.691,16.478,39.646,39.555   C79.416,61.671,61.729,79.37,39.654,79.332C17.714,79.294-0.024,61.604,0,39.663C0.027,15.526,20.402-0.773,39.815,0.028z    M55.14,23.302c-0.515-0.652-0.817-1.135-1.214-1.522c-8.83-8.621-22.667-7.155-29.522,3.119   c-5.701,8.542-5.534,22.266,0.39,30.659c2.569,3.638,5.919,6.179,10.226,7.522c1.854,0.579,2.909,0.327,3.764-1.539   c4.751-10.378,9.567-20.728,14.447-31.046c0.585-1.236,1.693-2.226,2.559-3.33c0.846,1.116,1.942,2.119,2.497,3.364   c3.931,8.816,7.749,17.682,11.728,26.819c0.269-0.407,0.412-0.594,0.522-0.798c0.303-0.562,0.622-1.118,0.88-1.701   c5.66-12.763,4.76-25.068-3.618-36.233C59.355,7.368,47.678,2.855,33.789,5.025C19.172,7.308,7.507,19.159,5.081,33.567   C2.597,48.318,9.455,62.87,22.347,70.205c12.936,7.36,28.925,5.823,40.288-3.871c3.272-2.792,3.271-2.792,1.629-6.673   c-0.498-1.176-1.191-2.313-1.449-3.54c-1.019-4.865-3.802-6.475-8.775-6.068c-5.606,0.458-5.688,0.044-7.659,5.298   c-0.926,2.469-1.623,5.022-2.424,7.538c0.255,0.237,0.509,0.475,0.764,0.712c3.798-1.712,7.597-3.425,11.32-5.104   c0.287,2.992,0.247,3.23-2.422,4.7c-9.645,5.312-19.362,5.378-28.615-0.619c-9.438-6.118-13.584-15.224-12.17-26.339   c1.366-10.731,7.532-18.257,17.659-21.99c9.662-3.561,18.647-1.689,26.781,4.702C56.556,20.414,55.933,21.684,55.14,23.302z    M54.439,35.865c-1.672,4.011-3.052,7.32-4.496,10.786c3.185,0,5.905,0,8.873,0C57.38,43.111,56.05,39.832,54.439,35.865z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M38.966,30.887c0-3.78,0-7.491,0-11.376c1.205,0,2.437,0,3.973,0   c0,8.917,0,17.884,0,26.984c-1.032,0-2.283,0-3.673,0c-0.076-0.665-0.154-1.348-0.244-2.139c-0.212,0.093-0.436,0.125-0.553,0.254   c-2.094,2.318-4.651,2.981-7.596,2.054c-2.938-0.925-4.515-3.202-4.665-6.059c-0.133-2.535-0.085-5.382,0.936-7.61   C29.215,28.477,33.769,27.846,38.966,30.887z M29.711,37.734c0.276,1.534,0.197,3.05,0.841,4.14c0.69,1.167,1.92,2.358,3.167,2.77   c1.724,0.568,3.332-0.413,4.148-2.088c1.391-2.855,1.785-5.944,0.297-8.771c-0.611-1.161-2.424-2.321-3.695-2.326   s-2.881,1.185-3.724,2.313C29.966,34.816,30.004,36.472,29.711,37.734z"/>
+</g>
+</svg></div>
+<div class="nav">
+			<div class="navmain">
+				<a href="brand_history.php"><h2>Caran d'Ache</h2></a>
+				<hr></hr>
+				<p class="navmain_dis">縱橫百年，我們的過去、未來與永恆</p>
+				<div class="navsub" style="display:none"></div>
+			</div>
+			<div class="navmain">
+				<a href="news.php"><h2>News</h2></a>
+				<hr></hr>
+        <p class="navmain_dis">第一手的最新消息與活動</p>
+	        <div class="navsub">
+	          <p class="date">2016.09.23</p>
+	          <p class="title"><a href="news_sub.php">100 YEARS OF EMOTIONS</a></p>
+	          <!-- <p class="content">aran d’Ache is delighted to celebrate its 100th anniversary in 2015...</p> -->
+	          <p class="date">2016.08.24</p>
+	          <p class="title"><a href="news_sub.php">NEW BOUTIQUES</a></p>
+	          <p class="date">2016.07.16</p>
+	          <p class="title"><a href="news_sub.php">CARAN D’ACHE HEAD PRIZE 2016</a></p>
+	          <p class="date">2016.06.21</p>
+	          <p class="title"><a href="news_sub.php">849 PAUL SMITH</a></p>
+	        </div> 
+
+			</div>
+			<div class="navmain">
+				<a href="product_index.php"><h2>Product</h2></a>
+				<hr></hr>
+				<p class="navmain_dis">最極致的書寫繪畫體驗，自此開始</p>
+				<div class="togglebtn"><img src="img/up-arrows-w.svg" alt=""></div>
+				<div class="navsub">
+					<a href="product_1_colorpen.php"><div class="navprolist navprolist1">
+						<div class="navprocat"><p class="cattitle">色鉛筆</p></div>
+						<div class="navpropic"><img src="img/navbar_01.png" alt=""></div>
+					</div></a>
+					<a href="product_2_neopastel.php"><div class="navprolist navprolist2"> 
+						<div class="navprocat"><p class="cattitle">蠟筆</p></div>
+						<div class="navpropic"><img src="img/navbar_02.png" alt=""></div>
+					</div></a>
+					<a href="product_3_cubes.php"><div class="navprolist navprolist3"> 
+						<div class="navprocat"><p class="cattitle">粉彩筆</p></div>
+						<div class="navpropic"><img src="img/navbar_03.png" alt=""></div>
+					</div></a>
+					<a href="product_4_foutainpen.php"><div class="navprolist navprolist4"> 
+						<div class="navprocat"><p class="cattitle">鋼筆</p></div>
+						<div class="navpropic"><img src="img/navbar_04.png" alt=""></div>
+					</div></a>
+					<a href="product_5_ballpoint.php"><div class="navprolist navprolist5">
+						<div class="navprocat"><p class="cattitle">圓珠筆</p></div>
+						<div class="navpropic"><img src="img/navbar_05.png" alt=""></div>
+					</div></a>
+					<a href="product_6_pencil.php"><div class="navprolist navprolist6"> 
+						<div class="navprocat"><p class="cattitle">自動鉛筆</p></div>
+						<div class="navpropic"><img src="img/navbar_06.png" alt=""></div>
+					</div></a>
+					<a href="product_7_ink.php"><div class="navprolist navprolist7"> 
+						<div class="navprocat"><p class="cattitle">墨水</p></div>
+						<div class="navpropic"><img src="img/navbar_07.png" alt=""></div>
+					</div></a>
+					<a href="product_8_piant.php"><div class="navprolist navprolist8"> 
+						<div class="navprocat"><p class="cattitle">顏料</p></div>
+						<div class="navpropic"><img src="img/navbar_08.png" alt=""></div>
+					</div></a>
+					<a href="product_9_other.php"><div class="navprolist navprolist9"> 
+						<div class="navprocat"><p class="cattitle">配件</p></div>
+						<div class="navpropic"><img src="img/navbar_09.png" alt=""></div>
+					</div></a>
+				</div>
+			</div>
+			<div class="navmain">
+				<a href="map.php"><h2>Store</h2></a>
+				<hr></hr>
+				<p class="navmain_dis">實體店面，真實感受</p>
+				<div class="navsub" style="display:none"></div>
+			</div>
+</div>
+
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+	$('.navopen').click(function(){
+		$('.nav').slideToggle('swing');
+		if($('.navopen').hasClass('open')==false){
+			$('.navopen').addClass('open');
+			$('.shadow').css({'display':'none'});
+		}else{
+			$('.navopen').removeClass('open');
+			$('.shadow').css({'display':'block'});
+		}
+	});
+	// $('.nav').on('mouseleave', function(){
+	// 	// $('.nav').slideUp();
+	// 	$('.navopen').removeClass('open');
+	// });
+	var ii;
+	$('.navmain').hover(function(){
+		ii=$(this).index();
+		$('.navsub').eq(ii).addClass('hover');
+	},function(){
+		ii=$(this).index();
+		$('.navsub').eq(ii).removeClass('hover');
+	})
+	$('.navmain').eq(2).hover(function(){
+		$('.togglebtn').css({'opacity':'.7'});	
+	},function(){
+		// $('.togglebtn').fadeOut();
+		$('.togglebtn').css({'opacity':'.0'});
+		$('.navsub').eq(2).removeClass('long');
+		$('.navmain h2').eq(2).removeClass('up');
+		$('.togglebtn').removeClass('clicked');
+		$('.togglebtn img').removeClass('down');
+		$('.navmain hr').eq(2).removeClass('hide');
+		$('.navmain_dis').eq(2).removeClass('hided');
+	})
+
+	$('.togglebtn').click(function(){
+		if($('.navsub').eq(2).hasClass('long') == false){
+			$('.navsub').eq(2).addClass('long');
+			$('.navmain h2').eq(2).addClass('up');
+			$('.togglebtn').addClass('clicked');
+			$('.togglebtn img').addClass('down');
+			$('.navmain hr').eq(2).addClass('hide');
+			$('.navmain_dis').eq(2).addClass('hided');
+		}else{
+			$('.navsub').eq(2).removeClass('long');
+			$('.navmain h2').eq(2).removeClass('up');
+			$('.togglebtn').removeClass('clicked');
+			$('.togglebtn img').removeClass('down');
+			$('.navmain hr').eq(2).removeClass('hide');
+			$('.navmain_dis').eq(2).removeClass('hided');
+		};
+		
+	})
+	
+</script>

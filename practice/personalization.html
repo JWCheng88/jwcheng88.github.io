@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新客製化</title>
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<style>
+	@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+	@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+	@import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style-type: none;
+			font-family: 'Noto Sans TC', sans-serif; 
+		}
+		body{
+			background-color: #f0f0f0;
+			position: relative;
+		}
+		footer{
+            padding-top: 100px;
+        }
+        footer ul{
+            text-align: center;
+        }
+        footer ul li{
+            display: inline-block;
+            margin: 5px;
+        }
+        footer img{
+            width: 35px;
+        }
+        footer p{
+            text-align: center;
+        }
+        .per_wrapper{
+			width: 1200px;
+			margin: 0 auto;
+			position: relative;
+			margin-top: 150px;
+			text-align: center;
+		}
+		.per_wrapper button{
+        	background-color: #999999;
+        	font-size: 14px;
+        	border:none;
+        	transition:.5s;
+        	color:#fff;
+        	width: 100px;
+        	height: 40px;
+        	border-radius: 3px
+        }
+        .per_wrapper button:hover{
+        	background-color: #D14528;
+        	transition:.5s;
+        }
+		.step0img img{
+			max-width: 800px;
+		}
+		.step0{
+			/*display: none;*/
+			height: 700px;
+		}
+		.step0title {
+			font-size: 40px;
+			color: #2F3136;
+			text-align: left;	
+			margin-bottom: 5px;
+			letter-spacing: 5px;
+		}
+
+		.step0discribe {
+			font-size: 20px;
+			color: #2F3136;
+			text-align: left;
+		}
+		.per_wrapper .step0btn{
+			width: 120px;
+			height: 50px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		.per_wrapper .step{
+			height:800px;
+			display: none;
+		}
+		.stephead{
+			height: 100px;
+		}
+		.steptitle {
+			border-bottom: 5px solid #D14528;
+			padding-bottom: 5px;			
+			width: 800px;
+			margin: 0 auto;	
+			margin-bottom: 10px;
+			color: #2F3136;
+			font-size: 40px;
+		}
+		.stepdiscribe {
+			font-size: 20px;
+			color: #2F3136;
+		}
+		.step2back{
+			display: none;
+			position: absolute;
+			left: 200px;
+			top: 20px;
+			z-index: 3;
+		}
+		.per_wrapper .step2back button {
+			width: 100px;
+			height: 40px;
+			cursor: pointer;
+		}
+		.step3back{
+			display: none;
+			position: absolute;
+			left: 200px;
+			top: 20px;
+			z-index: 3;
+		}
+		.per_wrapper .step3back button {
+			width: 100px;
+			height: 40px;
+			cursor: pointer;
+		}
+		.step4back{
+			display: none;
+			/*z-index: 10;*/
+			position: absolute;
+			left: 200px;
+			top: 20px;
+			z-index: 3;
+		}
+		.per_wrapper .step4back button {
+			width: 100px;
+			height: 40px;
+			cursor: pointer;
+		}
+		.step5back{
+			display: none;
+			position: absolute;
+			left: 200px;
+			top: 20px;
+			z-index: 3;
+		}
+		.per_wrapper .step5back button {
+			width: 100px;
+			height: 40px;
+			cursor: pointer;
+		}
+		.step2title{
+			display: none;
+		}
+		.step2discribe{
+			display: none;
+		}
+		.step1img{
+			height: 500px;
+			width: 1200px;
+			position: absolute;
+		}
+		.step1pen{
+			position: absolute;
+			left: -250px;
+			top: 700px;
+			transform: rotate(60deg) scale(0.9) ;
+			transform-origin:120%;
+			cursor: pointer;
+		}
+		.step2pen {
+			cursor: pointer;
+		}
+		.step2pen0{
+			display: none;
+			position: absolute;
+			left: -250px;
+			top: 700px;
+			transform: rotate(60deg) scale(0.9);
+			transform-origin:120%;
+		}
+		.step2pen1{
+			display: none;
+			position: absolute;
+			left: -250px;
+			top: 700px;
+			transform: rotate(75deg) scale(0.9)  ;
+			transform-origin:120%;
+		}
+		.step2pen2{
+			display: none;
+			position: absolute;
+			left: -250px;
+			top: 700px;
+			transform: rotate(90deg) scale(0.9) ;
+			transform-origin:120%;
+		}
+		.step2pen3{
+			display: none;
+			position: absolute;
+			left: -250px;
+			top: 700px;
+			transform: rotate(105deg) scale(0.9) ;
+			transform-origin:120%;
+		}
+		.step2pen4{
+			display: none;
+			position: absolute;
+			left: -250px;
+			top: 700px;
+			transform: rotate(120deg) scale(0.9) ;
+			transform-origin:120%;
+		}
+		.step3penani{
+			animation:s3pengo 1s 0s 1 both;
+		}
+		@keyframes s3pengo{
+			0%{}
+			100%{transform: rotate(0deg) scale(1) ;left: 250px;top: 100px;}
+		}
+		.step3penaniback{
+			animation:s3penback 1s 0s 1 both;
+		}
+		@keyframes s3penback{
+			0%{transform: rotate(0deg) scale(1) ;left: 250px;top: 100px;}
+			100%{}
+		}
+
+		.step1pencil{
+			position: absolute;
+			right: 750px;
+			top: 700px;
+			transform:rotate(120deg) scale(0.9) ;
+			transform-origin:120%;
+			cursor: pointer;
+		}
+		.step2pencil {
+			cursor: pointer;
+		}
+		.step2pencil0{
+			display: none;
+			position: absolute;
+			right: 750px;
+			top: 700px;
+			transform:rotate(120deg) scale(0.9) ;
+			transform-origin:120%;
+		}
+		.step2pencil1{
+			display: none;
+			position: absolute;
+			right: 750px;
+			top: 700px;
+			transform:rotate(105deg) scale(0.9) ;
+			transform-origin:120%;
+		}
+		.step2pencil2{
+			display: none;
+			position: absolute;
+			right: 750px;
+			top: 700px;
+			transform:rotate(90deg) scale(0.9) ;
+			transform-origin:120%;
+		}
+		.step2pencil3{
+			display: none;
+			position: absolute;
+			right: 750px;
+			top: 700px;
+			transform:rotate(75deg) scale(0.9) ;
+			transform-origin:120%;
+		}
+		.step2pencil4{
+			display: none;
+			position: absolute;
+			right: 750px;
+			top: 700px;
+			transform:rotate(60deg) scale(0.9) ;
+			transform-origin:120%;
+		}
+		.step3pencilani{
+			animation:s3pencilgo 1s 0s 1 both;
+		}
+		@keyframes s3pencilgo{
+			0%{}
+			100%{transform: rotate(0deg) scale(1);right: 250px;top: 100px;}
+		}
+		.step3pencilaniback{
+			animation:s3pencilback 1s 0s 1 both;
+		}
+		@keyframes s3pencilback{
+			0%{transform: rotate(0deg) scale(1);right: 250px;top: 100px;}
+			100%{}
+		}
+		.step1pentext{
+			position: absolute;
+			font-size: 20px;
+			top: 200px;
+			left: 30px;
+			text-align: left;
+			padding: 10px;
+			transition:1s;
+		}
+		.step1pentext p{
+			font-size: 18px;
+			/*height: 30px;*/
+			margin: 10px;
+		}
+		.step1pentext h3{
+			color: #2F3136;
+			margin-bottom: 20px;
+		}
+		.btline{
+			position: absolute;
+			height: 3px;
+			width: 0;
+			background-color: #2F3136;
+			transition:.5s;
+			/*bottom: -10px;*/
+		}
+		.step1penciltext{
+			position: absolute;
+			font-size: 20px;
+			top: 200px;
+			right: 30px;
+			text-align: left;
+			color: #2F3136;
+		}
+		.step1penciltext p{
+			font-size: 18px;
+			margin: 10px;
+		}
+		.step1penciltext h3{
+			color: #2F3136;
+			margin-bottom: 20px;
+		}
+		.step3input{
+			position: absolute;
+			bottom: 500px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			display: none;
+		}
+		#typeword{
+			width: 200px;
+			height: 30px;
+			font-size: 18px;		
+		}
+		.step3inputshowpen{
+			display: none;
+			position: absolute;
+			bottom: 664px;
+			left: 445px;
+			width: 200px;
+			font-size: 22px;
+			text-align: center;
+			color: rgba(0,0,0,.5);
+			text-shadow: 1px 1px rgba(255,255,255,.5);
+			font-family: 'Kaushan Script','cwTeXFangSong';
+			/*outline: 1px solid #f00;*/
+		}
+		.step3inputshowpencil{
+			display: none;
+			position: absolute;
+			bottom: 660px;
+			left: 585px;
+			width: 200px;
+			/*outline: 1px solid #f00;*/
+			text-align: center;
+			font-size: 18px;
+			color: rgba(0,0,0,.5);
+			font-family: 'Kaushan Script','cwTeXFangSong';
+			text-shadow: 1px 1px rgba(255,255,255,.5);
+		}
+		.step3btn{
+			display: none;
+			position: absolute;
+			width: 100px;
+			left: 0;right: 0;margin: 0 auto;
+			bottom: 400px;
+			/*right: -700px;*/
+		}
+        .per_wrapper .step3btn button {
+			width: 100px;
+			height: 40px;
+			cursor: pointer;
+		}
+		.step4box{
+			display: none;
+		}
+		.step4boxmove{
+			position: relative;
+			animation: boxmove 1s 0s 1 both;
+		}
+		@keyframes boxmove{
+			0%{top: 250px;opacity:0;}
+			100%{top: 0px;opacity:1;}
+		}
+		.step4box img{
+			width: 1100px;
+			position: relative;
+			transform:scale(0.9);
+			transition:.5s;
+		}
+		.step4box img.step4boxfin{
+			position: relative;
+			transform:scale(.4) translate(-400px,200px);
+
+			transition: .5s;
+		}
+		.step4option{
+			position: absolute;
+			bottom: 400px;
+			left: 0;right: 0;margin: 0 auto;
+			display: none;
+		}
+		.step4option ul li{
+			display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+		}
+		.bluebox{
+            width: 30px;
+            height: 30px;
+            background-color: #575e90;
+        }
+        .brownbox{
+            width: 30px;
+            height: 30px;
+            background-color: #82592a;
+        }
+        .graybox{
+            width: 30px;
+            height: 30px;
+            background-color: #4a4b4f;
+        }
+        .greenbox{
+            width: 30px;
+            height: 30px;
+            background-color: #3b613b;
+        }
+        .redbox{
+            width: 30px;
+            height: 30px;
+            background-color: #801818;
+        }
+        .step4btn{
+        	z-index: 5;
+        }
+        .per_wrapper .step4btn button {
+			width: 100px;
+			height: 40px;
+			cursor: pointer;
+		}
+        .step4checkinfo{
+            display: none;
+            left: 0;right: 0;margin: 0 auto;
+            width: 190px;
+            text-align: center;
+            position: absolute;
+            bottom: 250px;
+        }
+        .step4price{
+            position: relative;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .per_wrapper .step4cart {
+            position: relative;
+            width: 150px;
+            padding: 10px;
+            height: 50px;
+            text-align: center;
+            border-radius: 5px;
+            transition: .5s;
+            cursor: pointer;
+			margin-top: 30px;
+            background-color: transparent;
+            border: none;
+            background-color: #999;
+            vertical-align: middle;
+        }
+        .step4cart:hover{
+            background-color: #D14528;
+        	transition:.5s;
+        } 
+        .step4cart p{
+            display: inline-block;
+            font-size: 16px;
+        }
+        
+	</style>
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="navopen"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="79.461px" height="79.332px" viewBox="0 0 79.461 79.332" enable-background="new 0 0 79.461 79.332" xml:space="preserve">
+	<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M39.815,0.028c20.138-0.671,39.691,16.478,39.646,39.555   C79.416,61.671,61.729,79.37,39.654,79.332C17.714,79.294-0.024,61.604,0,39.663C0.027,15.526,20.402-0.773,39.815,0.028z    M55.14,23.302c-0.515-0.652-0.817-1.135-1.214-1.522c-8.83-8.621-22.667-7.155-29.522,3.119   c-5.701,8.542-5.534,22.266,0.39,30.659c2.569,3.638,5.919,6.179,10.226,7.522c1.854,0.579,2.909,0.327,3.764-1.539   c4.751-10.378,9.567-20.728,14.447-31.046c0.585-1.236,1.693-2.226,2.559-3.33c0.846,1.116,1.942,2.119,2.497,3.364   c3.931,8.816,7.749,17.682,11.728,26.819c0.269-0.407,0.412-0.594,0.522-0.798c0.303-0.562,0.622-1.118,0.88-1.701   c5.66-12.763,4.76-25.068-3.618-36.233C59.355,7.368,47.678,2.855,33.789,5.025C19.172,7.308,7.507,19.159,5.081,33.567   C2.597,48.318,9.455,62.87,22.347,70.205c12.936,7.36,28.925,5.823,40.288-3.871c3.272-2.792,3.271-2.792,1.629-6.673   c-0.498-1.176-1.191-2.313-1.449-3.54c-1.019-4.865-3.802-6.475-8.775-6.068c-5.606,0.458-5.688,0.044-7.659,5.298   c-0.926,2.469-1.623,5.022-2.424,7.538c0.255,0.237,0.509,0.475,0.764,0.712c3.798-1.712,7.597-3.425,11.32-5.104   c0.287,2.992,0.247,3.23-2.422,4.7c-9.645,5.312-19.362,5.378-28.615-0.619c-9.438-6.118-13.584-15.224-12.17-26.339   c1.366-10.731,7.532-18.257,17.659-21.99c9.662-3.561,18.647-1.689,26.781,4.702C56.556,20.414,55.933,21.684,55.14,23.302z    M54.439,35.865c-1.672,4.011-3.052,7.32-4.496,10.786c3.185,0,5.905,0,8.873,0C57.38,43.111,56.05,39.832,54.439,35.865z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M38.966,30.887c0-3.78,0-7.491,0-11.376c1.205,0,2.437,0,3.973,0   c0,8.917,0,17.884,0,26.984c-1.032,0-2.283,0-3.673,0c-0.076-0.665-0.154-1.348-0.244-2.139c-0.212,0.093-0.436,0.125-0.553,0.254   c-2.094,2.318-4.651,2.981-7.596,2.054c-2.938-0.925-4.515-3.202-4.665-6.059c-0.133-2.535-0.085-5.382,0.936-7.61   C29.215,28.477,33.769,27.846,38.966,30.887z M29.711,37.734c0.276,1.534,0.197,3.05,0.841,4.14c0.69,1.167,1.92,2.358,3.167,2.77   c1.724,0.568,3.332-0.413,4.148-2.088c1.391-2.855,1.785-5.944,0.297-8.771c-0.611-1.161-2.424-2.321-3.695-2.326   s-2.881,1.185-3.724,2.313C29.966,34.816,30.004,36.472,29.711,37.734z"/>
+	</g>
+	</svg></div>
+		<p>menu</p>
+		</div>
+		<div class="logo">
+			<a href="home.html"><img src="img/logo_corpo.svg"></a>
+		</div>
+		<div class="icon">
+			<ul>
+				<li><a class="search" href="javascript:;"><img src="img/search.png" alt=""></a></li>
+				<li><a class="cart" href="javascript:;"><img src="img/bag.png" alt=""></a></li>
+				<li><a class="member" href="javascript:;"><img src="img/profile.png" alt=""></a></li>
+			</ul>			
+		</div>
+		<div class="nav">
+			<div class="navmain">
+				<a href=""><h2>Caran d'Ache</h2></a>
+				<hr></hr>
+				<p class="navmain_dis">縱橫百年，我們的過去、未來與永恆</p>
+				<div class="navsub" style="display:none"></div>
+			</div>
+			<div class="navmain">
+				<a href=""><h2>News</h2></a>
+				<hr></hr>
+				<p class="navmain_dis">第一手的最新消息與活動</p>
+				<div class="navsub">
+					<p class="date">09.10.2016</p>
+					<p class="title"><a href="paul.html">與Paul Smith會面</a></p>
+				</div>
+			</div>
+			<div class="navmain">
+				<a href=""><h2>Product</h2></a>
+				<hr></hr>
+				<p class="navmain_dis">最極致的書寫繪畫體驗，自此開始</p>
+				<div class="togglebtn"><img src="img/up-arrows-w.svg" alt=""></div>
+				<div class="navsub">
+					<a href="javascript:;"><div class="navprolist navprolist1">
+						<div class="navprocat"><p class="cattitle">色鉛筆</p></div>
+						<div class="navpropic"><img src="img/navbar_01.png" alt=""></div>
+					</div></a>
+					<a href="javascript:;"><div class="navprolist navprolist2"> 
+						<div class="navprocat"><p class="cattitle">粉蠟筆</p></div>
+						<div class="navpropic"><img src="img/navbar_02.png" alt=""></div>
+					</div></a>
+					<a href="javascript:;"><div class="navprolist navprolist3"> 
+						<div class="navprocat"><p class="cattitle">粉彩筆</p></div>
+						<div class="navpropic"><img src="img/navbar_03.png" alt=""></div>
+					</div></a>
+					<a href="javascript:;"><div class="navprolist navprolist4"> 
+						<div class="navprocat"><p class="cattitle">鋼筆</p></div>
+						<div class="navpropic"><img src="img/navbar_04.png" alt=""></div>
+					</div></a>
+					<a href="javascript:;"><div class="navprolist navprolist5">
+						<div class="navprocat"><p class="cattitle">圓珠筆</p></div>
+						<div class="navpropic"><img src="img/navbar_05.png" alt=""></div>
+					</div></a>
+					<a href="javascript:;"><div class="navprolist navprolist6"> 
+						<div class="navprocat"><p class="cattitle">自動鉛筆</p></div>
+						<div class="navpropic"><img src="img/navbar_06.png" alt=""></div>
+					</div></a>
+					<a href="javascript:;"><div class="navprolist navprolist7"> 
+						<div class="navprocat"><p class="cattitle">墨水</p></div>
+						<div class="navpropic"><img src="img/navbar_07.png" alt=""></div>
+					</div></a>
+					<a href="javascript:;"><div class="navprolist navprolist8"> 
+						<div class="navprocat"><p class="cattitle">顏料</p></div>
+						<div class="navpropic"><img src="img/navbar_08.png" alt=""></div>
+					</div></a>
+					<a href="javascript:;"><div class="navprolist navprolist9"> 
+						<div class="navprocat"><p class="cattitle">配件</p></div>
+						<div class="navpropic"><img src="img/navbar_09.png" alt=""></div>
+					</div></a>
+				</div>
+			</div>
+			<div class="navmain">
+				<a href=""><h2>Store</h2></a>
+				<hr></hr>
+				<p class="navmain_dis">實體店面，真實感受</p>
+				<div class="navsub" style="display:none"></div>
+			</div>
+		</div>
+	</header>
+	<div class="per_wrapper">
+		<div class="step0">
+			<h1 class="step0title">◣Make it Yours！</h1>
+			<p class="step0discribe">低調奢華，來自於獨一無二。<br>Caran d’Ache限定推出LEMAN系列鋼筆和自動鉛筆客製化服務，<br>可以選擇不同筆身並刻上讀有的文字符號，加上特別訂製色包裝盒，打造專屬於你的Caran d’Ache商品。</p>
+			<div class="step0img"><img src="img/step0.png" alt=""></div>
+			<button class="step0btn">立刻體驗</button>
+		</div>
+		<div class="step">
+			<div class="stephead">
+				<div class="step2back step2backpen"><button>Back</button></div>
+				<div class="step2back step2backpencil"><button>Back</button></div>
+				<div class="step3back step3backpen"><button>Back</button></div>
+				<div class="step3back step3backpencil"><button>Back</button></div>
+				<div class="step4back"><button>Back</button></div>
+				<div class="step5back"><button>Back</button></div>
+				<!-- <button class="step4back step4backpencil">上一步4</button> -->
+				<h1 class="steptitle step1title">Step&nbsp;&nbsp;1</h1>
+				<h1 class="steptitle step2title">Step&nbsp;&nbsp;2</h1>
+				<h1 class="steptitle step3title" style="display:none">Step&nbsp;&nbsp;3</h1>
+				<h1 class="steptitle step4title" style="display:none">Step&nbsp;&nbsp;4</h1>
+				<h1 class="steptitle step5title" style="display:none">Step&nbsp;&nbsp;5</h1>
+				<p class="stepdiscribe step1discribe">請選擇想要製作的筆的種類</p>
+				<p class="stepdiscribe step2discribe">請選擇喜歡的顏色款式</p>
+				<p class="stepdiscribe step3discribe" style="display:none">請輸入想要刻上的文字</p>
+				<p class="stepdiscribe step4discribe" style="display:none">請選擇喜歡的盒子顏色</p>
+				<p class="stepdiscribe step5discribe" style="display:none">製作完成!</p>
+			</div>
+			<div class="step1img">
+				<div>
+					<div class="step1pen "><img src="img/pen_orange.png" alt=""></div>
+					<div class="step2pen0 step2pen"><img src="img/pen_orange.png" alt=""></div>
+					<div class="step2pen1 step2pen"><img src="img/pen_black.png" alt=""></div>		
+					<div class="step2pen2 step2pen"><img src="img/pen_white.png" alt=""></div>
+					<div class="step2pen3 step2pen"><img src="img/pen_brown.png" alt=""></div>
+					<div class="step2pen4 step2pen"><img src="img/pen_blue.png" alt=""></div>
+				</div>
+				<div>
+					<img class="step1pencil" src="img/pencil_orange.png" alt="">
+					<img class="step2pencil0 step2pencil" src="img/pencil_orange.png" alt="">
+					<img class="step2pencil1 step2pencil" src="img/pencil_black.png" alt="">
+					<img class="step2pencil2 step2pencil" src="img/pencil_white.png" alt="">
+					<img class="step2pencil3 step2pencil" src="img/pencil_brown.png" alt="">
+					<img class="step2pencil4 step2pencil" src="img/pencil_blue.png" alt="">
+				</div>
+			</div>
+			<div class="step3inputshowpen"></div>
+			<div class="step3inputshowpencil"></div>
+			<div class="step4box"><img src="img/box_blue.png" alt=""></div>
+			<div class="step1pentext">
+				<h3>LEMAN鋼筆<div class="btline btline1" ></div></h3>
+				<p class="pencolor" style="display:none"></p>
+				<p class="penword" style="display:none"></p>
+				<p class="penboxcolor" style="display:none">◆ 盒子顏色:藍</p>
+				<p class="penprice" style="display:none"><br>◆ NT.25000</p>
+			</div>
+			<div class="step1penciltext">
+				<h3>LEMAN自動筆<div class="btline btline2" ></div></h3>
+				<p class="pencilcolor" style="display:none"></p>
+				<p class="pencilword" style="display:none"></p>
+				<p class="pencilboxcolor" style="display:none">◆ 盒子顏色:藍</p>
+				<p class="penprice" style="display:none"><br>◆ NT.20000</p>
+			</div>
+			
+			<div class="step3input"><input type="text" id="typeword" name="typeword" placeholder="在這裡輸入文字"  size="10" maxlength="15"></div>
+			<div class="step3btn"><button>下一步</button></div>
+			
+			<div class="step4option">
+				<ul>
+					<li><div class="bluebox"></div></li>
+					<li><div class="brownbox"></div></li>
+					<li><div class="graybox"></div></li>
+					<li><div class="greenbox"></div></li>
+					<li><div class="redbox"></div></li>
+				</ul>
+			</div>
+			<div class="step4btn" style="display:none"><button>製作完成!</button></div>
+			<div class="step4checkinfo" >
+            	<!-- <div class="step4price"></div> -->
+            	<button class="step4cart"><p>加入購物車</p></button>
+        	</div>
+		</div>
+	<footer>
+        <ul>
+            <li><a href="javascript:;"><img src="img/FB.svg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="img/IG.svg" alt=""></a></li>
+        </ul>
+        <p>All Rights Reserved.</p>
+    </footer>
+	</div>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+var step1pen = $('.step1pen');
+var step2pen0 = $('.step2pen0');
+var step1pencil =$('.step1pencil');
+var step1title =$('.step1title');
+var step1discribe =$('.step1discribe');
+var step2title =$('.step2title');
+var step2discribe =$('.step2discribe');
+var step2backpen =$('.step2backpen');
+var step1pentext =$('.step1pentext'),
+	step1penciltext=$('.step1penciltext'),
+	step2pen1=$('.step2pen1'),
+	step2pen2=$('.step2pen2'),
+	step2pen3=$('.step2pen3'),
+	step2pen4=$('.step2pen4'),
+	step2pencil0=$('.step2pencil0'),
+	step2backpencil=$('.step2backpencil'),
+	step2pencil1=$('.step2pencil1'),
+	step2pencil2=$('.step2pencil2'),
+	step2pencil3=$('.step2pencil3'),
+	step2pencil4=$('.step2pencil4'),
+	step2pen=$('.step2pen'),
+	step2back=$('.step2back'),
+	step2pencil=$('.step2pencil'),
+	step3title=$('.step3title'),
+	step3discribe=$('.step3discribe'),
+	step3pen=$('.step3pen'),
+	step3input=$('.step3input'),
+	step3inputshowpen=$('.step3inputshowpen'),
+	step3btn=$('.step3btn'),
+	step3backpen=$('.step3backpen'),
+	step3inputshowpencil=$('.step3inputshowpencil'),
+	step3backpencil=$('.step3backpencil'),
+	step3pencil=$('.step3pencil'),
+	step4title=$('.step4title'),
+	step4discribe=$('.step4discribe'),
+	step4box=$('.step4box'),
+	step4option=$('.step4option'),
+	step4checkinfo=$('.step4checkinfo'),
+	step4back=$('.step4back');
+	pencolor=$('.pencolor');
+
+
+	$('.step0btn').click(function(){
+		$('.step0').fadeOut();
+		$('.step').delay(400).fadeIn();
+	})
+
+	step1pen.click(function(){
+		$(this).hide().next().show();
+		// $('.step2pen0').show();
+		step1pencil.fadeOut(600);
+		step1title.fadeOut(600);
+		step1discribe.fadeOut(600)
+		step2title.delay(600).fadeIn(600);
+		step2discribe.delay(600).fadeIn(600);
+		step2backpen.delay(600).fadeIn(600);
+		step1pentext.addClass('showtext');
+		step1penciltext.fadeOut(600);
+		$('.step2pen1').delay(600).fadeIn(1000);
+		$('.step2pen2').delay(1200).fadeIn(1000);
+		$('.step2pen3').delay(1800).fadeIn(1000);
+		$('.step2pen4').delay(2400).fadeIn(1000);
+		$('.btline1').css({'width':'128px'});
+	})
+
+	step1pencil.click(function(){
+		$(this).hide().next().show();
+		// $('.step2pencil0').show();
+		step1pen.fadeOut(600);
+		step1title.fadeOut(600);
+		step1discribe.fadeOut(600)
+		step2title.delay(600).fadeIn(600);
+		step2discribe.delay(600).fadeIn(600);
+		step2backpencil.delay(600).fadeIn(600);
+		step1penciltext.addClass('showtext');
+		step1pentext.fadeOut(600);
+		$('.step2pencil1').delay(600).fadeIn(1000);
+		$('.step2pencil2').delay(1200).fadeIn(1000);
+		$('.step2pencil3').delay(1800).fadeIn(1000);
+		$('.step2pencil4').delay(2400).fadeIn(1000);
+		$('.btline2').css({'width':'151px'});
+	})
+
+	step2backpen.click(function(){
+		$('.step2pen').fadeOut();
+		$('.step2pen0').hide();
+		step1pen.show();
+		step1pencil.delay(600).fadeIn(600);
+		step1title.delay(600).fadeIn(600);
+		step1discribe.delay(600).fadeIn(600)
+		step2title.fadeOut(600);
+		step2discribe.fadeOut(600);
+		step2back.fadeOut(600);
+		step1penciltext.delay(600).fadeIn(600);
+		step1pentext.removeClass('showtext');
+		$('.step3penaniback').removeClass('step3penaniback');
+		$('.btline1').css({'width':'0px'});
+	})
+
+	$('.step2backpencil').click(function(){
+		$('.step2pencil').fadeOut();
+		$('.step2pencil0').hide();
+		step1pencil.show();
+		step1pen.delay(600).fadeIn(600);
+		step1title.delay(600).fadeIn(600);
+		step1discribe.delay(600).fadeIn(600)
+		step2title.fadeOut(600);
+		step2discribe.fadeOut(600);
+		step2back.fadeOut(600);
+		step1pentext.delay(600).fadeIn(600);
+		step1penciltext.removeClass('showtext');
+		$('.step3pencilaniback').removeClass('step3pencilaniback');
+		$('.pencilcolor').fadeOut(600);
+		$('.btline2').css({'width':'0px'});
+	})
+
+	$('.step2pen').click(function(){
+		step2title.fadeOut(600);
+		step2discribe.fadeOut(600)
+		step3title.delay(600).fadeIn(600);
+		step3discribe.delay(600).fadeIn(600);
+		$(this).siblings().fadeOut();
+		$('.step3penaniback').removeClass('step3penaniback');
+		$(this).addClass('step3penani');
+		step3input.delay(600).fadeIn();
+		step3inputshowpen.delay(600).fadeIn();
+		step3btn.delay(600).fadeIn();
+		step2backpen.fadeOut(600);
+		step3backpen.delay(600).fadeIn(600);
+	})
+
+	$('.step2pen0').click(function(){
+		pencolor.text('◆ 顏色:藏紅花').delay(600).fadeIn(600);
+	})
+	$('.step2pen1').click(function(){
+		pencolor.text('◆ 顏色:尊爵黑').delay(600).fadeIn(600);
+	})
+	$('.step2pen2').click(function(){
+		pencolor.text('◆ 顏色:現代白').delay(600).fadeIn(600);
+	})
+	$('.step2pen3').click(function(){
+		pencolor.text('◆ 顏色:喀什米爾').delay(600).fadeIn(600);
+	})
+	$('.step2pen4').click(function(){
+		pencolor.text('◆ 顏色:綠松藍').delay(600).fadeIn(600);
+	})
+
+	step3backpen.click(function(){
+		step3backpen.fadeOut(600);
+		step2backpen.delay(600).fadeIn(600);
+		step2title.delay(600).fadeIn(600);
+		step2discribe.delay(600).fadeIn(600)
+		step3title.fadeOut(600);
+		step3discribe.fadeOut(600);
+		$('.step3penani').removeClass('step3penani').addClass('step3penaniback').siblings('.step2pen').delay(600).fadeIn(600);
+		step3input.fadeOut(200);
+		step3inputshowpen.fadeOut(200);
+		step3btn.fadeOut();
+		pencolor.fadeOut(600);
+		// $('.penword').fadeOut(600);
+		// $('.pencilword').fadeOut(600);
+	})
+
+	$('.step2pencil').click(function(){
+		step2title.fadeOut(600);
+		step2discribe.fadeOut(600)
+		step3title.delay(600).fadeIn(600);
+		step3discribe.delay(600).fadeIn(600);
+		$(this).siblings().fadeOut();
+		$('.step3pencilaniback').removeClass('step3pencilaniback');
+		$(this).addClass('step3pencilani');
+		step3input.delay(600).fadeIn();
+		step3inputshowpencil.delay(600).fadeIn();
+		step3btn.delay(600).fadeIn();
+		step2backpencil.fadeOut(600);
+		step3backpencil.delay(600).fadeIn(600);
+	})
+
+	$('.step2pencil0').click(function(){
+		$('.pencilcolor').text('◆ 顏色:藏紅花').delay(600).fadeIn(600);
+	})
+	$('.step2pencil1').click(function(){
+		$('.pencilcolor').text('◆ 顏色:尊爵黑').delay(600).fadeIn(600);
+	})
+	$('.step2pencil2').click(function(){
+		$('.pencilcolor').text('◆ 顏色:現代白').delay(600).fadeIn(600);
+	})
+	$('.step2pencil3').click(function(){
+		$('.pencilcolor').text('◆ 顏色:喀什米爾').delay(600).fadeIn(600);
+	})
+	$('.step2pencil4').click(function(){
+		$('.pencilcolor').text('◆ 顏色:綠松藍').delay(600).fadeIn(600);
+	})
+
+	$('.step3backpencil').click(function(){
+		$('.step3backpencil').fadeOut(600);
+		$('.step2backpencil').delay(600).fadeIn(600);
+		step2title.delay(600).fadeIn(600);
+		step2discribe.delay(600).fadeIn(600)
+		step3title.fadeOut(600);
+		step3discribe.fadeOut(600);
+		$('.step3pencilani').removeClass('step3pencilani').addClass('step3pencilaniback').siblings('.step2pencil').delay(600).fadeIn(600);
+		step3input.fadeOut(200);
+		step3inputshowpencil.fadeOut(200);
+		step3btn.fadeOut();
+		$('.pencilcolor').fadeOut(600);
+		// $('.penword').fadeOut(600);
+		// $('.pencilword').fadeOut(600);
+	})
+
+	$('.step3btn').find('button').click(function(){
+		step3title.fadeOut(600);
+		step3discribe.fadeOut(600)
+		step4title.delay(600).fadeIn(600);
+		step4discribe.delay(600).fadeIn(600);
+		step3btn.fadeOut(600);
+		$('.step3input').fadeOut(600);
+		step4box.show().addClass('step4boxmove');
+		step4option.delay(600).fadeIn(600);
+		// $('.step4checkinfo').delay(1500).fadeIn(600);
+		step3backpen.fadeOut(600);
+		step3backpencil.fadeOut(600);
+		step4back.delay(600).fadeIn(600);
+		$('.step4btn').delay(600).fadeIn(600)
+		$('.penword').delay(600).fadeIn(600);
+		$('.pencilword').delay(600).fadeIn(600);
+	})
+
+	$('.step4back').click(function(){
+		step4title.fadeOut(600);
+		step4discribe.fadeOut(600)
+		step3title.delay(600).fadeIn(600);
+		step3discribe.delay(600).fadeIn(600);
+		step4box.removeClass('step4boxmove');
+		step4box.fadeOut();
+		step4option.fadeOut();
+		step4back.fadeOut(600);
+		$('.step3btn').delay(600).fadeIn();
+		$('.step3input').delay(600).fadeIn(600);
+		if($('.step1pentext').hasClass('showtext')==false){
+			step3backpencil.delay(600).fadeIn(600);
+		}else{
+			step3backpen.delay(600).fadeIn(600);
+		}
+		$('.step4btn').fadeOut(400);
+		$('.penword').fadeOut(600);
+		$('.pencilword').fadeOut(600);
+	})
+
+	$('.step4btn').click(function(){
+    	$('.penboxcolor').delay(600).fadeIn(600);
+    	$('.pencilboxcolor').delay(600).fadeIn(600);
+    	$('.penprice').delay(1500).fadeIn(600);
+    	$('.step4checkinfo').delay(1500).fadeIn(600);
+    	$('.step4btn').fadeOut(600);
+    	step4back.fadeOut(600);
+    	$('.step5back').delay(600).fadeIn(600);
+    	$('.step4title').fadeOut(600);
+		$('.step4discribe').fadeOut(600)
+		$('.step5title').delay(600).fadeIn(600);
+		$('.step5discribe').delay(600).fadeIn(600);
+		$('.step4option').fadeOut(600);
+		$('.step4boxmove img').addClass('step4boxfin');
+	})
+
+	$('.step5back').click(function(){
+		$(this).fadeOut(600);
+		step4back.delay(600).fadeIn(600);
+		$('.step4btn').delay(600).fadeIn(600);
+		$('.step4checkinfo').fadeOut(600);
+		$('.penprice').fadeOut(600);
+    	$('.step5title').fadeOut(600);
+		$('.step5discribe').fadeOut(600)
+		$('.step4title').delay(600).fadeIn(600);
+		$('.step4discribe').delay(600).fadeIn(600);
+		$('.penboxcolor').fadeOut(600);
+		$('.pencilboxcolor').fadeOut(600);
+		$('.step4option').delay(600).fadeIn(600);
+		$('.step4boxmove img').removeClass('step4boxfin');
+	})
+
+	$('.bluebox').click(function(){
+    	$('.step4box').find('img').attr("src","img/box_blue.png");
+    	$('.penboxcolor').text('◆ 盒子顏色:藍');
+    	$('.pencilboxcolor').text('◆ ◆ 盒子顏色:藍');
+	})
+	$('.brownbox').click(function(){
+    	$('.step4box').find('img').attr("src","img/box_brown.png");
+    	$('.penboxcolor').text('◆ 盒子顏色:棕');
+    	$('.pencilboxcolor').text('◆ 盒子顏色:棕');
+	})
+	$('.graybox').click(function(){
+    	$('.step4box').find('img').attr("src","img/box_gray.png");
+    	$('.penboxcolor').text('◆ 盒子顏色:灰');
+    	$('.pencilboxcolor').text('◆ 盒子顏色:灰');
+    	
+	})
+	$('.greenbox').click(function(){
+    	$('.step4box').find('img').attr("src","img/box_green.png");
+    	$('.penboxcolor').text('◆ 盒子顏色:綠');
+    	$('.pencilboxcolor').text('◆ 盒子顏色:綠');
+    	
+	})
+	$('.redbox').click(function(){
+    	$('.step4box').find('img').attr("src","img/box_red.png");
+    	$('.penboxcolor').text('◆ 盒子顏色:紅');
+    	$('.pencilboxcolor').text('◆ 盒子顏色:紅');
+    	
+	})	
+
+
+	$('#typeword').on('change keyup paste',function(){
+		var textinput = $('#typeword').val();
+    	// console.log(textinput);
+    	$('.step3inputshowpen').text(textinput);
+    	$('.step3inputshowpencil').text(textinput);
+    	$('.penword').text('◆ 刻字:'+textinput);
+    	$('.pencilword').text('◆ 刻字:'+textinput);
+	})
+</script>
+<script>
+	$('.main').click(function(){
+		$('.nav').slideToggle();
+		if($('.main').hasClass('opennav')==false){
+			$('.main').addClass('opennav');
+			$('.navopen svg path').addClass('white');
+			$('.navopen svg').addClass('big');
+			$('.main p').hide();
+		}else{
+			$('.main').removeClass('opennav');
+			$('.navopen svg path').removeClass('white');
+			$('.navopen svg').removeClass('big');
+			$('.main p').fadeIn();
+		}
+	});
+	var ii;
+	$('.navmain').hover(function(){
+		ii=$(this).index();
+		$('.navsub').eq(ii).addClass('hover');
+	},function(){
+		ii=$(this).index();
+		$('.navsub').eq(ii).removeClass('hover');
+	});
+	$('.navmain').eq(2).hover(function(){
+		$('.togglebtn').css({'opacity':'.7'});	
+	},function(){
+		// $('.togglebtn').fadeOut();
+		$('.togglebtn').css({'opacity':'.0'});
+		$('.navsub').eq(2).removeClass('long');
+		$('.navmain h2').eq(2).removeClass('up');
+		$('.togglebtn').removeClass('clicked');
+		$('.togglebtn img').removeClass('down');
+		$('.navmain hr').eq(2).removeClass('hide');
+		$('.navmain_dis').eq(2).removeClass('hided');
+	});
+
+	$('.togglebtn').click(function(){
+		if($('.navsub').eq(2).hasClass('long') == false){
+			$('.navsub').eq(2).addClass('long');
+			$('.navmain h2').eq(2).addClass('up');
+			$('.togglebtn').addClass('clicked');
+			$('.togglebtn img').addClass('down');
+			$('.navmain hr').eq(2).addClass('hide');
+			$('.navmain_dis').eq(2).addClass('hided');
+		}else{
+			$('.navsub').eq(2).removeClass('long');
+			$('.navmain h2').eq(2).removeClass('up');
+			$('.togglebtn').removeClass('clicked');
+			$('.togglebtn img').removeClass('down');
+			$('.navmain hr').eq(2).removeClass('hide');
+			$('.navmain_dis').eq(2).removeClass('hided');
+		};
+		
+	});
+
+</script>
