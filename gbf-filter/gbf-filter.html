@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>GBF SSR Filter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>GBF SSR Filter</h1>
+      <div id="app">
+        <ul>
+          <li>屬性：<span>
+            <button href="#" class="button element" 
+            :class="[{'active': filter.element[index].active }, filter.element[index].class]" 
+            v-for="(item, index) in filter.element" 
+            @click="filter.element[index].active = !filter.element[index].active">　</button></span>
+          </li>
+          <li>分類：<span>
+            <button class="button" v-for="(item, index) in filter.get"
+            @click="choseGet(item, index)"
+            :class="{'active': filted.get == item}">{{ item }}</button></span>
+          </li>
+          <li>種族：<span>
+            <button class="button race" v-for="(item, index) in filter.race"
+            @click="choseRace(item, index)"
+            :class="[{'active': filted.race == item.name}, filter.race[index].class]">
+            </button></span>
+          </li>
+          <li>得意武器：<span>
+            <button class="button weapon" v-for="(item, index) in filter.weapon" 
+            @click="choseWeapon(item, index)"
+            :class="[{'active': filted.weapon == item.name}, filter.weapon[index].class]"></button></span>
+          </li>
+          <li>type：<span>
+            <button class="button type" v-for="(item, index) in filter.type" 
+            @click="choseType(item, index)"
+            :class="[{'active': filted.type == item.name}, filter.type[index].class]"></button></span>
+          </li>
+          <li>性別：<span>
+            <button class="button" v-for="(item, index) in filter.gender" 
+            @click="choseGender(item, index)"
+            :class="{'active': filted.gender == item.name}">{{ item.name }}</button> </span>
+            <button class="button reset" @click="reset">Reset</button>
+          </li>
+        </ul>
+        
+        <div class="main">
+          <div class="block block1">
+            <div class="chara" v-for="item in fire" v-if="filter.element[0].active == true"
+            v-show="item.show == true ">
+                <img :src="item.img" :title="item.name">
+            </div>
+          </div>
+          <div class="block block2">
+            <div class="chara" v-for="item in water" v-if="filter.element[1].active == true"
+            v-show="item.show == true ">
+                <img :src="item.img" :title="item.name">
+            </div>
+          </div>
+          <div class="block block3">
+            <div class="chara" v-for="item in earth" v-if="filter.element[2].active == true"
+            v-show="item.show == true ">
+                <img :src="item.img" :title="item.name">
+            </div>
+          </div>
+          <div class="block block4">
+            <div class="chara" v-for="item in wind" v-if="filter.element[3].active == true"
+            v-show="item.show == true ">
+                <img :src="item.img" :title="item.name">
+            </div>
+          </div>
+          <div class="block block5">
+            <div class="chara" v-for="item in light" v-if="filter.element[4].active == true"
+            v-show="item.show == true ">
+                <img :src="item.img" :title="item.name">
+            </div>
+          </div>
+          <div class="block block6">
+            <div class="chara" v-for="item in dark" v-if="filter.element[5].active == true"
+            v-show="item.show == true ">
+                <img :src="item.img" :title="item.name">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="vue.js"></script>
+    <script src="app.min.js"></script>
+  </body>
+</html>
+

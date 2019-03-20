@@ -1,0 +1,182 @@
+ul{
+  margin: 20px 0 0 0;
+}
+.button{
+  border:solid 1px #7ec0e7;
+  background-color: #fff;
+  padding: 4px 7px;
+  margin: 3px;
+  border-radius: 3px;
+}
+.button:active{
+  background-color: #93c5e2
+}
+.button.active{
+  background-color: rgb(187, 220, 248);
+}
+li span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.element{
+  width: 35px;
+  height: 35px;
+}
+.element1{
+  background: url(img/icon/e1.png) no-repeat 5px ;        
+  background-size: 22px 22px;
+}
+.element2{
+  background: url(img/icon/e2.png) no-repeat 5px ;
+  background-size: 22px 22px;
+}
+.element3{
+  background: url(img/icon/e3.png) no-repeat 5px ;
+  background-size: 22px 22px;
+}
+.element4{
+  background: url(img/icon/e4.png) no-repeat 5px ;
+  background-size: 22px 22px;
+}
+.element5{
+  background: url(img/icon/e5.png) no-repeat 5px ;
+  background-size: 22px 22px;
+}
+.element6{
+  background: url(img/icon/e6.png) no-repeat 5px ;
+  background-size: 22px 22px;
+}
+.race{
+  width: 110px;
+  height: 30px;
+}
+.race1{
+  background: url(img/icon/r1.png) no-repeat 5px;
+  background-size: 100px 20px;
+}
+.race2{
+  background: url(img/icon/r2.png) no-repeat 5px;
+  background-size: 100px 20px;
+}
+.race3{
+  background: url(img/icon/r3.png) no-repeat 5px;
+  background-size: 100px 20px;
+}
+.race4{
+  background: url(img/icon/r4.png) no-repeat 5px;
+  background-size: 100px 20px;
+}
+.race5{
+  background: url(img/icon/r5.png) no-repeat 5px;
+  background-size: 100px 20px;
+}
+.race6{
+  background: url(img/icon/r6.png) no-repeat 5px;
+  background-size: 100px 20px;
+}
+.weapon{
+  width: 57px;
+  height: 30px;
+}
+.weapon1{
+  background: url(img/icon/w1.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon2{
+  background: url(img/icon/w2.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon3{
+  background: url(img/icon/w3.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon4{
+  background: url(img/icon/w4.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon5{
+  background: url(img/icon/w5.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon6{
+  background: url(img/icon/w6.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon7{
+  background: url(img/icon/w7.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon8{
+  background: url(img/icon/w8.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon9{
+  background: url(img/icon/w9.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.weapon10{
+  background: url(img/icon/w10.png) no-repeat 5px;
+  background-size: 47px 20px;
+}
+.type{
+  width: 73px;
+  height: 30px;
+}
+.type1{
+  background: url(img/icon/t1.png) no-repeat 5px;
+  background-size: 63px 20px;
+}
+.type2{
+  background: url(img/icon/t2.png) no-repeat 5px;
+  background-size: 63px 20px;
+}
+.type3{
+  background: url(img/icon/t3.png) no-repeat 5px;
+  background-size: 63px 20px;
+}
+.type4{
+  background: url(img/icon/t4.png) no-repeat 5px;
+  background-size: 63px 20px;
+}
+.type5{
+  background: url(img/icon/t5.png) no-repeat 5px;
+  background-size: 63px 20px;
+}
+.reset{
+  float: right;
+}
+.main{
+  margin-top: 30px;
+}
+.block{
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.block1{
+  background-color: #ffd5d5
+}
+.block2{
+  background-color: #c9f4fc
+}
+.block3{
+  background-color: #f3eac4
+}
+.block4{
+  background-color: #cffcc9
+}
+.block5{
+  background-color: #f9fcc9
+}
+.block6{
+  background-color: #fcc9f3
+}
+.chara{
+  display: inline-block;
+  /* border: 1px solid #999; */
+  margin: 1px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.chara img{
+  width: 98px;
+}
