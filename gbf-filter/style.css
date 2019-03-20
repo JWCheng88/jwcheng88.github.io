@@ -33,180 +33,111 @@ li span{
 .element{
   width: 35px;
   height: 35px;
+  background-position: 5px;
+  background-repeat: no-repeat; 
+  background-size: 22px 22px;
 }
 .element1{
   background-image: url(img/icon/e1.png);
-  background-position: 5px;
-  background-repeat: no-repeat;        
-  background-size: 22px 22px;
 }
 .element2{
   background-image: url(img/icon/e2.png);
-  background-position: 5px;
-  background-repeat: no-repeat; 
-  background-size: 22px 22px;
 }
 .element3{
   background-image: url(img/icon/e3.png);
-  background-position: 5px;
-  background-repeat: no-repeat; 
-  background-size: 22px 22px;
 }
 .element4{
   background-image: url(img/icon/e4.png);
-  background-position: 5px;
-  background-repeat: no-repeat; 
-  background-size: 22px 22px;
 }
 .element5{
   background-image: url(img/icon/e5.png);
-  background-position: 5px;
-  background-repeat: no-repeat; 
-  background-size: 22px 22px;
 }
 .element6{
   background-image: url(img/icon/e6.png);
-  background-position: 5px;
-  background-repeat: no-repeat; 
-  background-size: 22px 22px;
 }
 .race{
   width: 110px;
   height: 30px;
+  background-position: 5px;
+  background-repeat: no-repeat;        
+  background-size: 100px 20px;
 }
 .race1{
   background-image: url(img/icon/r1.png);
-  background-position: 5px;
-  background-repeat: no-repeat;        
-  background-size: 100px 20px;
 }
 .race2{
   background-image: url(img/icon/r2.png);
-  background-position: 5px;
-  background-repeat: no-repeat;        
-  background-size: 100px 20px;
 }
 .race3{
   background-image: url(img/icon/r3.png);
-  background-position: 5px;
-  background-repeat: no-repeat;        
-  background-size: 100px 20px;
 }
 .race4{
   background-image: url(img/icon/r4.png);
-  background-position: 5px;
-  background-repeat: no-repeat;        
-  background-size: 100px 20px;
 }
 .race5{
   background-image: url(img/icon/r5.png);
-  background-position: 5px;
-  background-repeat: no-repeat;        
-  background-size: 100px 20px;
 }
 .race6{
   background-image: url(img/icon/r6.png);
-  background-position: 5px;
-  background-repeat: no-repeat;        
-  background-size: 100px 20px;
 }
 .weapon{
   width: 57px;
   height: 30px;
+  background-position: 5px;
+  background-repeat: no-repeat;
+  background-size: 47px 20px;
 }
 .weapon1{
   background-image: url(img/icon/w1.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon2{
   background-image: url(img/icon/w2.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon3{
   background-image: url(img/icon/w3.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon4{
   background-image: url(img/icon/w4.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon5{
   background-image: url(img/icon/w5.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon6{
   background-image: url(img/icon/w6.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon7{
   background-image: url(img/icon/w7.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon8{
   background-image: url(img/icon/w8.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon9{
   background-image: url(img/icon/w9.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .weapon10{
   background-image: url(img/icon/w10.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 47px 20px;
 }
 .type{
   width: 73px;
   height: 30px;
+  background-position: 5px;
+  background-repeat: no-repeat;
+  background-size: 63px 20px;
 }
 .type1{
   background-image: url(img/icon/t1.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 63px 20px;
 }
 .type2{
   background-image: url(img/icon/t2.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 63px 20px;
 }
 .type3{
   background-image: url(img/icon/t3.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 63px 20px;
 }
 .type4{
   background-image: url(img/icon/t4.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 63px 20px;
 }
 .type5{
   background-image: url(img/icon/t5.png);
-  background-position: 5px;
-  background-repeat: no-repeat;
-  background-size: 63px 20px;
 }
 .reset{
   float: right;
