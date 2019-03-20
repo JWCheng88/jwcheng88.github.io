@@ -8,12 +8,13 @@
     <title>GBF SSR Filter</title>
   </head>
   <body>
+    <div class="white">
     <div class="container">
       <h1>GBF SSR Filter</h1>
       <div id="app">
         <ul>
           <li>屬性：<span>
-            <button href="#" class="button element" 
+            <button class="button element" 
             :class="[{'active': filter.element[index].active }, filter.element[index].class]" 
             v-for="(item, index) in filter.element" 
             @click="filter.element[index].active = !filter.element[index].active">　</button></span>
@@ -87,7 +88,7 @@
         </div>
       </div>
     </div>
-
+  </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
