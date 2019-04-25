@@ -132,7 +132,7 @@ var app = new Vue({
       const vm = this;
       const focus = localStorage.getItem('focus');
       const focusArray = JSON.parse(focus);
-      vm.stared = focusArray
+      vm.stared = focusArray || [];
       vm.data.forEach(item =>{
         if(vm.stared.includes(item['SiteName'])){
           if(!vm.focus.includes(item)){
