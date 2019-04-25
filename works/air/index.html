@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>全台空氣品質監測</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/favicon.ico" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/all.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>    
+    <script src="javascripts/vendor.js"></script>
+
+  </head>
+  
+  <body class="bg-lighter">
+    <div class="container mt-3">
+<div id="app">
+  <h1 class="my-5">全台空氣品質監測</h1>
+  <select name="" id="" class="form-control mb-3" v-model="filter">
+    <option value="">--- 請選擇城市 ---</option>
+    <option :value="item" v-for="(item, index) in location" >{{item}}</option>
+  </select>
+  <div>
+    <h4>關注城市</h4>
+    <div class="card-columns">
+      <card :data="item" v-for="(item,index) in focusSite" 
+      :key="filtedData.SiteName" @star="unstar"></card>
+    </div>
+  </div>
+  
+  <hr>
+  <div class="card-columns">
+    <card :data="item" v-for="(item,index) in filtedData" 
+    :key="filtedData.SiteName" @star="star"></card>
+  </div>
+</div>
+
+<script type="text/x-template" id="card">
+
+  <div class="card " :class="statusColor(data.Status)">
+    <div class="card-header">{{data.County}} - {{data.SiteName}}
+      <a @click.prevent="star(data)" href="#" class="float-right"><i class="fa-star" :class="data.star ? 'fas' : 'far'"></i></a>
+    </div>
+    <div class="card-body">
+      <ul class="list-unstyled">
+        <li>AQI 指數: {{data.AQI}}</li>
+        <li>PM2.5: {{data['PM2.5']}}</li>
+        <li>說明: {{data.Status}}</li>
+      </ul>
+    {{data.PublishTime}}
+    </div>
+  </div>
+
+</script>
+
+<script>
+// API 來源
+// https://opendata.epa.gov.tw/Data/Contents/AQI/
+
+Vue.component('card', {
+  props: ['data'],
+  template: '#card',
+  methods:{
+    statusColor(status){
+      switch(status){
+        case '良好':
+        return 'status-aqi1'; break;
+        case '普通':
+        return 'status-aqi2'; break;
+        case '對敏感族群不健康':
+        return 'status-aqi3'; break;
+        case '對所有族群不健康':
+        return 'status-aqi4'; break;
+        case '非常不健康':
+        return 'status-aqi5'; break;
+        case '危害':
+        return 'status-aqi6'; break;
+      }
+    },
+    star(data){
+      this.$emit('star', data)
+    }
+  },
+  computed:{
+    
+  }
+})
+
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    data: [],
+    location: [],
+    stared: [], //儲存的城市
+    filter: '',
+    focus: [], //關注城市的資料
+  },
+
+  created: function(){
+    const vm = this;
+    const api = 'http://opendata2.epa.gov.tw/AQI.json';
+
+    // 使用 jQuery ajax
+    $.get(api).then(function( response ) {
+      vm.data = response;
+      console.log(response)
+
+    //取出城市
+    vm.data.forEach(item =>{
+      if (!vm.location.includes(item['County'])){
+        vm.location.push(item['County'])
+      }
+    })
+
+    });
+  },
+  
+  computed:{
+    filtedData(){   //在這邊進行篩選
+      const vm = this;
+      if (vm.filter==''){
+        return vm.data
+      }else{
+        return vm.data.filter(function(item){
+          return item.County === vm.filter
+        })
+      }
+    },
+    focusSite(){
+      const vm = this;
+      const focus = localStorage.getItem('focus');
+      const focusArray = JSON.parse(focus);
+      vm.stared = focusArray
+      vm.data.forEach(item =>{
+        if(vm.stared.includes(item['SiteName'])){
+          if(!vm.focus.includes(item)){
+            vm.$set(item, 'star', true)
+            vm.focus.push(item)
+          }
+        }
+      })
+      return vm.focus
+    }
+  },
+  methods:{
+    star(item){
+      const vm = this;
+      if (!vm.stared.includes(item.SiteName)){
+        vm.stared.push(item.SiteName) //把點擊城市名加入stared array
+        // vm.$set(item, 'star', true)
+        localStorage.setItem('focus', JSON.stringify(vm.stared)) //把stared存入LS
+      }
+      
+      // vm.stared.push(item);
+      // vm.stared = Array.from(new Set(vm.stared));
+      // console.log(item)
+    },
+    unstar(item){
+      const vm = this;
+      vm.stared.splice(vm.stared.indexOf(item.SiteName), 1)
+      item.star = false;
+      localStorage.setItem('focus', JSON.stringify(vm.stared))
+      vm.focus.splice(vm.focus.indexOf(item), 1)
+      // console.log(item)
+    }
+  }
+
+  // 請在此撰寫 JavaScript
+  // methods: {
+  //   getData() {
+  //     const vm = this;
+  //     const api = 'http://opendata2.epa.gov.tw/AQI.json';
+
+  //     // 使用 jQuery ajax
+  //     $.get(api).then(function( response ) {
+  //       vm.data = response;
+  //       console.log(response)
+  //     });
+  //   },
+  // }
+});
+</script>
+<!-- 
+狀態對應表
+'良好',
+'status-aqi2' '普通',
+'status-aqi3' '對敏感族群不健康',
+'status-aqi4' '對所有族群不健康',
+'status-aqi5' '非常不健康',
+'status-aqi6' '危害'
+--> 
+<style>
+.status-aqi1 {
+  background-color: #aaffaa;
+}
+.status-aqi2 {
+  background-color: #ffff80;
+}
+.status-aqi3 {
+  background-color: #ffb162;
+}
+.status-aqi4 {
+  background-color: #ff7979;
+}
+.status-aqi5 {
+  background-color: #f268ff;
+}
+.status-aqi6 {
+  background-color: #7e0023;
+}
+</style>
+
+ 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
