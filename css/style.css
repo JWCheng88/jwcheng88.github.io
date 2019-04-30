@@ -1,0 +1,52 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+a, a:hover{
+  text-decoration: none;
+  color: #000;
+}
+#home{
+  height: 100vh;
+  background-color: #eeeeee;
+  text-align: center;
+}
+#home h1{
+  padding-top: 40vh;
+  font-size: 64px;
+}
+h2{
+  text-align: center;
+}
+.block{
+  padding: 10px 0 100px;
+}
+.block:nth-child(even){
+  background-color: #eeeeee;
+}
+#about p{
+  line-height: 2rem;
+}
+.skill h3{
+  border-top: 2px solid #666;
+  padding-top: 20px;
+}
+.card{
+  transition: .5s;
+  
+}
+.card:hover{
+  transform:translate(-3px,-3px);
+  transition:.5s;
+  box-shadow:5px 5px 40px rgba(0,0,0,.4)
+}
+.contact{
+  text-align: center;
+}
+.contact img{
+  border-radius: 50%;
+  border:solid 5px #ccc;
+}
+footer{
+  text-align: center;
+  background-color: #eeeeee;
+}
