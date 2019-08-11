@@ -161,6 +161,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040003000_01.jpg',
       },
       {
@@ -172,6 +173,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040004000_01.jpg',
       },
       {
@@ -183,6 +185,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040005000_01.jpg',
       },
       {
@@ -194,6 +197,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040007000_01.jpg',
       },
       {
@@ -205,6 +209,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040002000_01.jpg',
       },
       {
@@ -216,6 +221,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040000000_01.jpg',
       },
       {
@@ -227,6 +233,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040006000_01.jpg',
       },
       {
@@ -238,6 +245,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040001000_01.jpg',
       },
       {
@@ -249,6 +257,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040008000_01.jpg',
       },
       {
@@ -260,6 +269,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040009000_01.jpg',
       },
       {
@@ -271,6 +281,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040010000_01.jpg',
       },
       {
@@ -282,6 +293,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040011000_01.jpg',
       },
       {
@@ -293,6 +305,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040012000_01.jpg',
       },
       {
@@ -304,6 +317,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040013000_01.jpg',
       },
       {
@@ -315,6 +329,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040014000_01.jpg',
       },
       {
@@ -326,6 +341,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040015000_01.jpg',
       },
       {
@@ -337,6 +353,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040016000_01.jpg',
       },
       {
@@ -348,6 +365,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040017000_01.jpg',
       },
       {
@@ -359,6 +377,7 @@ var app = new Vue({
         gender: '女',
         get: '特別',
         show: true,
+        own: false,
         img: 'img/3040018000_01.jpg',
       },
       {
@@ -370,6 +389,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040019000_01.jpg',
       },
       {
@@ -381,6 +401,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040020000_01.jpg',
       },
       {
@@ -392,6 +413,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040021000_01.jpg',
       },
       {
@@ -403,6 +425,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040022000_01.jpg',
       },
       {
@@ -414,6 +437,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040023000_01.jpg',
       },
       {
@@ -425,6 +449,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040024000_01.jpg',
       },
       {
@@ -436,6 +461,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040026000_01.jpg',
       },
       {
@@ -447,6 +473,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040027000_01.jpg',
       },
       {
@@ -458,6 +485,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040028000_01.jpg',
       },
       {
@@ -469,6 +497,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040029000_01.jpg',
       },
       {
@@ -480,6 +509,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040040000_01.jpg',
       },
       {
@@ -491,6 +521,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040025000_01.jpg',
       },
       {
@@ -502,6 +533,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040041000_01.jpg',
       },
       {
@@ -513,6 +545,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040042000_01.jpg',
       },
       {
@@ -524,6 +557,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040043000_01.jpg',
       },
       {
@@ -535,6 +569,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040044000_01.jpg',
       },
       {
@@ -546,6 +581,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040045000_01.jpg',
       },
       {
@@ -557,6 +593,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040046000_01.jpg',
       },
       {
@@ -568,6 +605,7 @@ var app = new Vue({
         gender: '男',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040030000_01.jpg',
       },
       {
@@ -579,6 +617,7 @@ var app = new Vue({
         gender: '女',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040031000_01.jpg',
       },
       {
@@ -590,6 +629,7 @@ var app = new Vue({
         gender: '女',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040032000_01.jpg',
       },
       {
@@ -601,6 +641,7 @@ var app = new Vue({
         gender: '男',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040033000_01.jpg',
       },
       {
@@ -612,6 +653,7 @@ var app = new Vue({
         gender: '女',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040034000_01.jpg',
       },
       {
@@ -623,6 +665,7 @@ var app = new Vue({
         gender: '男',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040035000_01.jpg',
       },
       {
@@ -634,6 +677,7 @@ var app = new Vue({
         gender: '男',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040036000_01.jpg',
       },
       {
@@ -645,6 +689,7 @@ var app = new Vue({
         gender: '男',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040037000_01.jpg',
       },
       {
@@ -656,6 +701,7 @@ var app = new Vue({
         gender: '女',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040038000_01.jpg',
       },
       {
@@ -667,6 +713,7 @@ var app = new Vue({
         gender: '女',
         get: '十天眾',
         show: true,
+        own: false,
         img: 'img/3040039000_01.jpg',
       },
       {
@@ -678,6 +725,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040047000_01.jpg',
       },
       {
@@ -689,6 +737,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040048000_01.jpg',
       },
       {
@@ -700,6 +749,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040049000_01.jpg',
       },
       {
@@ -711,6 +761,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040050000_01.jpg',
       },
       {
@@ -722,6 +773,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040051000_01.jpg',
       },
       {
@@ -733,6 +785,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040052000_01.jpg',
       },
       {
@@ -744,6 +797,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040054000_01.jpg',
       },
       {
@@ -755,6 +809,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040053000_01.jpg',
       },
       {
@@ -766,6 +821,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040055000_01.jpg',
       },
       {
@@ -777,6 +833,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040056000_01.jpg',
       },
       {
@@ -788,6 +845,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040057000_01.jpg',
       },
       {
@@ -799,6 +857,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040058000_01.jpg',
       },
       {
@@ -810,6 +869,7 @@ var app = new Vue({
         gender: '男',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040059000_01.jpg',
       },
       {
@@ -821,6 +881,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040060000_01.jpg',
       },
       {
@@ -832,6 +893,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040061000_01.jpg',
       },
       {
@@ -843,6 +905,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040062000_01.jpg',
       },
       {
@@ -854,6 +917,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040063000_01.jpg',
       },
       {
@@ -865,6 +929,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040064000_01.jpg',
       },
       {
@@ -876,6 +941,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040065000_01.jpg',
       },
       {
@@ -887,6 +953,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040066000_01.jpg',
       },
       {
@@ -898,6 +965,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040067000_01.jpg',
       },
       {
@@ -909,6 +977,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040068000_01.jpg',
       },
       {
@@ -920,6 +989,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040069000_01.jpg',
       },
       {
@@ -931,6 +1001,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040070000_01.jpg',
       },
       {
@@ -942,6 +1013,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040071000_01.jpg',
       },
       {
@@ -953,6 +1025,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040072000_01.jpg',
       },
       {
@@ -964,6 +1037,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040073000_01.jpg',
       },
       {
@@ -975,6 +1049,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040074000_01.jpg',
       },
       {
@@ -986,6 +1061,7 @@ var app = new Vue({
         gender: '男',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040077000_01.jpg',
       },
       {
@@ -997,6 +1073,7 @@ var app = new Vue({
         gender: '女',
         get: '特別',
         show: true,
+        own: false,
         img: 'img/3040078000_01.jpg',
       },
       {
@@ -1008,6 +1085,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040075000_01.jpg',
       },
       {
@@ -1019,6 +1097,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040076000_01.jpg',
       },
       {
@@ -1030,6 +1109,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040079000_01.jpg',
       },
       {
@@ -1041,6 +1121,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040080000_01.jpg',
       },
       {
@@ -1052,6 +1133,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040081000_01.jpg',
       },
       {
@@ -1063,6 +1145,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040082000_01.jpg',
       },
       {
@@ -1074,6 +1157,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040083000_01.jpg',
       },
       {
@@ -1085,6 +1169,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040084000_01.jpg',
       },
       {
@@ -1096,6 +1181,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040085000_01.jpg',
       },
       {
@@ -1107,6 +1193,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040086000_01.jpg',
       },
       {
@@ -1118,6 +1205,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040087000_01.jpg',
       },
       {
@@ -1129,6 +1217,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040088000_01.jpg',
       },
       {
@@ -1140,6 +1229,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040089000_01.jpg',
       },
       {
@@ -1151,6 +1241,7 @@ var app = new Vue({
         gender: '男',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040090000_01.jpg',
       },
       {
@@ -1162,6 +1253,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040091000_01.jpg',
       },
       {
@@ -1173,6 +1265,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040092000_01.jpg',
       },
       {
@@ -1184,6 +1277,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040093000_01.jpg',
       },
       {
@@ -1195,6 +1289,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040095000_01.jpg',
       },
       {
@@ -1206,6 +1301,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040094000_01.jpg',
       },
       {
@@ -1217,6 +1313,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040096000_01.jpg',
       },
       {
@@ -1228,6 +1325,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040098000_01.jpg',
       },
       {
@@ -1239,6 +1337,7 @@ var app = new Vue({
         gender: '男',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040099000_01.jpg',
       },
       {
@@ -1250,6 +1349,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040100000_01.jpg',
       },
       {
@@ -1261,6 +1361,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040101000_01.jpg',
       },
       {
@@ -1272,6 +1373,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040102000_01.jpg',
       },
       {
@@ -1283,6 +1385,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040103000_01.jpg',
       },
       {
@@ -1294,6 +1397,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040104000_01.jpg',
       },
       {
@@ -1305,6 +1409,7 @@ var app = new Vue({
         gender: '男',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040106000_01.jpg',
       },
       {
@@ -1316,6 +1421,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040105000_01.jpg',
       },
       {
@@ -1327,6 +1433,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040107000_01.jpg',
       },
       {
@@ -1338,6 +1445,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040108000_01.jpg',
       },
       {
@@ -1349,6 +1457,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040109000_01.jpg',
       },
       {
@@ -1360,6 +1469,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040110000_01.jpg',
       },
       {
@@ -1371,6 +1481,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040111000_01.jpg',
       },
       {
@@ -1382,6 +1493,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040112000_01.jpg',
       },
       {
@@ -1393,6 +1505,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040113000_01.jpg',
       },
       {
@@ -1404,6 +1517,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040115000_01.jpg',
       },
       {
@@ -1415,6 +1529,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040116000_01.jpg',
       },
       {
@@ -1426,6 +1541,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040117000_01.jpg',
       },
       {
@@ -1437,6 +1553,7 @@ var app = new Vue({
         gender: '女',
         get: '特別',
         show: true,
+        own: false,
         img: 'img/3040118000_01.jpg',
       },
       {
@@ -1448,6 +1565,7 @@ var app = new Vue({
         gender: '男',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040119000_01.jpg',
       },
       {
@@ -1459,6 +1577,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040120000_01.jpg',
       },
       {
@@ -1470,6 +1589,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040121000_01.jpg',
       },
       {
@@ -1481,6 +1601,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040122000_01.jpg',
       },
       {
@@ -1492,6 +1613,7 @@ var app = new Vue({
         gender: '女',
         get: '特別',
         show: true,
+        own: false,
         img: 'img/3040123000_01.jpg',
       },
       {
@@ -1503,6 +1625,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040124000_01.jpg',
       },
       {
@@ -1514,6 +1637,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040125000_01.jpg',
       },
       {
@@ -1525,6 +1649,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040127000_01.jpg',
       },
       {
@@ -1536,6 +1661,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040126000_01.jpg',
       },
       {
@@ -1547,6 +1673,7 @@ var app = new Vue({
         gender: '男',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040128000_01.jpg',
       },
       {
@@ -1558,6 +1685,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040129000_01.jpg',
       },
       {
@@ -1569,6 +1697,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040130000_01.jpg',
       },
       {
@@ -1580,6 +1709,7 @@ var app = new Vue({
         gender: '男',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040131000_01.jpg',
       },
       {
@@ -1591,6 +1721,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040132000_01.jpg',
       },
       {
@@ -1602,6 +1733,7 @@ var app = new Vue({
         gender: '女',
         get: '特別',
         show: true,
+        own: false,
         img: 'img/3040133000_01.jpg',
       },
       {
@@ -1613,6 +1745,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040134000_01.jpg',
       },
       {
@@ -1624,6 +1757,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040137000_01.jpg',
       },
       {
@@ -1635,6 +1769,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040135000_01.jpg',
       },
       {
@@ -1646,6 +1781,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040136000_01.jpg',
       },
       {
@@ -1657,6 +1793,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040138000_01.jpg',
       },
       {
@@ -1668,6 +1805,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040141000_01.jpg',
       },
       {
@@ -1679,6 +1817,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040140000_01.jpg',
       },
       {
@@ -1690,6 +1829,7 @@ var app = new Vue({
         gender: '男',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040142000_01.jpg',
       },
       {
@@ -1701,6 +1841,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040143000_01.jpg',
       },
       {
@@ -1712,6 +1853,7 @@ var app = new Vue({
         gender: '男',
         get: '特別',
         show: true,
+        own: false,
         img: 'img/3040144000_01.jpg',
       },
       {
@@ -1723,6 +1865,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040145000_01.jpg',
       },
       {
@@ -1734,6 +1877,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040146000_01.jpg',
       },
       {
@@ -1745,6 +1889,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040148000_01.jpg',
       },
       {
@@ -1756,6 +1901,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040147000_01.jpg',
       },
       {
@@ -1767,6 +1913,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040149000_01.jpg',
       },
       {
@@ -1778,6 +1925,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040150000_01.jpg',
       },
       {
@@ -1789,6 +1937,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040151000_01.jpg',
       },
       {
@@ -1800,6 +1949,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040152000_01.jpg',
       },
       {
@@ -1811,6 +1961,7 @@ var app = new Vue({
         gender: '男',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040153000_01.jpg',
       },
       {
@@ -1822,6 +1973,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040154000_01.jpg',
       },
       {
@@ -1833,6 +1985,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040155000_01.jpg',
       },
       {
@@ -1844,6 +1997,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040156000_01.jpg',
       },
       {
@@ -1855,6 +2009,7 @@ var app = new Vue({
         gender: '男',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040157000_01.jpg',
       },
       {
@@ -1866,6 +2021,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040158000_01.jpg',
       },
       {
@@ -1877,6 +2033,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040159000_01.jpg',
       },
       {
@@ -1888,6 +2045,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040170000_01.jpg',
       },
       {
@@ -1899,6 +2057,7 @@ var app = new Vue({
         gender: '男',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040171000_01.jpg',
       },
       {
@@ -1910,6 +2069,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040172000_01.jpg',
       },
       {
@@ -1921,6 +2081,7 @@ var app = new Vue({
         gender: '男',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040173000_01.jpg',
       },
       {
@@ -1932,6 +2093,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040174000_01.jpg',
       },
       {
@@ -1943,6 +2105,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040175000_01.jpg',
       },
       {
@@ -1954,6 +2117,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040176000_01.jpg',
       },
       {
@@ -1965,6 +2129,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040177000_01.jpg',
       },
       {
@@ -1976,6 +2141,7 @@ var app = new Vue({
         gender: '男',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040178000_01.jpg',
       },
       {
@@ -1987,6 +2153,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040183000_01.jpg',
       },
       {
@@ -1998,6 +2165,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040184000_01.jpg',
       },
       {
@@ -2009,6 +2177,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040185000_01.jpg',
       },
       {
@@ -2020,6 +2189,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040179000_01.jpg',
       },
       {
@@ -2031,6 +2201,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040181000_01.jpg',
       },
       {
@@ -2042,6 +2213,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040180000_01.jpg',
       },
       {
@@ -2053,6 +2225,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040182000_01.jpg',
       },
       {
@@ -2064,6 +2237,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040187000_01.jpg',
       },
       {
@@ -2075,6 +2249,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040188000_01.jpg',
       },
       {
@@ -2086,6 +2261,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040189000_01.jpg',
       },
       {
@@ -2097,6 +2273,7 @@ var app = new Vue({
         gender: '女',
         get: '特別',
         show: true,
+        own: false,
         img: 'img/3040186000_01.jpg',
       },
       {
@@ -2108,6 +2285,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040190000_01.jpg',
       },
       {
@@ -2119,6 +2297,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040191000_01.jpg',
       },
       {
@@ -2130,6 +2309,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040192000_01.jpg',
       },
       {
@@ -2141,6 +2321,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040193000_01.jpg',
       },
       {
@@ -2152,6 +2333,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040199000_01.jpg',
       },
       {
@@ -2163,6 +2345,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040194000_01.jpg',
       },
       {
@@ -2174,6 +2357,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040200000_01.jpg',
       },
       {
@@ -2185,6 +2369,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040201000_01.jpg',
       },
       {
@@ -2196,6 +2381,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040195000_01.jpg',
       },
       {
@@ -2207,6 +2393,7 @@ var app = new Vue({
         gender: '男',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040196000_01.jpg',
       },
       {
@@ -2218,6 +2405,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040197000_01.jpg',
       },
       {
@@ -2229,6 +2417,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040198000_01.jpg',
       },
       {
@@ -2240,6 +2429,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040202000_01.jpg',
       },
       {
@@ -2251,6 +2441,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040203000_01.jpg',
       },
       {
@@ -2262,6 +2453,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040204000_01.jpg',
       },
       {
@@ -2273,6 +2465,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040205000_01.jpg',
       },
       {
@@ -2284,6 +2477,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040206000_01.jpg',
       },
       {
@@ -2295,6 +2489,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040207000_01.jpg',
       },
       {
@@ -2306,6 +2501,7 @@ var app = new Vue({
         gender: '女',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040209000_01.jpg',
       },
       {
@@ -2317,6 +2513,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040208000_01.jpg',
       },
       {
@@ -2328,6 +2525,7 @@ var app = new Vue({
         gender: '女',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040160000_01.jpg',
       },
       {
@@ -2339,6 +2537,7 @@ var app = new Vue({
         gender: '男',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040164000_01.jpg',
       },
       {
@@ -2350,6 +2549,7 @@ var app = new Vue({
         gender: '女',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040169000_01.jpg',
       },
       {
@@ -2361,6 +2561,7 @@ var app = new Vue({
         gender: '男',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040163000_01.jpg',
       },
       {
@@ -2372,6 +2573,7 @@ var app = new Vue({
         gender: '女',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040161000_01.jpg',
       },
       {
@@ -2383,6 +2585,7 @@ var app = new Vue({
         gender: '男',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040165000_01.jpg',
       },
       {
@@ -2394,6 +2597,7 @@ var app = new Vue({
         gender: '男',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040162000_01.jpg',
       },
       {
@@ -2405,6 +2609,7 @@ var app = new Vue({
         gender: '女',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040168000_01.jpg',
       },
       {
@@ -2416,6 +2621,7 @@ var app = new Vue({
         gender: '男',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040167000_01.jpg',
       },
       {
@@ -2427,6 +2633,7 @@ var app = new Vue({
         gender: '男',
         get: '十賢者',
         show: true,
+        own: false,
         img: 'img/3040166000_01.jpg',
       },
       {
@@ -2438,6 +2645,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040210000_01.jpg',
       },
       {
@@ -2449,6 +2657,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040211000_01.jpg',
       },
       {
@@ -2460,6 +2669,7 @@ var app = new Vue({
         gender: '男',
         get: 'Fes限',
         show: true,
+        own: false,
         img: 'img/3040212000_01.jpg',
       },
       {
@@ -2471,6 +2681,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040213000_01.jpg',
       },
       {
@@ -2482,6 +2693,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040214000_01.jpg',
       },
       {
@@ -2493,6 +2705,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040215000_01.jpg',
       },
       {
@@ -2504,6 +2717,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040216000_01.jpg',
       },
       {
@@ -2515,6 +2729,7 @@ var app = new Vue({
         gender: '男',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040217000_01.jpg',
       },
       {
@@ -2526,6 +2741,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040218000_01.jpg',
       },
       {
@@ -2537,6 +2753,7 @@ var app = new Vue({
         gender: '男',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040219000_01.jpg',
       },
       {
@@ -2548,6 +2765,7 @@ var app = new Vue({
         gender: '男',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040220000_01.jpg',
       },
       {
@@ -2559,6 +2777,7 @@ var app = new Vue({
         gender: '女',
         get: '活動',
         show: true,
+        own: false,
         img: 'img/3040221000_01.jpg',
       },
       {
@@ -2570,6 +2789,7 @@ var app = new Vue({
         gender: '女',
         get: '恒常',
         show: true,
+        own: false,
         img: 'img/3040222000_01.jpg',
       },
       {
@@ -2581,6 +2801,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040223000_01.jpg',
       },
       {
@@ -2592,6 +2813,7 @@ var app = new Vue({
         gender: '男',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040224000_01.jpg',
       },
       {
@@ -2603,6 +2825,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040225000_01.jpg',
       },
       {
@@ -2614,6 +2837,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040226000_01.jpg',
       },
       {
@@ -2625,6 +2849,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040227000_01.jpg',
       },
       {
@@ -2636,6 +2861,7 @@ var app = new Vue({
         gender: '女',
         get: '季節限定',
         show: true,
+        own: false,
         img: 'img/3040228000_01.jpg',
       },
     ]
@@ -2793,6 +3019,19 @@ var app = new Vue({
       }      
       return darkC
     },
+    ownpercentage(){
+      var self = this;
+      let all = self.chara.length;
+      let own = 0; 
+      for(let i=0; i<self.chara.length; i++){
+        if (self.chara[i].own == true){
+          own++
+        }
+      }
+      let per = (own/all)*100;
+      per = per.toFixed(2)
+      return ( own + '/' + all + ' ,　' + per + '%')
+    }
   },
   methods:{
     choseGet(item, index){
@@ -2848,6 +3087,57 @@ var app = new Vue({
       for (let i=0; i<self.filter.element.length; i++){
         self.filter.element[i].active = true
       }
-    }
+      for (let obj in self.chara){
+        self.chara[obj].own = false;
+      }
+    },
+    checkOwnFire(i){
+      var self = this;
+      this.fire[i].own = true;
+    },
+    checkOutFire(i){
+      var self = this;
+      this.fire[i].own = false;
+    },
+    checkOwnWater(i){
+      var self = this;
+      this.water[i].own = true;
+    },
+    checkOutWater(i){
+      var self = this;
+      this.water[i].own = false;
+    },
+    checkOwnEarth(i){
+      var self = this;
+      this.earth[i].own = true;
+    },
+    checkOutEarth(i){
+      var self = this;
+      this.earth[i].own = false;
+    },
+    checkOwnWind(i){
+      var self = this;
+      this.wind[i].own = true;
+    },
+    checkOutWind(i){
+      var self = this;
+      this.wind[i].own = false;
+    },
+    checkOwnLight(i){
+      var self = this;
+      this.light[i].own = true;
+    },
+    checkOutLight(i){
+      var self = this;
+      this.light[i].own = false;
+    },
+    checkOwnDark(i){
+      var self = this;
+      this.dark[i].own = true;
+    },
+    checkOutDark(i){
+      var self = this;
+      this.dark[i].own = false;
+    },
   }
 });

@@ -142,11 +142,17 @@ li span{
 .reset{
   float: right;
 }
+.percentage{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
 .main{
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .block{
   margin-bottom: 10px;
+  padding: 7px;
 }
 .block1{
   background-color: #ffd5d5
@@ -169,10 +175,45 @@ li span{
 }
 .chara{
   display: inline-block;
-  margin: 1px;
-  padding: 5px;
+  padding: 7px;
   border-radius: 5px;
+  width: 11.11%;
+  position: relative;
+}
+@media (max-width: 1200px){
+.chara{
+  width: 14.28%;
+}
+}
+@media (max-width: 991px){
+.chara{
+  width: 20%;
+}
+}
+@media (max-width: 767px){
+.chara{
+  width: 25%;
+}
+}
+@media (max-width: 500px){
+.chara{
+  width: 33.33%;
+}
+}
+@media (max-width: 400px){
+.chara{
+  width: 50%;
+}
 }
 .chara img{
-  width: 99px;
+  width: 100%;
+  cursor: pointer;
+}
+.get{
+  position: absolute;
+  background-color: rgba(50,50,50,.6);
+  width: calc(100% - 14px);
+  height: calc(100% - 14px);
+  top: 7px;
+  cursor: pointer;
 }
