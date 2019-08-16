@@ -7,7 +7,7 @@ body{
 .white{
   background-color: rgba(255,255,255,.85);
   min-height: 100vh;
-  padding: 20px 0;
+  padding: 20px 0 40px;
 }
 ul{
   margin: 20px 0 0 0;
@@ -139,6 +139,22 @@ li span{
 .type5{
   background-image: url(img/icon/t5.png);
 }
+.gender{  
+  width: 35px;
+  height: 35px;
+  background-position: 3px;
+  background-repeat: no-repeat; 
+  background-size: 27px 27px;
+}
+.gender1{
+  background-image: url(img/icon/g1.png);
+}
+.gender2{
+  background-image: url(img/icon/g2.png);
+}
+.gender3{
+  background-image: url(img/icon/g3.png);
+}
 .reset{
   float: right;
 }
@@ -147,8 +163,81 @@ li span{
   font-size: 18px;
   font-weight: 600;
 }
+#check, #final{
+  display: none;
+}
+.labelCheck{
+  background-color: #fff;
+  border:solid 1px #7ec0e7;
+  margin: 3px 0;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  transition: .2s;
+}
+input#final:checked + label.labelCheck:after {
+  width: 15px;
+  height: 9px;
+  background-color: transparent;
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: '';
+  border: 3px solid #7ec0e7;
+  border-top: none;
+  border-right: none;
+}
+.toggle{
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #a1d3ff;
+  margin-bottom: -5px;
+  margin-right: 20px;
+  position: relative;
+  box-shadow: inset -1px -1px 2px rgb(149, 191, 207);
+  overflow: hidden;
+  cursor: pointer;
+  /* border: solid 1px #7ec0e7; */
+}
+.toggle::after{
+  content: '';
+  position: absolute;
+  left: 26px;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #6cace0;
+  transition: .3s;
+}
+.toggle::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #ccc;
+  transition: .3s;
+}
+#check:checked + .switch .toggle::after{
+  left: 0px;
+  transition: .3s;
+}
+#check:checked + .switch .toggle::before{
+  left: -26px;
+  transition: .3s;
+}
 .main{
-  margin-top: 25px;
+  margin-top: 15px;
 }
 .block{
   margin-bottom: 10px;
@@ -176,7 +265,7 @@ li span{
 .chara{
   display: inline-block;
   padding: 7px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   width: 11.11%;
   position: relative;
 }
@@ -208,12 +297,18 @@ li span{
 .chara img{
   width: 100%;
   cursor: pointer;
+  border-radius: 7px;
+  /* filter: blur(3px); */
+}
+.chara:active{
+  transform: scale(.95)
 }
 .get{
   position: absolute;
-  background-color: rgba(50,50,50,.6);
+  background-color: rgba(220,220,220,.6);
   width: calc(100% - 14px);
   height: calc(100% - 14px);
   top: 7px;
   cursor: pointer;
+  border-radius: 7px;
 }

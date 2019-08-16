@@ -41,54 +41,76 @@
             :class="[{'active': filted.type == item.name}, filter.type[index].class]"></button></span>
           </li>
           <li>性別：<span>
-            <button class="button" v-for="(item, index) in filter.gender" 
+            <button class="button gender" v-for="(item, index) in filter.gender" 
             @click="choseGender(item, index)"
-            :class="{'active': filted.gender == item.name}">{{ item.name }}</button> </span>
+            :class="[{'active': filted.gender == item.name}, filter.gender[index].class]"></button> </span>
+          </li>
+          <li>終解： <span>
+            <input type="checkbox" id="final" v-model="filted.final">
+            <label for="final" class="labelCheck"></label>
+          </span>
             <button class="button reset" @click="reset">Reset</button>
           </li>
         </ul>
-        <p class="percentage">持有率：{{ ownpercentage }}</p>
+        <p class="percentage"> 持有check：<span>
+            <input type="checkbox" id="check" v-model="link">
+            <label for="check" class="switch" @click="">
+              <span class="toggle"></span>
+            </label>
+            </span> 持有率：{{ ownpercentage }}</p>
         <div class="main">
           <div class="block block1">
             <div class="chara" v-for="(item, index) in fire" v-if="filter.element[0].active == true"
             v-show="item.show == true" >
+              <a :href="link ? 'javascript:;' : fire[index].url" :class="" :target="link ? '_self' : '_blank'">
                 <img :src="item.img" :title="item.name"  @click="checkOwnFire(index)">
-                <div class="get" v-if="fire[index].own"  @click="checkOutFire(index)"></div>
+                <div class="get" v-if="link && !fire[index].own"  @click="checkOutFire(index)"></div>
+              </a>          
             </div>
           </div>
           <div class="block block2">
             <div class="chara" v-for="(item, index) in water" v-if="filter.element[1].active == true"
             v-show="item.show == true ">
-              <img :src="item.img" :title="item.name"  @click="checkOwnWater(index)">
-              <div class="get" v-if="water[index].own"  @click="checkOutWater(index)"></div>
+              <a :href="link ? 'javascript:;' : water[index].url" :class="" :target="link ? '_self' : '_blank'">
+                <img :src="item.img" :title="item.name"  @click="checkOwnWater(index)">
+                <div class="get" v-if="link && !water[index].own"  @click="checkOutWater(index)"></div>
+              </a>          
             </div>
           </div>
           <div class="block block3">
             <div class="chara" v-for="(item, index) in earth" v-if="filter.element[2].active == true"
             v-show="item.show == true ">
-              <img :src="item.img" :title="item.name"  @click="checkOwnEarth(index)">
-              <div class="get" v-if="earth[index].own"  @click="checkOutEarth(index)"></div>
+              <a :href="link ? 'javascript:;' : earth[index].url" :class="" :target="link ? '_self' : '_blank'">
+                <img :src="item.img" :title="item.name"  @click="checkOwnEarth(index)">
+                <div class="get" v-if="link && !earth[index].own"  @click="checkOutEarth(index)"></div>
+              </a>          
             </div>
           </div>
           <div class="block block4">
             <div class="chara" v-for="(item, index) in wind" v-if="filter.element[3].active == true"
             v-show="item.show == true ">
-              <img :src="item.img" :title="item.name"  @click="checkOwnWind(index)">
-              <div class="get" v-if="wind[index].own"  @click="checkOutWind(index)"></div>
+              <a :href="link ? 'javascript:;' : wind[index].url" :class="" :target="link ? '_self' : '_blank'">
+                <img :src="item.img" :title="item.name"  @click="checkOwnWind(index)">
+                <div class="get" v-if="link && !wind[index].own"  @click="checkOutWind(index)"></div>
+              </a>          
             </div>
           </div>
           <div class="block block5">
             <div class="chara" v-for="(item, index) in light" v-if="filter.element[4].active == true"
             v-show="item.show == true ">
-              <img :src="item.img" :title="item.name"  @click="checkOwnLight(index)">
-              <div class="get" v-if="light[index].own"  @click="checkOutLight(index)"></div>
+              <a :href="link ? 'javascript:;' : light[index].url" :class="" :target="link ? '_self' : '_blank'">
+                <img :src="item.img" :title="item.name"  @click="checkOwnLight(index)">
+                <div class="get" v-if="link && !light[index].own"  @click="checkOutLight(index)"></div>
+              </a>          
             </div>
           </div>
           <div class="block block6">
             <div class="chara" v-for="(item, index) in dark" v-if="filter.element[5].active == true"
             v-show="item.show == true ">
-              <img :src="item.img" :title="item.name"  @click="checkOwnDark(index)">
-              <div class="get" v-if="dark[index].own"  @click="checkOutDark(index)"></div>
+              <a :href="link ? 'javascript:;' : dark[index].url" :class="" :target="link ? '_self' : '_blank'">
+                <img :src="item.img" :title="item.name"  @click="checkOwnDark(index)">
+                <div class="get" v-if="link && !dark[index].own"  @click="checkOutDark(index)"></div>
+              </a>          
             </div>
           </div>
         </div>
