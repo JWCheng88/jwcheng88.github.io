@@ -3547,10 +3547,65 @@ var app = new Vue({
     },
     ownpercentage(){
       var self = this;
-      let all = self.chara.length;
+      let all = 0;
+      for (let i=0; i<self.fire.length; i++){
+        if (self.fire[i].show == true && self.filter.element[0].active){
+          all++
+        }
+      }
+      for (let i=0; i<self.water.length; i++){
+        if (self.water[i].show == true && self.filter.element[1].active){
+          all++
+        }
+      }
+      for (let i=0; i<self.earth.length; i++){
+        if (self.earth[i].show == true && self.filter.element[2].active){
+          all++
+        }
+      }
+      for (let i=0; i<self.wind.length; i++){
+        if (self.wind[i].show == true && self.filter.element[3].active){
+          all++
+        }
+      }
+      for (let i=0; i<self.light.length; i++){
+        if (self.light[i].show == true && self.filter.element[4].active){
+          all++
+        }
+      }
+      for (let i=0; i<self.dark.length; i++){
+        if (self.dark[i].show == true && self.filter.element[5].active){
+          all++
+        }
+      }
       let own = 0; 
-      for(let i=0; i<self.chara.length; i++){
-        if (self.chara[i].own == true){
+      for(let i=0; i<self.fire.length; i++){
+        if (self.fire[i].own == true && self.fire[i].show == true && self.filter.element[0].active){
+          own++
+        }
+      }
+      for(let i=0; i<self.water.length; i++){
+        if (self.water[i].own == true && self.water[i].show == true && self.filter.element[1].active){
+          own++
+        }
+      }
+      for(let i=0; i<self.earth.length; i++){
+        if (self.earth[i].own == true && self.earth[i].show == true && self.filter.element[2].active){
+          own++
+        }
+      }
+      for(let i=0; i<self.wind.length; i++){
+        if (self.wind[i].own == true && self.wind[i].show == true && self.filter.element[3].active){
+          own++
+        }
+      }
+      for(let i=0; i<self.light.length; i++){
+        if (self.light[i].own == true && self.light[i].show == true && self.filter.element[4].active){
+          own++
+        }
+      }
+      for(let i=0; i<self.dark.length; i++){
+        if (self.dark[i].own == true && self.dark[i].show == true && self.filter.element[5].active){
           own++
         }
       }

@@ -7,7 +7,8 @@ body{
 .white{
   background-color: rgba(255,255,255,.85);
   min-height: 100vh;
-  padding-top: 20px;
+  padding: 20px 0 60px;
+  position: relative;
 }
 ul{
   margin: 20px 0 0 0;
@@ -314,5 +315,9 @@ input#final:checked + label.labelCheck:after {
 }
 footer{
   text-align: center;
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
 }
