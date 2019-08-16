@@ -7,7 +7,7 @@ body{
 .white{
   background-color: rgba(255,255,255,.85);
   min-height: 100vh;
-  padding: 20px 0 40px;
+  padding-top: 20px;
 }
 ul{
   margin: 20px 0 0 0;
@@ -311,4 +311,8 @@ input#final:checked + label.labelCheck:after {
   top: 7px;
   cursor: pointer;
   border-radius: 7px;
+}
+footer{
+  text-align: center;
+  margin-top: 40px;
 }
