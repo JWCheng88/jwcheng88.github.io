@@ -3672,6 +3672,54 @@ var app = new Vue({
         self.chara[obj].own = false;
       }
     },
+    firehide(){
+      var self = this;
+      for (i=0; i<self.fire.length; i++){
+        if(self.fire[i].show == true){
+          return true
+        }
+      }
+    },
+    waterhide(){
+      var self = this;
+      for (i=0; i<self.water.length; i++){
+        if(self.water[i].show == true){
+          return true
+        }
+      }
+    },
+    earthhide(){
+      var self = this;
+      for (i=0; i<self.earth.length; i++){
+        if(self.earth[i].show == true){
+          return true
+        }
+      }
+    },
+    windhide(){
+      var self = this;
+      for (i=0; i<self.wind.length; i++){
+        if(self.wind[i].show == true){
+          return true
+        }
+      }
+    },
+    lighthide(){
+      var self = this;
+      for (i=0; i<self.light.length; i++){
+        if(self.light[i].show == true){
+          return true
+        }
+      }
+    },
+    darkhide(){
+      var self = this;
+      for (i=0; i<self.dark.length; i++){
+        if(self.dark[i].show == true){
+          return true
+        }
+      }
+    },
     checkOwnFire(i){
       var self = this;
       if (self.link == true){
