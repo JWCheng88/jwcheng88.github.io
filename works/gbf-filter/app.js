@@ -960,7 +960,7 @@ var app = new Vue({
         name: 'ヴァンピィ',
         element: '暗',
         race: '不明',
-        weapon: ['杖'],
+        weapon: ['杖','短劍'],
         type: '特殊',
         gender: '女',
         get: '恒常',
