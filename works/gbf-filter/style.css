@@ -198,7 +198,7 @@ input#final:checked + label.labelCheck:after {
   width: 50px;
   height: 24px;
   border-radius: 12px;
-  background-color: #a1d3ff;
+  background-color: #ccc;
   margin-bottom: -5px;
   margin-right: 20px;
   position: relative;
@@ -210,7 +210,7 @@ input#final:checked + label.labelCheck:after {
 .toggle::after{
   content: '';
   position: absolute;
-  left: 26px;
+  left: 0px;
   top: 0;
   width: 24px;
   height: 24px;
@@ -222,20 +222,33 @@ input#final:checked + label.labelCheck:after {
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
+  left: -26px;
   width: 50px;
   height: 24px;
   border-radius: 12px;
-  background-color: #ccc;
+  background-color: #a1d3ff;
   transition: .3s;
 }
 #check:checked + .switch .toggle::after{
-  left: 0px;
+  left: 26px;
   transition: .3s;
 }
 #check:checked + .switch .toggle::before{
-  left: -26px;
+  left: 0px;
   transition: .3s;
+}
+.percentage button{
+  border:solid 1px #7ec0e7;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 0 4px 0 0;
+  font-size: 17px;
+}
+.percentage button:active{
+  background-color: #93c5e2
+}
+.calc{
+  margin-left: 10px;
 }
 .main{
   margin-top: 15px;

@@ -61,12 +61,19 @@ gtag('config', 'UA-145848377-1');
           <button class="button reset" @click="reset">Reset</button>
         </li>
       </ul>
-      <p class="percentage"> 持有check：<span>
+      <p class="percentage"> 持有check：
+        <span>
           <input type="checkbox" id="check" v-model="link">
           <label for="check" class="switch" @click="">
             <span class="toggle"></span>
-          </label>
-          </span> 持有率：{{ ownpercentage }}</p>
+          </label>   
+        </span>
+        <span v-if="link">
+          <button class="" @click="pickAll">全選</button>
+          <button class="" @click="resetCheck">全消</button> 
+        </span>
+        <span v-if="link" class="calc">持有率：{{ ownpercentage }} </span>
+      </p>
       <div class="main">
         <div class="block block1" v-show="firehide() && filter.element[0].active">
           <div class="chara" v-for="(item, index) in fire" v-show="item.show == true" >
