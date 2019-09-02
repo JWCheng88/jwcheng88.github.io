@@ -149,6 +149,7 @@ var app = new Vue({
       ],
     },
     filted: {
+      element: [],
       get: '',
       race:'',
       weapon:'',
@@ -3573,68 +3574,86 @@ var app = new Vue({
       }      
       return darkC
     },
-    ownpercentage(){
+    ownpercentage(){ //計算持有率
       var self = this;
-      let all = 0;
-      for (let i=0; i<self.fire.length; i++){
-        if (self.fire[i].show == true && self.filter.element[0].active){
-          all++
+      let all = 0; //總數
+      if (!self.filted.element.length==0){
+        for (let i=0; i<self.fire.length; i++){
+          if (self.fire[i].show == true && self.filted.element.includes('火')){
+            all++
+          }
         }
-      }
-      for (let i=0; i<self.water.length; i++){
-        if (self.water[i].show == true && self.filter.element[1].active){
-          all++
+        for (let i=0; i<self.water.length; i++){
+          if (self.water[i].show == true && self.filted.element.includes('水')){
+            all++
+          }
         }
-      }
-      for (let i=0; i<self.earth.length; i++){
-        if (self.earth[i].show == true && self.filter.element[2].active){
-          all++
+        for (let i=0; i<self.earth.length; i++){
+          if (self.earth[i].show == true && self.filted.element.includes('土')){
+            all++
+          }
         }
-      }
-      for (let i=0; i<self.wind.length; i++){
-        if (self.wind[i].show == true && self.filter.element[3].active){
-          all++
+        for (let i=0; i<self.wind.length; i++){
+          if (self.wind[i].show == true && self.filted.element.includes('風')){
+            all++
+          }
         }
-      }
-      for (let i=0; i<self.light.length; i++){
-        if (self.light[i].show == true && self.filter.element[4].active){
-          all++
+        for (let i=0; i<self.light.length; i++){
+          if (self.light[i].show == true && self.filted.element.includes('光')){
+            all++
+          }
         }
-      }
-      for (let i=0; i<self.dark.length; i++){
-        if (self.dark[i].show == true && self.filter.element[5].active){
-          all++
+        for (let i=0; i<self.dark.length; i++){
+          if (self.dark[i].show == true && self.filted.element.includes('暗')){
+            all++
+          }
         }
+      }else{
+        for (i=0; i<self.chara.length; i++){
+          if(self.chara[i].show == true){
+            all++
+          }
+        }        
       }
-      let own = 0; 
-      for(let i=0; i<self.fire.length; i++){
-        if (self.fire[i].own == true && self.fire[i].show == true && self.filter.element[0].active){
-          own++
+      let own = 0; //持有數
+      if (!self.filted.element.length==0){
+        for(let i=0; i<self.fire.length; i++){
+          if (self.fire[i].own == true && self.fire[i].show == true && self.filted.element.includes('火')){
+            own++
+          }
         }
-      }
-      for(let i=0; i<self.water.length; i++){
-        if (self.water[i].own == true && self.water[i].show == true && self.filter.element[1].active){
-          own++
+        for(let i=0; i<self.water.length; i++){
+          if (self.water[i].own == true && self.water[i].show == true && self.filted.element.includes('水')){
+            own++
+          }
         }
-      }
-      for(let i=0; i<self.earth.length; i++){
-        if (self.earth[i].own == true && self.earth[i].show == true && self.filter.element[2].active){
-          own++
+        for(let i=0; i<self.earth.length; i++){
+          if (self.earth[i].own == true && self.earth[i].show == true && self.filted.element.includes('土')){
+            own++
+          }
         }
-      }
-      for(let i=0; i<self.wind.length; i++){
-        if (self.wind[i].own == true && self.wind[i].show == true && self.filter.element[3].active){
-          own++
+        for(let i=0; i<self.wind.length; i++){
+          if (self.wind[i].own == true && self.wind[i].show == true && self.filted.element.includes('風')){
+            own++
+          }
         }
-      }
-      for(let i=0; i<self.light.length; i++){
-        if (self.light[i].own == true && self.light[i].show == true && self.filter.element[4].active){
-          own++
+        for(let i=0; i<self.light.length; i++){
+          if (self.light[i].own == true && self.light[i].show == true && self.filted.element.includes('光')){
+            own++
+          }
         }
-      }
-      for(let i=0; i<self.dark.length; i++){
-        if (self.dark[i].own == true && self.dark[i].show == true && self.filter.element[5].active){
-          own++
+        for(let i=0; i<self.dark.length; i++){
+          if (self.dark[i].own == true && self.dark[i].show == true && self.filted.element.includes('暗')){
+            own++
+          }
+        }
+      }else{
+        for(let i=0; i<self.chara.length; i++){
+          if(self.chara[i].show == true){
+            if(self.chara[i].own == true){
+              own++
+            }
+          }
         }
       }
       let per = (own/all)*100;
@@ -3643,50 +3662,50 @@ var app = new Vue({
     }
   },
   methods:{
-    choseGet(item, index){
+    chooseElement(item, index){
       var self = this;
-      var chosed = item;
-      if ( self.filted.get !== chosed ){
-        self.filted.get = chosed
-      }else{
-        self.filted.get = ''
+      var eleArr = self.filted.element;
+      var eleIndex = eleArr.indexOf(item.name);
+      // console.log(item)
+      if (eleIndex == -1){
+        eleArr.push(item.name);
+        if (eleArr.length > 5){
+          eleArr.splice(0,6)
+        }
+      }else if (eleIndex > -1){
+        eleArr.splice(eleIndex, 1)
       }
+      // console.log(eleArr)
     },
-    choseRace: function(item, index){
+    chooseGet(item, index){
       var self = this;
-      var chosed = item;
-      if ( self.filted.race !== chosed.name ){
-        self.filted.race = chosed.name
-      }else{
-        self.filted.race = ''
-      }
+      var chose = item;
+      self.filted.get !== chose ? self.filted.get = chose : self.filted.get = '' ;
+      // if ( self.filted.get !== chose ){
+      //   self.filted.get = chose
+      // }else{
+      //   self.filted.get = ''
+      // }
     },
-    choseWeapon(item, index){
+    chooseRace: function(item, index){
       var self = this;
-      var chosed = item;
-      if ( self.filted.weapon !== chosed.name ){
-        self.filted.weapon = chosed.name
-      }else{
-        self.filted.weapon = ''
-      }
+      var chose = item;
+      self.filted.race !== chose.name ? self.filted.race = chose.name : self.filted.race = '';
     },
-    choseType(item, index){
+    chooseWeapon(item, index){
       var self = this;
-      var chosed = item;
-      if ( self.filted.type !== chosed.name ){
-        self.filted.type = chosed.name
-      }else{
-        self.filted.type = ''
-      }
+      var chose = item;
+      self.filted.weapon !== chose.name ? self.filted.weapon = chose.name : self.filted.weapon = '';
     },
-    choseGender(item, index){
+    chooseType(item, index){
       var self = this;
-      var chosed = item;
-      if ( self.filted.gender !== chosed.name ){
-        self.filted.gender = chosed.name
-      }else{
-        self.filted.gender = ''
-      }
+      var chose = item;
+      self.filted.type !== chose.name ? self.filted.type = chose.name : self.filted.type = '';
+    },
+    chooseGender(item, index){
+      var self = this;
+      var chose = item;
+      self.filted.gender !== chose.name ? self.filted.gender = chose.name : self.filted.gender = '';
     },
     reset(){
       var self = this;
@@ -3700,7 +3719,7 @@ var app = new Vue({
       //   self.chara[obj].own = false;
       // }
     },
-    firehide(){
+    fireEmpty(){ //屬性底色框內沒東西的話隱藏
       var self = this;
       for (i=0; i<self.fire.length; i++){
         if(self.fire[i].show == true){
@@ -3708,7 +3727,17 @@ var app = new Vue({
         }
       }
     },
-    waterhide(){
+    fireActive(){ //屬性沒被選到的話隱藏
+      var self = this;
+      if (self.filted.element.includes('火')){
+        return true
+      }else if (self.filted.element.length == 0){
+        return true;
+      }else{
+        return false;
+      }
+    },
+    waterEmpty(){
       var self = this;
       for (i=0; i<self.water.length; i++){
         if(self.water[i].show == true){
@@ -3716,7 +3745,17 @@ var app = new Vue({
         }
       }
     },
-    earthhide(){
+    waterActive(){
+      var self = this;
+      if (self.filted.element.includes('水')){
+        return true
+      }else if (self.filted.element.length == 0){
+        return true;
+      }else{
+        return false;
+      }
+    },
+    earthEmpty(){
       var self = this;
       for (i=0; i<self.earth.length; i++){
         if(self.earth[i].show == true){
@@ -3724,7 +3763,17 @@ var app = new Vue({
         }
       }
     },
-    windhide(){
+    earthActive(){
+      var self = this;
+      if (self.filted.element.includes('土')){
+        return true
+      }else if (self.filted.element.length == 0){
+        return true;
+      }else{
+        return false;
+      }
+    },
+    windEmpty(){
       var self = this;
       for (i=0; i<self.wind.length; i++){
         if(self.wind[i].show == true){
@@ -3732,7 +3781,17 @@ var app = new Vue({
         }
       }
     },
-    lighthide(){
+    windActive(){
+      var self = this;
+      if (self.filted.element.includes('風')){
+        return true
+      }else if (self.filted.element.length == 0){
+        return true;
+      }else{
+        return false;
+      }
+    },
+    lightEmpty(){
       var self = this;
       for (i=0; i<self.light.length; i++){
         if(self.light[i].show == true){
@@ -3740,12 +3799,32 @@ var app = new Vue({
         }
       }
     },
-    darkhide(){
+    lightActive(){
+      var self = this;
+      if (self.filted.element.includes('光')){
+        return true
+      }else if (self.filted.element.length == 0){
+        return true;
+      }else{
+        return false;
+      }
+    },
+    darkEmpty(){
       var self = this;
       for (i=0; i<self.dark.length; i++){
         if(self.dark[i].show == true){
           return true
         }
+      }
+    },
+    darkActive(){
+      var self = this;
+      if (self.filted.element.includes('暗')){
+        return true
+      }else if (self.filted.element.length == 0){
+        return true;
+      }else{
+        return false;
       }
     },
     checkOwnFire(i){

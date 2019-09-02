@@ -24,34 +24,34 @@ gtag('config', 'UA-145848377-1');
       <ul>
         <li>屬性：<span>
           <button class="button element" 
-          :class="[{'active': filter.element[index].active }, filter.element[index].class]" 
+          :class="[{'active': filted.element.includes(item.name) }, filter.element[index].class]" 
           v-for="(item, index) in filter.element" 
-          @click="filter.element[index].active = !filter.element[index].active">　</button></span>
+          @click="chooseElement(item, index)">　</button></span>
         </li>
         <li>分類：<span>
           <button class="button" v-for="(item, index) in filter.get"
-          @click="choseGet(item, index)"
+          @click="chooseGet(item, index)"
           :class="{'active': filted.get == item}">{{ item }}</button></span>
         </li>
         <li>種族：<span>
           <button class="button race" v-for="(item, index) in filter.race"
-          @click="choseRace(item, index)"
+          @click="chooseRace(item, index)"
           :class="[{'active': filted.race == item.name}, filter.race[index].class]">
           </button></span>
         </li>
         <li>得意武器：<span>
           <button class="button weapon" v-for="(item, index) in filter.weapon" 
-          @click="choseWeapon(item, index)"
+          @click="chooseWeapon(item, index)"
           :class="[{'active': filted.weapon == item.name}, filter.weapon[index].class]"></button></span>
         </li>
         <li>type：<span>
           <button class="button type" v-for="(item, index) in filter.type" 
-          @click="choseType(item, index)"
+          @click="chooseType(item, index)"
           :class="[{'active': filted.type == item.name}, filter.type[index].class]"></button></span>
         </li>
         <li>性別：<span>
           <button class="button gender" v-for="(item, index) in filter.gender" 
-          @click="choseGender(item, index)"
+          @click="chooseGender(item, index)"
           :class="[{'active': filted.gender == item.name}, filter.gender[index].class]"></button> </span>
         </li>
         <li>終解： <span>
@@ -75,7 +75,7 @@ gtag('config', 'UA-145848377-1');
         <span v-if="link" class="calc">持有率：{{ ownpercentage }} </span>
       </p>
       <div class="main">
-        <div class="block block1" v-show="firehide() && filter.element[0].active">
+        <div class="block block1" v-show="fireEmpty() && fireActive()">
           <div class="chara" v-for="(item, index) in fire" v-show="item.show == true" >
             <a :href="link ? 'javascript:;' : fire[index].url" :class="" :target="link ? '_self' : '_blank'">
               <img :src="item.img" :title="item.name"  @click="checkOwnFire(index)">
@@ -83,7 +83,7 @@ gtag('config', 'UA-145848377-1');
             </a>          
           </div>
         </div>
-        <div class="block block2" v-show="waterhide() && filter.element[1].active">
+        <div class="block block2" v-show="waterEmpty()  && waterActive()">
           <div class="chara" v-for="(item, index) in water" v-show="item.show == true ">
             <a :href="link ? 'javascript:;' : water[index].url" :class="" :target="link ? '_self' : '_blank'">
               <img :src="item.img" :title="item.name"  @click="checkOwnWater(index)">
@@ -91,7 +91,7 @@ gtag('config', 'UA-145848377-1');
             </a>          
           </div>
         </div>
-        <div class="block block3" v-show="earthhide() && filter.element[2].active">
+        <div class="block block3" v-show="earthEmpty()  && earthActive()">
           <div class="chara" v-for="(item, index) in earth" v-show="item.show == true ">
             <a :href="link ? 'javascript:;' : earth[index].url" :class="" :target="link ? '_self' : '_blank'">
               <img :src="item.img" :title="item.name"  @click="checkOwnEarth(index)">
@@ -99,7 +99,7 @@ gtag('config', 'UA-145848377-1');
             </a>          
           </div>
         </div>
-        <div class="block block4" v-show="windhide() && filter.element[3].active">
+        <div class="block block4" v-show="windEmpty()  && windActive()">
           <div class="chara" v-for="(item, index) in wind" v-show="item.show == true ">
             <a :href="link ? 'javascript:;' : wind[index].url" :class="" :target="link ? '_self' : '_blank'">
               <img :src="item.img" :title="item.name"  @click="checkOwnWind(index)">
@@ -107,7 +107,7 @@ gtag('config', 'UA-145848377-1');
             </a>          
           </div>
         </div>
-        <div class="block block5" v-show="lighthide() && filter.element[4].active">
+        <div class="block block5" v-show="lightEmpty()  && lightActive()">
           <div class="chara" v-for="(item, index) in light" v-show="item.show == true ">
             <a :href="link ? 'javascript:;' : light[index].url" :class="" :target="link ? '_self' : '_blank'">
               <img :src="item.img" :title="item.name"  @click="checkOwnLight(index)">
@@ -115,7 +115,7 @@ gtag('config', 'UA-145848377-1');
             </a>          
           </div>
         </div>
-        <div class="block block6" v-show="darkhide() && filter.element[5].active">
+        <div class="block block6" v-show="darkEmpty()  && darkActive()">
           <div class="chara" v-for="(item, index) in dark" v-show="item.show == true ">
             <a :href="link ? 'javascript:;' : dark[index].url" :class="" :target="link ? '_self' : '_blank'">
               <img :src="item.img" :title="item.name"  @click="checkOwnDark(index)">
