@@ -3712,12 +3712,7 @@ var app = new Vue({
       for (let obj in self.filted){
         self.filted[obj] = ''
       }
-      for (let i=0; i<self.filter.element.length; i++){
-        self.filter.element[i].active = true
-      }
-      // for (let obj in self.chara){
-      //   self.chara[obj].own = false;
-      // }
+      self.filted.element = [];
     },
     fireEmpty(){ //屬性底色框內沒東西的話隱藏
       var self = this;
