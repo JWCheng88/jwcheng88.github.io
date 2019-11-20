@@ -569,7 +569,7 @@ var app = new Vue({
         name: 'ジャンヌダルク(光)',
         element: '光',
         race: ['人族'],
-        weapon: ['槍'],
+        weapon: ['槍','劍'],
         type: '平衡',
         gender: ['女'],
         get: '恒常',
