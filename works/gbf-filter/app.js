@@ -65,7 +65,7 @@ var app = new Vue({
           class: 'race5'
         },
         {
-          name: '不明',
+          name: '其他',
           class: 'race6'
         }
       ],
@@ -204,7 +204,7 @@ var app = new Vue({
       {
         name: 'リリィ',
         element: '水',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['杖'],
         type: '回復',
         gender: ['女'],
@@ -876,7 +876,7 @@ var app = new Vue({
       {
         name: 'アーミラ',
         element: '光',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['格鬥'],
         type: '特殊',
         gender: ['女'],
@@ -960,7 +960,7 @@ var app = new Vue({
       {
         name: 'ヴァンピィ',
         element: '暗',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['杖','短劍'],
         type: '特殊',
         gender: ['女'],
@@ -1492,7 +1492,7 @@ var app = new Vue({
       {
         name: 'ヴァイト',
         element: '暗',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['短劍'],
         type: '攻擊',
         gender: ['男'],
@@ -1702,7 +1702,7 @@ var app = new Vue({
       {
         name: 'オーキス',
         element: '暗',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['格鬥'],
         type: '特殊',
         gender: ['女'],
@@ -1758,7 +1758,7 @@ var app = new Vue({
       {
         name: 'キャタピラとヴィーラ',
         element: '水',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['銃','格鬥'],
         type: '特殊',
         gender: ['女'],
@@ -1954,7 +1954,7 @@ var app = new Vue({
       {
         name: 'グレア',
         element: '火',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['格鬥'],
         type: '攻擊',
         gender: ['女'],
@@ -1968,7 +1968,7 @@ var app = new Vue({
       {
         name: '三日月宗近',
         element: '光',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['刀'],
         type: '平衡',
         gender: ['男'],
@@ -1996,7 +1996,7 @@ var app = new Vue({
       {
         name: 'ニーナ・ドランゴ',
         element: '火',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['格鬥'],
         type: '攻擊',
         gender: ['女'],
@@ -2290,7 +2290,7 @@ var app = new Vue({
       {
         name: 'ロボミ',
         element: '光',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['銃'],
         type: '攻擊',
         gender: ['女'],
@@ -2416,7 +2416,7 @@ var app = new Vue({
       {
         name: 'ウーフとレニー',
         element: '暗',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['格鬥','銃'],
         type: '攻擊',
         gender: ['女'],
@@ -2528,7 +2528,7 @@ var app = new Vue({
       {
         name: 'グレア(水着)',
         element: '水',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['格鬥'],
         type: '攻擊',
         gender: ['女'],
@@ -2738,7 +2738,7 @@ var app = new Vue({
       {
         name: 'コッコロ',
         element: '風',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['槍'],
         type: '平衡',
         gender: ['女'],
@@ -3144,7 +3144,7 @@ var app = new Vue({
       {
         name: 'キャル',
         element: '暗',
-        race: ['不明'],
+        race: ['其他'],
         weapon: ['杖'],
         type: '攻擊',
         gender: ['女'],
@@ -3540,12 +3540,54 @@ var app = new Vue({
         weapon: ['槍','劍'],
         type: '平衡',
         gender: ['女'],
-        get: '恒常',
+        get: 'Fes限',
         show: true,
         own: false,
         final: false,
         url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%afLimited",
         img: 'img/3040245000_01.jpg',
+      },
+      {
+        name: 'ミュオン(クリスマス)',
+        element: '風',
+        race: ['人族'],
+        weapon: ['銃','格鬥'],
+        type: '特殊',
+        gender: ['男'],
+        get: '季節限定',
+        show: true,
+        own: false,
+        final: false,
+        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%df%a5%e5%a5%aa%a5%f3",
+        img: 'img/3040246000_01.jpg',
+      },
+      {
+        name: 'マギサ(クリスマス)',
+        element: '土',
+        race: ['人族'],
+        weapon: ['杖','格鬥'],
+        type: '特殊',
+        gender: ['女'],
+        get: '季節限定',
+        show: true,
+        own: false,
+        final: false,
+        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%de%a5%ae%a5%b5%c0%bb%c3%c2",
+        img: 'img/3040247000_01.jpg',
+      },
+      {
+        name: 'ガチャピン',
+        element: '風',
+        race: ['其他'],
+        weapon: ['劍','格鬥'],
+        type: '平衡',
+        gender: ['男'],
+        get: '活動',
+        show: true,
+        own: false,
+        final: false,
+        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%ac%a5%c1%a5%e3%a5%d4%a5%f3",
+        img: 'img/3040248000_01.jpg',
       },
     ]
   },
