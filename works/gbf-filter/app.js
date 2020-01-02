@@ -3689,7 +3689,7 @@ var app = new Vue({
       },
       {
         name: 'ノア',
-        element: '風',
+        element: '光',
         race: ['星晶獸'],
         weapon: ['杖','銃'],
         type: '特殊',
