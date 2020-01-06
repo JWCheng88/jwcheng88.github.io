@@ -3652,7 +3652,7 @@ var app = new Vue({
         weapon: ['斧','格鬥'],
         type: '平衡',
         gender: ['女'],
-        get: 'Fes限定',
+        get: 'Fes限',
         show: true,
         own: false,
         final: false,
