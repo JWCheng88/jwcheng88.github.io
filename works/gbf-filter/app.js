@@ -170,7 +170,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%cd%a5%c4%a5%a1%a5%ef%a5%eb%a5%d4%a5%ea",
+        url: "%c9%f7%5f%a5%cd%a5%c4%a5%a1%a5%ef%a5%eb%a5%d4%a5%ea",
         img: 'img/3040003000_01.jpg',
       },
       {
@@ -184,7 +184,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%ec%a1%a6%a5%d5%a5%a3%a1%bc%a5%a8",
+        url: "%b8%f7%5f%a5%ec%a1%a6%a5%d5%a5%a3%a1%bc%a5%a8",
         img: 'img/3040004000_01.jpg',
       },
       {
@@ -198,7 +198,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%ec%a5%c7%a5%a3%a1%a6%a5%b0%a5%ec%a5%a4",
+        url: "%b0%c7%5f%a5%ec%a5%c7%a5%a3%a1%a6%a5%b0%a5%ec%a5%a4",
         img: 'img/3040005000_01.jpg',
       },
       {
@@ -212,7 +212,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%ea%a5%ea%a5%a3",
+        url: "%bf%e5%5f%a5%ea%a5%ea%a5%a3",
         img: 'img/3040007000_01.jpg',
       },
       {
@@ -226,7 +226,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%a2%a5%ec%a1%bc%a5%c6%a5%a3%a5%a2",
+        url: "%c5%da%5f%a5%a2%a5%ec%a1%bc%a5%c6%a5%a3%a5%a2",
         img: 'img/3040002000_01.jpg',
       },
       {
@@ -240,7 +240,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%ac%a5%a6%a5%a7%a5%a4%a5%f3",
+        url: "%c9%f7%5f%a5%ac%a5%a6%a5%a7%a5%a4%a5%f3",
         img: 'img/3040000000_01.jpg',
       },
       {
@@ -254,7 +254,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%e6%a5%a8%a5%eb",
+        url: "%b2%d0%5f%a5%e6%a5%a8%a5%eb",
         img: 'img/3040006000_01.jpg',
       },
       {
@@ -268,7 +268,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a2%a5%eb%a5%bf%a5%a4%a5%eb",
+        url: "%bf%e5%5f%a5%a2%a5%eb%a5%bf%a5%a4%a5%eb",
         img: 'img/3040001000_01.jpg',
       },
       {
@@ -282,7 +282,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b5%a5%eb%a5%ca%a1%bc%a5%f3",
+        url: "%b8%f7%5f%a5%b5%a5%eb%a5%ca%a1%bc%a5%f3",
         img: 'img/3040008000_01.jpg',
       },
       {
@@ -296,7 +296,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%ab%a5%ea%a5%aa%a5%b9%a5%c8%a5%ed",
+        url: "%c5%da%5f%a5%ab%a5%ea%a5%aa%a5%b9%a5%c8%a5%ed",
         img: 'img/3040009000_01.jpg',
       },
       {
@@ -310,7 +310,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%b7%a5%e3%a5%eb%a5%ed%a5%c3%a5%c6",
+        url: "%bf%e5%5f%a5%b7%a5%e3%a5%eb%a5%ed%a5%c3%a5%c6",
         img: 'img/3040010000_01.jpg',
       },
       {
@@ -324,7 +324,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%de%a5%ae%a5%b5",
+        url: "%b2%d0%5f%a5%de%a5%ae%a5%b5",
         img: 'img/3040011000_01.jpg',
       },
       {
@@ -338,7 +338,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e1%a1%bc%a5%c6%a5%e9",
+        url: "%c9%f7%5f%a5%e1%a1%bc%a5%c6%a5%e9",
         img: 'img/3040012000_01.jpg',
       },
       {
@@ -352,7 +352,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%bb%a5%eb%a5%a8%a5%eb",
+        url: "%b8%f7%5f%a5%bb%a5%eb%a5%a8%a5%eb",
         img: 'img/3040013000_01.jpg',
       },
       {
@@ -366,7 +366,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%ec%a1%a6%a5%d5%a5%a3%a1%bc%a5%a8%b1%cb%ea%e6",
+        url: "%b8%f7%5f%a5%ec%a1%a6%a5%d5%a5%a3%a1%bc%a5%a8%b1%cb%ea%e6",
         img: 'img/3040014000_01.jpg',
       },
       {
@@ -380,7 +380,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%a4%a5%aa%b1%cb%ea%e6",
+        url: "%b2%d0%5f%a5%a4%a5%aa%b1%cb%ea%e6",
         img: 'img/3040015000_01.jpg',
       },
       {
@@ -394,7 +394,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%b1%a5%eb%a5%d9%a5%ed%a5%b9",
+        url: "%b0%c7%5f%a5%b1%a5%eb%a5%d9%a5%ed%a5%b9",
         img: 'img/3040016000_01.jpg',
       },
       {
@@ -408,7 +408,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%a2%a5%ae%a5%a8%a5%eb%a5%d0",
+        url: "%b2%d0%5f%a5%a2%a5%ae%a5%a8%a5%eb%a5%d0",
         img: 'img/3040017000_01.jpg',
       },
       {
@@ -422,7 +422,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%af%a5%ea%a5%b9%a5%c6%a5%a3%a1%bc%a5%ca",
+        url: "%c9%f7%5f%a5%af%a5%ea%a5%b9%a5%c6%a5%a3%a1%bc%a5%ca",
         img: 'img/3040018000_01.jpg',
       },
       {
@@ -436,7 +436,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%a2%a5%eb%a5%eb%a5%e1%a5%a4%a5%e4",
+        url: "%c5%da%5f%a5%a2%a5%eb%a5%eb%a5%e1%a5%a4%a5%e4",
         img: 'img/3040019000_01.jpg',
       },
       {
@@ -450,7 +450,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b7%a5%e3%a5%eb%a5%ed%a5%c3%a5%c6%e8%df%c0%bb",
+        url: "%b8%f7%5f%a5%b7%a5%e3%a5%eb%a5%ed%a5%c3%a5%c6%e8%df%c0%bb",
         img: 'img/3040020000_01.jpg',
       },
       {
@@ -464,7 +464,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%ec%a5%ca",
+        url: "%c9%f7%5f%a5%ec%a5%ca",
         img: 'img/3040021000_01.jpg',
       },
       {
@@ -478,7 +478,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%e1%a5%eb%a5%a5",
+        url: "%c5%da%5f%a5%e1%a5%eb%a5%a5",
         img: 'img/3040022000_01.jpg',
       },
       {
@@ -492,7 +492,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%e9%a5%f3%a5%b9%a5%ed%a5%c3%a5%c8",
+        url: "%bf%e5%5f%a5%e9%a5%f3%a5%b9%a5%ed%a5%c3%a5%c8",
         img: 'img/3040023000_01.jpg',
       },
       {
@@ -506,7 +506,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%bd%a5%d5%a5%a3%a5%a2",
+        url: "%b8%f7%5f%a5%bd%a5%d5%a5%a3%a5%a2",
         img: 'img/3040024000_01.jpg',
       },
       {
@@ -520,7 +520,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%ed%a5%bc%a5%c3%a5%bf%c0%bb%c3%c2",
+        url: "%b0%c7%5f%a5%ed%a5%bc%a5%c3%a5%bf%c0%bb%c3%c2",
         img: 'img/3040026000_01.jpg',
       },
       {
@@ -534,7 +534,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%a2%a5%cb%a5%e9",
+        url: "%b2%d0%5f%a5%a2%a5%cb%a5%e9",
         img: 'img/3040027000_01.jpg',
       },
       {
@@ -548,7 +548,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%bc%a5%bf",
+        url: "%b2%d0%5f%a5%bc%a5%bf",
         img: 'img/3040028000_01.jpg',
       },
       {
@@ -562,7 +562,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%d0%a5%b6%a5%e9%a5%ac",
+        url: "%b0%c7%5f%a5%d0%a5%b6%a5%e9%a5%ac",
         img: 'img/3040029000_01.jpg',
       },
       {
@@ -576,7 +576,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%af",
+        url: "%b8%f7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%af",
         img: 'img/3040040000_01.jpg',
       },
       {
@@ -590,7 +590,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%b8%a1%bc%a5%af%a5%d5%a5%ea%a1%bc%a5%c8",
+        url: "%c5%da%5f%a5%b8%a1%bc%a5%af%a5%d5%a5%ea%a1%bc%a5%c8",
         img: 'img/3040025000_01.jpg',
       },
       {
@@ -604,7 +604,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%b5%a5%e9",
+        url: "%c5%da%5f%a5%b5%a5%e9",
         img: 'img/3040041000_01.jpg',
       },
       {
@@ -618,7 +618,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%ab%a5%eb%a5%e1%a5%ea%a1%bc%a5%ca",
+        url: "%c9%f7%5f%a5%ab%a5%eb%a5%e1%a5%ea%a1%bc%a5%ca",
         img: 'img/3040042000_01.jpg',
       },
       {
@@ -632,7 +632,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%f4%a5%a3%a1%bc%a5%e9",
+        url: "%b0%c7%5f%a5%f4%a5%a3%a1%bc%a5%e9",
         img: 'img/3040043000_01.jpg',
       },
       {
@@ -646,7 +646,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%bd%a5%b7%a5%a8",
+        url: "%bf%e5%5f%a5%bd%a5%b7%a5%a8",
         img: 'img/3040044000_01.jpg',
       },
       {
@@ -660,7 +660,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%a2%a5%eb%a5%d9%a1%bc%a5%eb",
+        url: "%b8%f7%5f%a5%a2%a5%eb%a5%d9%a1%bc%a5%eb",
         img: 'img/3040045000_01.jpg',
       },
       {
@@ -674,7 +674,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%af%a5%e9%a5%ea%a5%b9",
+        url: "%b2%d0%5f%a5%af%a5%e9%a5%ea%a5%b9",
         img: 'img/3040046000_01.jpg',
       },
       {
@@ -688,7 +688,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%a6%a1%bc%a5%ce",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%a6%a1%bc%a5%ce",
         img: 'img/3040030000_01.jpg',
       },
       {
@@ -702,7 +702,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%bd%a1%bc%a5%f3",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%bd%a1%bc%a5%f3",
         img: 'img/3040031000_01.jpg',
       },
       {
@@ -716,7 +716,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%b5%a5%e9%a1%bc%a5%b5",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%b5%a5%e9%a1%bc%a5%b5",
         img: 'img/3040032000_01.jpg',
       },
       {
@@ -730,7 +730,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%ab%a5%c8%a5%eb",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%ab%a5%c8%a5%eb",
         img: 'img/3040033000_01.jpg',
       },
       {
@@ -744,7 +744,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%d5%a5%e5%a5%f3%a5%d5",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%d5%a5%e5%a5%f3%a5%d5",
         img: 'img/3040034000_01.jpg',
       },
       {
@@ -758,7 +758,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%b7%a5%b9",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%b7%a5%b9",
         img: 'img/3040035000_01.jpg',
       },
       {
@@ -772,7 +772,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%b7%a5%a8%a5%c6",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%b7%a5%a8%a5%c6",
         img: 'img/3040036000_01.jpg',
       },
       {
@@ -786,7 +786,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%aa%a5%af%a5%c8%a1%bc",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%aa%a5%af%a5%c8%a1%bc",
         img: 'img/3040037000_01.jpg',
       },
       {
@@ -800,7 +800,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%cb%a5%aa",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%cb%a5%aa",
         img: 'img/3040038000_01.jpg',
       },
       {
@@ -814,7 +814,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%c5%b7%bd%b0%5f%a5%a8%a5%c3%a5%bb%a5%eb",
+        url: "%bd%bd%c5%b7%bd%b0%5f%a5%a8%a5%c3%a5%bb%a5%eb",
         img: 'img/3040039000_01.jpg',
       },
       {
@@ -828,7 +828,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%da%a5%c8%a5%e9",
+        url: "%c9%f7%5f%a5%da%a5%c8%a5%e9",
         img: 'img/3040047000_01.jpg',
       },
       {
@@ -842,7 +842,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%b5%a5%eb%a5%ca%a1%bc%a5%f3",
+        url: "%b0%c7%5f%a5%b5%a5%eb%a5%ca%a1%bc%a5%f3",
         img: 'img/3040048000_01.jpg',
       },
       {
@@ -856,7 +856,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%b7%a5%eb%a5%f4%a5%a1",
+        url: "%bf%e5%5f%a5%b7%a5%eb%a5%f4%a5%a1",
         img: 'img/3040049000_01.jpg',
       },
       {
@@ -870,7 +870,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%d1%a1%bc%a5%b7%a5%f4%a5%a1%a5%eb",
+        url: "%b2%d0%5f%a5%d1%a1%bc%a5%b7%a5%f4%a5%a1%a5%eb",
         img: 'img/3040050000_01.jpg',
       },
       {
@@ -884,7 +884,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%a2%a1%bc%a5%df%a5%e9",
+        url: "%b8%f7%5f%a5%a2%a1%bc%a5%df%a5%e9",
         img: 'img/3040051000_01.jpg',
       },
       {
@@ -898,7 +898,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%ac%a5%f3%a5%c0%a5%b4%a5%a6%a5%b6",
+        url: "%b2%d0%5f%a5%ac%a5%f3%a5%c0%a5%b4%a5%a6%a5%b6",
         img: 'img/3040052000_01.jpg',
       },
       {
@@ -912,7 +912,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%ab%a5%bf%a5%ea%a5%caLimited",
+        url: "%bf%e5%5f%a5%ab%a5%bf%a5%ea%a5%caLimited",
         img: 'img/3040054000_01.jpg',
       },
       {
@@ -926,7 +926,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%f4%a5%a3%a1%bc%a5%e9%b1%cb%ea%e6",
+        url: "%c5%da%5f%a5%f4%a5%a3%a1%bc%a5%e9%b1%cb%ea%e6",
         img: 'img/3040053000_01.jpg',
       },
       {
@@ -940,7 +940,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%c0%a5%cc%a5%a2%b1%cb%ea%e6",
+        url: "%b0%c7%5f%a5%c0%a5%cc%a5%a2%b1%cb%ea%e6",
         img: 'img/3040055000_01.jpg',
       },
       {
@@ -954,7 +954,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%bc%a5%bf%b1%cb%ea%e6",
+        url: "%b8%f7%5f%a5%bc%a5%bf%b1%cb%ea%e6",
         img: 'img/3040056000_01.jpg',
       },
       {
@@ -968,7 +968,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%f4%a5%a1%a5%f3%a5%d4%a5%a3",
+        url: "%b0%c7%5f%a5%f4%a5%a1%a5%f3%a5%d4%a5%a3",
         img: 'img/3040057000_01.jpg',
       },
       {
@@ -982,7 +982,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%a2%a5%f3%a5%ea%a5%a8%a5%c3%a5%c8",
+        url: "%c9%f7%5f%a5%a2%a5%f3%a5%ea%a5%a8%a5%c3%a5%c8",
         img: 'img/3040058000_01.jpg',
       },
       {
@@ -996,7 +996,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%e9%a5%ab%a5%e0Limited",
+        url: "%b2%d0%5f%a5%e9%a5%ab%a5%e0Limited",
         img: 'img/3040059000_01.jpg',
       },
       {
@@ -1010,7 +1010,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%d8%a5%eb%a5%a8%a5%b9",
+        url: "%b2%d0%5f%a5%d8%a5%eb%a5%a8%a5%b9",
         img: 'img/3040060000_01.jpg',
       },
       {
@@ -1024,7 +1024,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%d5%a5%a3%a1%bc%a5%ca",
+        url: "%c9%f7%5f%a5%d5%a5%a3%a1%bc%a5%ca",
         img: 'img/3040061000_01.jpg',
       },
       {
@@ -1038,7 +1038,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%ab%a5%ea%a5%aa%a5%b9%a5%c8%a5%ed%e8%df%c0%bb",
+        url: "%b0%c7%5f%a5%ab%a5%ea%a5%aa%a5%b9%a5%c8%a5%ed%e8%df%c0%bb",
         img: 'img/3040062000_01.jpg',
       },
       {
@@ -1052,7 +1052,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%ca%a5%eb%a5%e1%a5%a2",
+        url: "%b0%c7%5f%a5%ca%a5%eb%a5%e1%a5%a2",
         img: 'img/3040063000_01.jpg',
       },
       {
@@ -1066,7 +1066,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%e8%a5%c0%a5%eb%a5%e9%a1%bc%a5%cf",
+        url: "%bf%e5%5f%a5%e8%a5%c0%a5%eb%a5%e9%a1%bc%a5%cf",
         img: 'img/3040064000_01.jpg',
       },
       {
@@ -1080,7 +1080,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%a4%a5%aaLimited",
+        url: "%b8%f7%5f%a5%a4%a5%aaLimited",
         img: 'img/3040065000_01.jpg',
       },
       {
@@ -1094,7 +1094,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%ea%a5%eb%a5%eb",
+        url: "%bf%e5%5f%a5%ea%a5%eb%a5%eb",
         img: 'img/3040066000_01.jpg',
       },
       {
@@ -1108,7 +1108,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%af%a5%e9%a5%ea%a5%b9%c0%bb%c3%c2",
+        url: "%c5%da%5f%a5%af%a5%e9%a5%ea%a5%b9%c0%bb%c3%c2",
         img: 'img/3040067000_01.jpg',
       },
       {
@@ -1122,7 +1122,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%ed%a5%bc%a5%c3%a5%bfLimited",
+        url: "%c9%f7%5f%a5%ed%a5%bc%a5%c3%a5%bfLimited",
         img: 'img/3040068000_01.jpg',
       },
       {
@@ -1136,7 +1136,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%e6%a1%bc%a5%b9%a5%c6%a5%b9",
+        url: "%c5%da%5f%a5%e6%a1%bc%a5%b9%a5%c6%a5%b9",
         img: 'img/3040069000_01.jpg',
       },
       {
@@ -1150,7 +1150,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%d9%a5%a2%a5%c8%a5%ea%a5%af%a5%b9",
+        url: "%b0%c7%5f%a5%d9%a5%a2%a5%c8%a5%ea%a5%af%a5%b9",
         img: 'img/3040070000_01.jpg',
       },
       {
@@ -1164,7 +1164,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%a2%a5%f3%a5%c1%a5%e9",
+        url: "%c9%f7%5f%a5%a2%a5%f3%a5%c1%a5%e9",
         img: 'img/3040071000_01.jpg',
       },
       {
@@ -1178,7 +1178,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%e1%a1%bc%a5%c6%a5%e9",
+        url: "%b2%d0%5f%a5%e1%a1%bc%a5%c6%a5%e9",
         img: 'img/3040072000_01.jpg',
       },
       {
@@ -1192,7 +1192,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%d5%a5%a7%a5%ea",
+        url: "%b8%f7%5f%a5%d5%a5%a7%a5%ea",
         img: 'img/3040073000_01.jpg',
       },
       {
@@ -1206,7 +1206,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%ad%a5%e3%a5%b5%a5%ea%a5%f3",
+        url: "%c5%da%5f%a5%ad%a5%e3%a5%b5%a5%ea%a5%f3",
         img: 'img/3040074000_01.jpg',
       },
       {
@@ -1220,7 +1220,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%aa%a5%a4%a5%b2%a5%f3Limited",
+        url: "%c5%da%5f%a5%aa%a5%a4%a5%b2%a5%f3Limited",
         img: 'img/3040077000_01.jpg',
       },
       {
@@ -1234,7 +1234,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%be%a1%bc%a5%a4",
+        url: "%b8%f7%5f%a5%be%a1%bc%a5%a4",
         img: 'img/3040078000_01.jpg',
       },
       {
@@ -1248,7 +1248,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%b6%a5%eb%a5%cf%a5%e1%a5%ea%a5%ca",
+        url: "%b2%d0%5f%a5%b6%a5%eb%a5%cf%a5%e1%a5%ea%a5%ca",
         img: 'img/3040075000_01.jpg',
       },
       {
@@ -1262,7 +1262,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%a2%a5%aa%a5%a4%a5%c9%a5%b9",
+        url: "%b2%d0%5f%a5%a2%a5%aa%a5%a4%a5%c9%a5%b9",
         img: 'img/3040076000_01.jpg',
       },
       {
@@ -1276,7 +1276,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%cf%a5%ec%a5%bc%a5%ca",
+        url: "%c5%da%5f%a5%cf%a5%ec%a5%bc%a5%ca",
         img: 'img/3040079000_01.jpg',
       },
       {
@@ -1290,7 +1290,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%af",
+        url: "%b0%c7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%af",
         img: 'img/3040080000_01.jpg',
       },
       {
@@ -1304,7 +1304,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%b3%a5%eb%a5%ef",
+        url: "%c9%f7%5f%a5%b3%a5%eb%a5%ef",
         img: 'img/3040081000_01.jpg',
       },
       {
@@ -1318,7 +1318,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%b9%f5%b5%b3%bb%ceLimited",
+        url: "%b0%c7%5f%b9%f5%b5%b3%bb%ceLimited",
         img: 'img/3040082000_01.jpg',
       },
       {
@@ -1332,7 +1332,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%a2%a5%ea%a1%bc%a5%b6",
+        url: "%b2%d0%5f%a5%a2%a5%ea%a1%bc%a5%b6",
         img: 'img/3040083000_01.jpg',
       },
       {
@@ -1346,7 +1346,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%a2%a5%a4%a5%eb",
+        url: "%c5%da%5f%a5%a2%a5%a4%a5%eb",
         img: 'img/3040084000_01.jpg',
       },
       {
@@ -1360,7 +1360,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%cd%a5%e2%a5%cd",
+        url: "%c5%da%5f%a5%cd%a5%e2%a5%cd",
         img: 'img/3040085000_01.jpg',
       },
       {
@@ -1374,7 +1374,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%d5%a5%a9%a5%eb%a5%c6",
+        url: "%b0%c7%5f%a5%d5%a5%a9%a5%eb%a5%c6",
         img: 'img/3040086000_01.jpg',
       },
       {
@@ -1388,7 +1388,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%ed%a5%b6%a5%df%a5%a2",
+        url: "%b8%f7%5f%a5%ed%a5%b6%a5%df%a5%a2",
         img: 'img/3040087000_01.jpg',
       },
       {
@@ -1402,7 +1402,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a4%a5%f3%a5%b0%a5%f4%a5%a7%a5%a4",
+        url: "%bf%e5%5f%a5%a4%a5%f3%a5%b0%a5%f4%a5%a7%a5%a4",
         img: 'img/3040088000_01.jpg',
       },
       {
@@ -1416,7 +1416,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%ca%a5%eb%a5%e1%a5%a2%b1%cb%ea%e6",
+        url: "%bf%e5%5f%a5%ca%a5%eb%a5%e1%a5%a2%b1%cb%ea%e6",
         img: 'img/3040089000_01.jpg',
       },
       {
@@ -1430,7 +1430,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%d1%a1%bc%a5%b7%a5%f4%a5%a1%a5%eb%b1%cb%ea%e6",
+        url: "%b2%d0%5f%a5%d1%a1%bc%a5%b7%a5%f4%a5%a1%a5%eb%b1%cb%ea%e6",
         img: 'img/3040090000_01.jpg',
       },
       {
@@ -1444,7 +1444,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%d8%a5%eb%a5%a8%a5%b9%b1%cb%ea%e6",
+        url: "%b8%f7%5f%a5%d8%a5%eb%a5%a8%a5%b9%b1%cb%ea%e6",
         img: 'img/3040091000_01.jpg',
       },
       {
@@ -1458,7 +1458,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%be%a1%bc%a5%a4%b1%cb%ea%e6",
+        url: "%b0%c7%5f%a5%be%a1%bc%a5%a4%b1%cb%ea%e6",
         img: 'img/3040092000_01.jpg',
       },
       {
@@ -1472,7 +1472,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%b7%a5%e3%a5%ce%a5%ef%a1%bc%a5%eb",
+        url: "%bf%e5%5f%a5%b7%a5%e3%a5%ce%a5%ef%a1%bc%a5%eb",
         img: 'img/3040093000_01.jpg',
       },
       {
@@ -1486,7 +1486,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%bd%a5%b7%a5%a8",
+        url: "%b2%d0%5f%a5%bd%a5%b7%a5%a8",
         img: 'img/3040095000_01.jpg',
       },
       {
@@ -1500,7 +1500,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%f4%a5%a1%a5%a4%a5%c8",
+        url: "%b0%c7%5f%a5%f4%a5%a1%a5%a4%a5%c8",
         img: 'img/3040094000_01.jpg',
       },
       {
@@ -1514,7 +1514,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b8%a5%e5%a5%ea%a5%a8%a5%c3%a5%c8",
+        url: "%b8%f7%5f%a5%b8%a5%e5%a5%ea%a5%a8%a5%c3%a5%c8",
         img: 'img/3040096000_01.jpg',
       },
       {
@@ -1528,7 +1528,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%ed%a5%df%a5%aa",
+        url: "%bf%e5%5f%a5%ed%a5%df%a5%aa",
         img: 'img/3040098000_01.jpg',
       },
       {
@@ -1542,7 +1542,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%e6%a1%bc%a5%b9%a5%c6%a5%b9%e8%df%c0%bb",
+        url: "%c5%da%5f%a5%e6%a1%bc%a5%b9%a5%c6%a5%b9%e8%df%c0%bb",
         img: 'img/3040099000_01.jpg',
       },
       {
@@ -1556,7 +1556,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a4%a5%b7%a5%e5%a5%df%a1%bc%a5%eb",
+        url: "%bf%e5%5f%a5%a4%a5%b7%a5%e5%a5%df%a1%bc%a5%eb",
         img: 'img/3040100000_01.jpg',
       },
       {
@@ -1570,7 +1570,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%ea%a1%bc%a5%b7%a5%e3Limited",
+        url: "%c9%f7%5f%a5%ea%a1%bc%a5%b7%a5%e3Limited",
         img: 'img/3040101000_01.jpg',
       },
       {
@@ -1584,7 +1584,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e1%a5%ea%a5%c3%a5%b5%a5%d9%a5%eb",
+        url: "%c9%f7%5f%a5%e1%a5%ea%a5%c3%a5%b5%a5%d9%a5%eb",
         img: 'img/3040102000_01.jpg',
       },
       {
@@ -1598,7 +1598,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%a2%a5%f3%a5%b9%a5%ea%a5%a2",
+        url: "%b2%d0%5f%a5%a2%a5%f3%a5%b9%a5%ea%a5%a2",
         img: 'img/3040103000_01.jpg',
       },
       {
@@ -1612,7 +1612,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a2%a5%eb%a5%eb%a5%e1%a5%a4%a5%e4%c0%bb%c3%c2",
+        url: "%bf%e5%5f%a5%a2%a5%eb%a5%eb%a5%e1%a5%a4%a5%e4%c0%bb%c3%c2",
         img: 'img/3040104000_01.jpg',
       },
       {
@@ -1626,7 +1626,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%eb%a5%b7%a5%aaLimited",
+        url: "%b8%f7%5f%a5%eb%a5%b7%a5%aaLimited",
         img: 'img/3040106000_01.jpg',
       },
       {
@@ -1640,7 +1640,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e6%a5%a4%a5%b7%a5%b9",
+        url: "%c9%f7%5f%a5%e6%a5%a4%a5%b7%a5%b9",
         img: 'img/3040105000_01.jpg',
       },
       {
@@ -1654,7 +1654,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%de%a5%ad%a5%e9",
+        url: "%c5%da%5f%a5%de%a5%ad%a5%e9",
         img: 'img/3040107000_01.jpg',
       },
       {
@@ -1668,7 +1668,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%de%a5%eb%a5%ad%a5%a2%a5%ec%a5%b9",
+        url: "%b0%c7%5f%a5%de%a5%eb%a5%ad%a5%a2%a5%ec%a5%b9",
         img: 'img/3040108000_01.jpg',
       },
       {
@@ -1682,7 +1682,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%e9%a5%b9%a5%c6%a5%a3%a5%ca",
+        url: "%c5%da%5f%a5%e9%a5%b9%a5%c6%a5%a3%a5%ca",
         img: 'img/3040109000_01.jpg',
       },
       {
@@ -1696,7 +1696,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%d9%a5%a2%a5%c8%a5%ea%a5%af%a5%b9%b1%cb%ea%e6",
+        url: "%b2%d0%5f%a5%d9%a5%a2%a5%c8%a5%ea%a5%af%a5%b9%b1%cb%ea%e6",
         img: 'img/3040110000_01.jpg',
       },
       {
@@ -1710,7 +1710,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%aa%a1%bc%a5%ad%a5%b9Limited",
+        url: "%b0%c7%5f%a5%aa%a1%bc%a5%ad%a5%b9Limited",
         img: 'img/3040111000_01.jpg',
       },
       {
@@ -1724,7 +1724,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%bc%a5%bf",
+        url: "%b0%c7%5f%a5%bc%a5%bf",
         img: 'img/3040112000_01.jpg',
       },
       {
@@ -1738,7 +1738,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%ec%a1%a6%a5%d5%a5%a3%a1%bc%a5%a8",
+        url: "%c5%da%5f%a5%ec%a1%a6%a5%d5%a5%a3%a1%bc%a5%a8",
         img: 'img/3040113000_01.jpg',
       },
       {
@@ -1752,7 +1752,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%b9%a5%c4%a5%eb%a5%e0Limited",
+        url: "%b2%d0%5f%a5%b9%a5%c4%a5%eb%a5%e0Limited",
         img: 'img/3040115000_01.jpg',
       },
       {
@@ -1766,7 +1766,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%ad%a5%e3%a5%bf%a5%d4%a5%e9%a4%c8%a5%f4%a5%a3%a1%bc%a5%e9",
+        url: "%bf%e5%5f%a5%ad%a5%e3%a5%bf%a5%d4%a5%e9%a4%c8%a5%f4%a5%a3%a1%bc%a5%e9",
         img: 'img/3040116000_01.jpg',
       },
       {
@@ -1780,7 +1780,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%f4%a5%a7%a5%a4%a5%f3",
+        url: "%bf%e5%5f%a5%f4%a5%a7%a5%a4%a5%f3",
         img: 'img/3040117000_01.jpg',
       },
       {
@@ -1794,7 +1794,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%ab%a5%bf%a5%ea%a5%ca",
+        url: "%b0%c7%5f%a5%ab%a5%bf%a5%ea%a5%ca",
         img: 'img/3040118000_01.jpg',
       },
       {
@@ -1808,7 +1808,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%c9%a5%e9%a5%f3%a5%afLimited",
+        url: "%bf%e5%5f%a5%c9%a5%e9%a5%f3%a5%afLimited",
         img: 'img/3040119000_01.jpg',
       },
       {
@@ -1822,7 +1822,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%ab%a5%ea%a5%aa%a5%b9%a5%c8%a5%ed",
+        url: "%b0%c7%5f%a5%ab%a5%ea%a5%aa%a5%b9%a5%c8%a5%ed",
         img: 'img/3040120000_01.jpg',
       },
       {
@@ -1836,7 +1836,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%af%a5%e9%a5%ea%a5%b9",
+        url: "%b8%f7%5f%a5%af%a5%e9%a5%ea%a5%b9",
         img: 'img/3040121000_01.jpg',
       },
       {
@@ -1850,7 +1850,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%b9%a5%ab%a1%bc%a5%b5%a5%cf",
+        url: "%c9%f7%5f%a5%b9%a5%ab%a1%bc%a5%b5%a5%cf",
         img: 'img/3040122000_01.jpg',
       },
       {
@@ -1864,7 +1864,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%e1%a5%c9%a5%a5%a1%bc%a5%b5",
+        url: "%c5%da%5f%a5%e1%a5%c9%a5%a5%a1%bc%a5%b5",
         img: 'img/3040123000_01.jpg',
       },
       {
@@ -1878,7 +1878,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%d0%a5%a6%a5%bf%a5%aa%a1%bc%a5%c0",
+        url: "%b8%f7%5f%a5%d0%a5%a6%a5%bf%a5%aa%a1%bc%a5%c0",
         img: 'img/3040124000_01.jpg',
       },
       {
@@ -1892,7 +1892,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%e6%a5%b0%a5%c9%a5%e9%a5%b7%a5%eb",
+        url: "%c5%da%5f%a5%e6%a5%b0%a5%c9%a5%e9%a5%b7%a5%eb",
         img: 'img/3040125000_01.jpg',
       },
       {
@@ -1906,7 +1906,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%b3%a5%eb%a5%ef%b1%cb%ea%e6",
+        url: "%c9%f7%5f%a5%b3%a5%eb%a5%ef%b1%cb%ea%e6",
         img: 'img/3040127000_01.jpg',
       },
       {
@@ -1920,7 +1920,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a4%a5%b7%a5%e5%a5%df%a1%bc%a5%eb%b1%cb%ea%e6",
+        url: "%bf%e5%5f%a5%a4%a5%b7%a5%e5%a5%df%a1%bc%a5%eb%b1%cb%ea%e6",
         img: 'img/3040126000_01.jpg',
       },
       {
@@ -1934,7 +1934,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%b8%a1%bc%a5%af%a5%d5%a5%ea%a1%bc%a5%c8%cd%e1%b0%e1",
+        url: "%c9%f7%5f%a5%b8%a1%bc%a5%af%a5%d5%a5%ea%a1%bc%a5%c8%cd%e1%b0%e1",
         img: 'img/3040128000_01.jpg',
       },
       {
@@ -1948,7 +1948,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%c7%a5%a3%a5%a2%a5%f3%a5%b5%b1%cb%ea%e6",
+        url: "%bf%e5%5f%a5%c7%a5%a3%a5%a2%a5%f3%a5%b5%b1%cb%ea%e6",
         img: 'img/3040129000_01.jpg',
       },
       {
@@ -1962,7 +1962,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%b0%a5%ec%a5%a2",
+        url: "%b2%d0%5f%a5%b0%a5%ec%a5%a2",
         img: 'img/3040130000_01.jpg',
       },
       {
@@ -1976,7 +1976,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%bb%b0%c6%fc%b7%ee%bd%a1%b6%e1",
+        url: "%b8%f7%5f%bb%b0%c6%fc%b7%ee%bd%a1%b6%e1",
         img: 'img/3040131000_01.jpg',
       },
       {
@@ -1990,7 +1990,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a2%a5%f3",
+        url: "%bf%e5%5f%a5%a2%a5%f3",
         img: 'img/3040132000_01.jpg',
       },
       {
@@ -2004,7 +2004,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%cb%a1%bc%a5%ca",
+        url: "%b2%d0%5f%a5%cb%a1%bc%a5%ca",
         img: 'img/3040133000_01.jpg',
       },
       {
@@ -2018,7 +2018,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b5%a1%bc%a5%f4%a5%a1%a5%f3%a5%c4%20%a5%c9%a5%ed%a5%b7%a1%bc%a1%f5%a5%af%a5%e9%a5%a6%a5%c7%a5%a3%a5%a2",
+        url: "%b8%f7%5f%a5%b5%a1%bc%a5%f4%a5%a1%a5%f3%a5%c4%20%a5%c9%a5%ed%a5%b7%a1%bc%a1%f5%a5%af%a5%e9%a5%a6%a5%c7%a5%a3%a5%a2",
         img: 'img/3040134000_01.jpg',
       },
       {
@@ -2032,7 +2032,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%a2%a5%b6%a5%bc%a5%eb",
+        url: "%b0%c7%5f%a5%a2%a5%b6%a5%bc%a5%eb",
         img: 'img/3040137000_01.jpg',
       },
       {
@@ -2046,7 +2046,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%c0%a5%cc%a5%a2%e8%df%c0%bb",
+        url: "%b2%d0%5f%a5%c0%a5%cc%a5%a2%e8%df%c0%bb",
         img: 'img/3040135000_01.jpg',
       },
       {
@@ -2060,7 +2060,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%cc%da%c7%b7%cb%dc%ba%f9",
+        url: "%b8%f7%5f%cc%da%c7%b7%cb%dc%ba%f9",
         img: 'img/3040136000_01.jpg',
       },
       {
@@ -2074,7 +2074,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%e6%a5%a8%a5%eb",
+        url: "%bf%e5%5f%a5%e6%a5%a8%a5%eb",
         img: 'img/3040138000_01.jpg',
       },
       {
@@ -2088,7 +2088,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%f4%a5%a3%a1%bc%a5%e9Limited",
+        url: "%b8%f7%5f%a5%f4%a5%a3%a1%bc%a5%e9Limited",
         img: 'img/3040141000_01.jpg',
       },
       {
@@ -2102,7 +2102,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e9%a5%f3%a5%b9%a5%ed%a5%c3%a5%c8",
+        url: "%c9%f7%5f%a5%e9%a5%f3%a5%b9%a5%ed%a5%c3%a5%c8",
         img: 'img/3040140000_01.jpg',
       },
       {
@@ -2116,7 +2116,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%ea%a5%f4%a5%a1%a5%a4",
+        url: "%c9%f7%5f%a5%ea%a5%f4%a5%a1%a5%a4",
         img: 'img/3040142000_01.jpg',
       },
       {
@@ -2130,7 +2130,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%de%a5%ea%a1%bc%c0%bb%c3%c2",
+        url: "%b8%f7%5f%a5%de%a5%ea%a1%bc%c0%bb%c3%c2",
         img: 'img/3040143000_01.jpg',
       },
       {
@@ -2144,7 +2144,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%b7%a5%e3%a5%ea%a5%aa%a5%b917%c0%a4",
+        url: "%b2%d0%5f%a5%b7%a5%e3%a5%ea%a5%aa%a5%b917%c0%a4",
         img: 'img/3040144000_01.jpg',
       },
       {
@@ -2158,7 +2158,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%aa%a5%ea%a5%f4%a5%a3%a5%a8Limited",
+        url: "%b0%c7%5f%a5%aa%a5%ea%a5%f4%a5%a3%a5%a8Limited",
         img: 'img/3040145000_01.jpg',
       },
       {
@@ -2172,7 +2172,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%d0%a5%b6%a5%e9%a5%ac",
+        url: "%c5%da%5f%a5%d0%a5%b6%a5%e9%a5%ac",
         img: 'img/3040146000_01.jpg',
       },
       {
@@ -2186,7 +2186,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%a4%a5%eb%a5%b6",
+        url: "%c5%da%5f%a5%a4%a5%eb%a5%b6",
         img: 'img/3040148000_01.jpg',
       },
       {
@@ -2200,7 +2200,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%f4%a5%a1%a5%b8%a5%e9",
+        url: "%bf%e5%5f%a5%f4%a5%a1%a5%b8%a5%e9",
         img: 'img/3040147000_01.jpg',
       },
       {
@@ -2214,7 +2214,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%c6%a5%ec%a1%bc%a5%ba",
+        url: "%b2%d0%5f%a5%c6%a5%ec%a1%bc%a5%ba",
         img: 'img/3040149000_01.jpg',
       },
       {
@@ -2228,7 +2228,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%be%a1%bc%a5%a4%bd%c6",
+        url: "%b8%f7%5f%a5%be%a1%bc%a5%a4%bd%c6",
         img: 'img/3040150000_01.jpg',
       },
       {
@@ -2242,7 +2242,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%e1%a5%c9%a5%a5%a1%bc%a5%b5%be%f0%bf%cd",
+        url: "%c5%da%5f%a5%e1%a5%c9%a5%a5%a1%bc%a5%b5%be%f0%bf%cd",
         img: 'img/3040151000_01.jpg',
       },
       {
@@ -2256,7 +2256,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%c6%a5%a3%a5%a2%a5%de%a5%c8",
+        url: "%c9%f7%5f%a5%c6%a5%a3%a5%a2%a5%de%a5%c8",
         img: 'img/3040152000_01.jpg',
       },
       {
@@ -2270,7 +2270,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b5%a5%f3%a5%c0%a5%eb%a5%d5%a5%a9%a5%f3",
+        url: "%b8%f7%5f%a5%b5%a5%f3%a5%c0%a5%eb%a5%d5%a5%a9%a5%f3",
         img: 'img/3040153000_01.jpg',
       },
       {
@@ -2284,7 +2284,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%af%b1%cb%ea%e6",
+        url: "%c9%f7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%af%b1%cb%ea%e6",
         img: 'img/3040154000_01.jpg',
       },
       {
@@ -2298,7 +2298,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%ed%a5%dc%a5%df",
+        url: "%b8%f7%5f%a5%ed%a5%dc%a5%df",
         img: 'img/3040155000_01.jpg',
       },
       {
@@ -2312,7 +2312,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%b7%a5%ed%a5%a6",
+        url: "%b0%c7%5f%a5%b7%a5%ed%a5%a6",
         img: 'img/3040156000_01.jpg',
       },
       {
@@ -2326,7 +2326,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%b9%be%b8%cd%c0%ee%a5%b3%a5%ca%a5%f3",
+        url: "%b8%f7%5f%b9%be%b8%cd%c0%ee%a5%b3%a5%ca%a5%f3",
         img: 'img/3040157000_01.jpg',
       },
       {
@@ -2340,7 +2340,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%d6%a5%ed%a1%bc%a5%c7%a5%a3%a5%a2Limited",
+        url: "%c5%da%5f%a5%d6%a5%ed%a1%bc%a5%c7%a5%a3%a5%a2Limited",
         img: 'img/3040158000_01.jpg',
       },
       {
@@ -2354,7 +2354,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%af%a5%af%a5%eb",
+        url: "%bf%e5%5f%a5%af%a5%af%a5%eb",
         img: 'img/3040159000_01.jpg',
       },
       {
@@ -2368,7 +2368,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%bd%a5%ea%a5%c3%a5%ba",
+        url: "%c5%da%5f%a5%bd%a5%ea%a5%c3%a5%ba",
         img: 'img/3040170000_01.jpg',
       },
       {
@@ -2382,7 +2382,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%ab%a5%a4%a5%f3Limited",
+        url: "%c5%da%5f%a5%ab%a5%a4%a5%f3Limited",
         img: 'img/3040171000_01.jpg',
       },
       {
@@ -2396,7 +2396,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%eb%a5%ca%a1%bc%a5%eb",
+        url: "%b0%c7%5f%a5%eb%a5%ca%a1%bc%a5%eb",
         img: 'img/3040172000_01.jpg',
       },
       {
@@ -2410,7 +2410,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%b8%a5%e7%a1%bc%a5%ab%a1%bc",
+        url: "%b0%c7%5f%a5%b8%a5%e7%a1%bc%a5%ab%a1%bc",
         img: 'img/3040173000_01.jpg',
       },
       {
@@ -2424,7 +2424,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%a6%a1%bc%a5%d5%a4%c8%a5%ec%a5%cb%a1%bc",
+        url: "%b0%c7%5f%a5%a6%a1%bc%a5%d5%a4%c8%a5%ec%a5%cb%a1%bc",
         img: 'img/3040174000_01.jpg',
       },
       {
@@ -2438,7 +2438,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%bb%a5%ec%a5%d5%a5%a3%a5%e9",
+        url: "%c9%f7%5f%a5%bb%a5%ec%a5%d5%a5%a3%a5%e9",
         img: 'img/3040175000_01.jpg',
       },
       {
@@ -2452,7 +2452,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%ed%a5%bc%a5%c3%a5%bf%b1%cb%ea%e6",
+        url: "%c5%da%5f%a5%ed%a5%bc%a5%c3%a5%bf%b1%cb%ea%e6",
         img: 'img/3040176000_01.jpg',
       },
       {
@@ -2466,7 +2466,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%a4%a5%eb%a5%b6%b1%cb%ea%e6",
+        url: "%b2%d0%5f%a5%a4%a5%eb%a5%b6%b1%cb%ea%e6",
         img: 'img/3040177000_01.jpg',
       },
       {
@@ -2480,7 +2480,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%ce%a5%a4%a5%b7%a5%e5%b1%cb%ea%e6",
+        url: "%b8%f7%5f%a5%ce%a5%a4%a5%b7%a5%e5%b1%cb%ea%e6",
         img: 'img/3040178000_01.jpg',
       },
       {
@@ -2494,7 +2494,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: true,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%c6%f3%c7%af%b5%e9",
+        url: "%bf%e5%5f%c6%f3%c7%af%b5%e9",
         img: 'img/3040183000_01.jpg',
       },
       {
@@ -2508,7 +2508,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%b0%ec%c7%af%b5%e9",
+        url: "%c5%da%5f%b0%ec%c7%af%b5%e9",
         img: 'img/3040184000_01.jpg',
       },
       {
@@ -2522,7 +2522,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%bb%b0%c7%af%b5%e9",
+        url: "%b2%d0%5f%bb%b0%c7%af%b5%e9",
         img: 'img/3040185000_01.jpg',
       },
       {
@@ -2536,7 +2536,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%b0%a5%ec%a5%a2%b1%cb%ea%e6",
+        url: "%bf%e5%5f%a5%b0%a5%ec%a5%a2%b1%cb%ea%e6",
         img: 'img/3040179000_01.jpg',
       },
       {
@@ -2550,7 +2550,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%d5%a5%a9%a5%ea%a5%a2Limited",
+        url: "%bf%e5%5f%a5%d5%a5%a9%a5%ea%a5%a2Limited",
         img: 'img/3040181000_01.jpg',
       },
       {
@@ -2564,7 +2564,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%c4%a5%d0%a5%b5",
+        url: "%b2%d0%5f%a5%c4%a5%d0%a5%b5",
         img: 'img/3040180000_01.jpg',
       },
       {
@@ -2578,7 +2578,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%d5%a1%bc%a4%c1%a4%e3%a4%f3",
+        url: "%b0%c7%5f%a5%d5%a1%bc%a4%c1%a4%e3%a4%f3",
         img: 'img/3040182000_01.jpg',
       },
       {
@@ -2592,7 +2592,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b7%a5%eb%a5%f4%a5%a1",
+        url: "%b8%f7%5f%a5%b7%a5%eb%a5%f4%a5%a1",
         img: 'img/3040187000_01.jpg',
       },
       {
@@ -2606,7 +2606,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%d7%a5%ea%a5%ad%a5%e5%a5%a2",
+        url: "%b8%f7%5f%a5%d7%a5%ea%a5%ad%a5%e5%a5%a2",
         img: 'img/3040188000_01.jpg',
       },
       {
@@ -2620,7 +2620,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%ec%a5%c7%a5%a3%a1%a6%a5%b0%a5%ec%a5%a4%e8%df%c0%bb",
+        url: "%b0%c7%5f%a5%ec%a5%c7%a5%a3%a1%a6%a5%b0%a5%ec%a5%a4%e8%df%c0%bb",
         img: 'img/3040189000_01.jpg',
       },
       {
@@ -2634,7 +2634,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e2%a5%cb%a5%ab",
+        url: "%c9%f7%5f%a5%e2%a5%cb%a5%ab",
         img: 'img/3040186000_01.jpg',
       },
       {
@@ -2648,7 +2648,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a8%a5%a6%a5%ed%a5%daLimited",
+        url: "%bf%e5%5f%a5%a8%a5%a6%a5%ed%a5%daLimited",
         img: 'img/3040190000_01.jpg',
       },
       {
@@ -2662,7 +2662,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%c7%f2%ce%b5%a4%ce%c1%d0%b5%b3%bb%ce",
+        url: "%b2%d0%5f%c7%f2%ce%b5%a4%ce%c1%d0%b5%b3%bb%ce",
         img: 'img/3040191000_01.jpg',
       },
       {
@@ -2676,7 +2676,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a2%a5%b0%a5%ed%a5%f4%a5%a1%a5%eb",
+        url: "%bf%e5%5f%a5%a2%a5%b0%a5%ed%a5%f4%a5%a1%a5%eb",
         img: 'img/3040192000_01.jpg',
       },
       {
@@ -2690,7 +2690,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%ec%a5%f4%a5%a3%a5%aa%a5%f3%bb%d0%cb%e5%20%a5%de%a5%a4%a5%e0%a1%f5%a5%df%a5%a4%a5%e0%a1%f5%a5%e1%a5%a4%a5%e0",
+        url: "%b8%f7%5f%a5%ec%a5%f4%a5%a3%a5%aa%a5%f3%bb%d0%cb%e5%20%a5%de%a5%a4%a5%e0%a1%f5%a5%df%a5%a4%a5%e0%a1%f5%a5%e1%a5%a4%a5%e0",
         img: 'img/3040193000_01.jpg',
       },
       {
@@ -2704,7 +2704,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e6%a5%ea%a5%a6%a5%b9",
+        url: "%c9%f7%5f%a5%e6%a5%ea%a5%a6%a5%b9",
         img: 'img/3040199000_01.jpg',
       },
       {
@@ -2718,7 +2718,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b7%a5%e3%a5%eb%a5%ed%a5%c3%a5%c6",
+        url: "%b8%f7%5f%a5%b7%a5%e3%a5%eb%a5%ed%a5%c3%a5%c6",
         img: 'img/3040194000_01.jpg',
       },
       {
@@ -2732,7 +2732,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%da%a5%b3%a5%ea%a1%bc%a5%cc",
+        url: "%b8%f7%5f%a5%da%a5%b3%a5%ea%a1%bc%a5%cc",
         img: 'img/3040200000_01.jpg',
       },
       {
@@ -2746,7 +2746,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%b3%a5%c3%a5%b3%a5%ed",
+        url: "%c9%f7%5f%a5%b3%a5%c3%a5%b3%a5%ed",
         img: 'img/3040201000_01.jpg',
       },
       {
@@ -2760,7 +2760,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%e1%a1%bc%a5%c6%a5%e9%c0%bb%c3%c2",
+        url: "%b8%f7%5f%a5%e1%a1%bc%a5%c6%a5%e9%c0%bb%c3%c2",
         img: 'img/3040195000_01.jpg',
       },
       {
@@ -2774,7 +2774,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%b7%a5%f4%a5%a1Limited",
+        url: "%b2%d0%5f%a5%b7%a5%f4%a5%a1Limited",
         img: 'img/3040196000_01.jpg',
       },
       {
@@ -2788,7 +2788,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%af%a5%d3%a5%e9",
+        url: "%b8%f7%5f%a5%af%a5%d3%a5%e9",
         img: 'img/3040197000_01.jpg',
       },
       {
@@ -2802,7 +2802,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%e6%a1%bc%a5%b9%a5%c6%a5%b9",
+        url: "%b0%c7%5f%a5%e6%a1%bc%a5%b9%a5%c6%a5%b9",
         img: 'img/3040198000_01.jpg',
       },
       {
@@ -2816,7 +2816,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%a2%a5%c6%a5%ca",
+        url: "%b2%d0%5f%a5%a2%a5%c6%a5%ca",
         img: 'img/3040202000_01.jpg',
       },
       {
@@ -2830,7 +2830,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%bf%a1%bc%a5%cb%a5%e3",
+        url: "%b0%c7%5f%a5%bf%a1%bc%a5%cb%a5%e3",
         img: 'img/3040203000_01.jpg',
       },
       {
@@ -2844,7 +2844,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%bb%a5%f3",
+        url: "%c9%f7%5f%a5%bb%a5%f3",
         img: 'img/3040204000_01.jpg',
       },
       {
@@ -2858,7 +2858,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%c0%a1%bc%a5%f3%a5%c8%a1%f5%a5%d5%a5%e9%a5%a4%a5%cf%a5%a4%a5%c8",
+        url: "%c5%da%5f%a5%c0%a1%bc%a5%f3%a5%c8%a1%f5%a5%d5%a5%e9%a5%a4%a5%cf%a5%a4%a5%c8",
         img: 'img/3040205000_01.jpg',
       },
       {
@@ -2872,7 +2872,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%af%a5%e9%a5%ea%a5%b9%be%f0%bf%cd",
+        url: "%b0%c7%5f%a5%af%a5%e9%a5%ea%a5%b9%be%f0%bf%cd",
         img: 'img/3040206000_01.jpg',
       },
       {
@@ -2886,7 +2886,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%e1%a5%ea%a5%c3%a5%b5%a5%d9%a5%eb%be%f0%bf%cd",
+        url: "%b8%f7%5f%a5%e1%a5%ea%a5%c3%a5%b5%a5%d9%a5%eb%be%f0%bf%cd",
         img: 'img/3040207000_01.jpg',
       },
       {
@@ -2900,7 +2900,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%d5%a5%a7%a5%eaLimited",
+        url: "%b0%c7%5f%a5%d5%a5%a7%a5%eaLimited",
         img: 'img/3040209000_01.jpg',
       },
       {
@@ -2914,7 +2914,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%d8%a5%eb%a5%a8%a5%b9",
+        url: "%c9%f7%5f%a5%d8%a5%eb%a5%a8%a5%b9",
         img: 'img/3040208000_01.jpg',
       },
       {
@@ -2928,7 +2928,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%de%a5%ea%a5%a2%a1%a6%a5%c6%a5%ec%a5%b5",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%de%a5%ea%a5%a2%a1%a6%a5%c6%a5%ec%a5%b5",
         img: 'img/3040160000_01.jpg',
       },
       {
@@ -2942,7 +2942,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%ab%a5%a4%a5%e0",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%ab%a5%a4%a5%e0",
         img: 'img/3040164000_01.jpg',
       },
       {
@@ -2956,7 +2956,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%cb%a1%bc%a5%a2",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%cb%a1%bc%a5%a2",
         img: 'img/3040169000_01.jpg',
       },
       {
@@ -2970,7 +2970,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%a8%a5%b9%a5%bf%a5%ea%a5%aa%a5%e9",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%a8%a5%b9%a5%bf%a5%ea%a5%aa%a5%e9",
         img: 'img/3040163000_01.jpg',
       },
       {
@@ -2984,7 +2984,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%d5%a5%e9%a5%a6",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%d5%a5%e9%a5%a6",
         img: 'img/3040161000_01.jpg',
       },
       {
@@ -2998,7 +2998,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%ed%a5%d9%a5%ea%a5%a2",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%ed%a5%d9%a5%ea%a5%a2",
         img: 'img/3040165000_01.jpg',
       },
       {
@@ -3012,7 +3012,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%ac%a5%a4%a5%bc%a5%f3%a5%dc%a1%bc%a5%ac",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%ac%a5%a4%a5%bc%a5%f3%a5%dc%a1%bc%a5%ac",
         img: 'img/3040162000_01.jpg',
       },
       {
@@ -3026,7 +3026,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%cf%a1%bc%a5%bc%a5%ea%a1%bc%a5%e9",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%cf%a1%bc%a5%bc%a5%ea%a1%bc%a5%e9",
         img: 'img/3040168000_01.jpg',
       },
       {
@@ -3040,7 +3040,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%a2%a5%e9%a5%ca%a5%f3",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%a2%a5%e9%a5%ca%a5%f3",
         img: 'img/3040167000_01.jpg',
       },
       {
@@ -3054,7 +3054,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bd%bd%b8%ad%bc%d4%5f%a5%ab%a5%c3%a5%c4%a5%a7%a5%ea%a1%bc%a5%e9",
+        url: "%bd%bd%b8%ad%bc%d4%5f%a5%ab%a5%c3%a5%c4%a5%a7%a5%ea%a1%bc%a5%e9",
         img: 'img/3040166000_01.jpg',
       },
       {
@@ -3068,7 +3068,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e6%a5%a8%a5%eb%b1%cb%ea%e6",
+        url: "%c9%f7%5f%a5%e6%a5%a8%a5%eb%b1%cb%ea%e6",
         img: 'img/3040210000_01.jpg',
       },
       {
@@ -3082,7 +3082,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%f4%a5%a3%a1%bc%a5%e9",
+        url: "%c9%f7%5f%a5%f4%a5%a3%a1%bc%a5%e9",
         img: 'img/3040211000_01.jpg',
       },
       {
@@ -3096,7 +3096,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%b0%a5%ea%a1%bc%a5%e0%a5%cb%a5%ebLimited",
+        url: "%c9%f7%5f%a5%b0%a5%ea%a1%bc%a5%e0%a5%cb%a5%ebLimited",
         img: 'img/3040212000_01.jpg',
       },
       {
@@ -3110,7 +3110,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%de%a5%ad%a5%e5%a5%e9%a1%a6%a5%de%a5%ea%a5%a6%a5%b9",
+        url: "%bf%e5%5f%a5%de%a5%ad%a5%e5%a5%e9%a1%a6%a5%de%a5%ea%a5%a6%a5%b9",
         img: 'img/3040213000_01.jpg',
       },
       {
@@ -3124,7 +3124,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%e1%a5%c9%a5%a5%a1%bc%a5%b5%d7%f1%be%ef",
+        url: "%c5%da%5f%a5%e1%a5%c9%a5%a5%a1%bc%a5%b5%d7%f1%be%ef",
         img: 'img/3040214000_01.jpg',
       },
       {
@@ -3138,7 +3138,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%d0%a5%a2%a5%eb",
+        url: "%c5%da%5f%a5%d0%a5%a2%a5%eb",
         img: 'img/3040215000_01.jpg',
       },
       {
@@ -3152,7 +3152,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%ad%a5%e3%a5%eb",
+        url: "%b0%c7%5f%a5%ad%a5%e3%a5%eb",
         img: 'img/3040216000_01.jpg',
       },
       {
@@ -3166,7 +3166,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%d5%a5%a1%a5%b9%a5%c6%a5%a3%a5%d0",
+        url: "%c5%da%5f%a5%d5%a5%a1%a5%b9%a5%c6%a5%a3%a5%d0",
         img: 'img/3040217000_01.jpg',
       },
       {
@@ -3180,7 +3180,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%d0%a5%a4%a5%f4%a5%ab%a5%cf",
+        url: "%c9%f7%5f%a5%d0%a5%a4%a5%f4%a5%ab%a5%cf",
         img: 'img/3040218000_01.jpg',
       },
       {
@@ -3194,7 +3194,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%eb%a5%eb%a1%bc%a5%b7%a5%e5",
+        url: "%b0%c7%5f%a5%eb%a5%eb%a1%bc%a5%b7%a5%e5",
         img: 'img/3040219000_01.jpg',
       },
       {
@@ -3208,7 +3208,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%bf%f5%cc%da%a5%b9%a5%b6%a5%af",
+        url: "%c9%f7%5f%bf%f5%cc%da%a5%b9%a5%b6%a5%af",
         img: 'img/3040220000_01.jpg',
       },
       {
@@ -3222,7 +3222,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%b9%c8%b7%ee%a5%ab%a5%ec%a5%f3",
+        url: "%b2%d0%5f%b9%c8%b7%ee%a5%ab%a5%ec%a5%f3",
         img: 'img/3040221000_01.jpg',
       },
       {
@@ -3236,7 +3236,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%b3%a5%eb%a5%eb",
+        url: "%b0%c7%5f%a5%b3%a5%eb%a5%eb",
         img: 'img/3040222000_01.jpg',
       },
       {
@@ -3250,7 +3250,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%cf%a1%bc%a5%eb%a1%bc%a5%c8%8e%a5%a5%de%a1%bc%a5%eb%a1%bc%a5%c8%b1%cb%ea%e6",
+        url: "%b8%f7%5f%a5%cf%a1%bc%a5%eb%a1%bc%a5%c8%8e%a5%a5%de%a1%bc%a5%eb%a1%bc%a5%c8%b1%cb%ea%e6",
         img: 'img/3040223000_01.jpg',
       },
       {
@@ -3264,7 +3264,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%b5%a5%f3%a5%c0%a5%eb%a5%d5%a5%a9%a5%f3%b1%cb%ea%e6",
+        url: "%bf%e5%5f%a5%b5%a5%f3%a5%c0%a5%eb%a5%d5%a5%a9%a5%f3%b1%cb%ea%e6",
         img: 'img/3040224000_01.jpg',
       },
       {
@@ -3278,7 +3278,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%ab%a5%ea%a5%aa%a5%b9%a5%c8%a5%ed%b1%cb%ea%e6",
+        url: "%bf%e5%5f%a5%ab%a5%ea%a5%aa%a5%b9%a5%c8%a5%ed%b1%cb%ea%e6",
         img: 'img/3040225000_01.jpg',
       },
       {
@@ -3292,7 +3292,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%bf%e5%5f%a5%a8%a5%a6%a5%ed%a5%da%b1%cb%ea%e6",
+        url: "%bf%e5%5f%a5%a8%a5%a6%a5%ed%a5%da%b1%cb%ea%e6",
         img: 'img/3040226000_01.jpg',
       },
       {
@@ -3306,7 +3306,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%b8%a5%a7%a5%b7%a5%ab%cd%e1%b0%e1",
+        url: "%c5%da%5f%a5%b8%a5%a7%a5%b7%a5%ab%cd%e1%b0%e1",
         img: 'img/3040227000_01.jpg',
       },
       {
@@ -3320,7 +3320,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%a2%a5%f3%a5%b9%a5%ea%a5%a2%cd%e1%b0%e1",
+        url: "%b0%c7%5f%a5%a2%a5%f3%a5%b9%a5%ea%a5%a2%cd%e1%b0%e1",
         img: 'img/3040228000_01.jpg',
       },
       {
@@ -3334,7 +3334,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a6%cc%27s%b0%ec%c7%af%b5%e9",
+        url: "%c9%f7%5f%a6%cc%27s%b0%ec%c7%af%b5%e9",
         img: 'img/3040229000_01.jpg',
       },
       {
@@ -3348,7 +3348,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a6%cc%27s%c6%f3%c7%af%b5%e9",
+        url: "%b8%f7%5f%a6%cc%27s%c6%f3%c7%af%b5%e9",
         img: 'img/3040230000_01.jpg',
       },
       {
@@ -3362,7 +3362,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a6%cc%27s%bb%b0%c7%af%b5%e9",
+        url: "%b0%c7%5f%a6%cc%27s%bb%b0%c7%af%b5%e9",
         img: 'img/3040231000_01.jpg',
       },
       {
@@ -3376,7 +3376,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%d6%a5%ed%a1%bc%a5%c7%a5%a3%a5%a2%b1%cb%ea%e6",
+        url: "%c5%da%5f%a5%d6%a5%ed%a1%bc%a5%c7%a5%a3%a5%a2%b1%cb%ea%e6",
         img: 'img/3040232000_01.jpg',
       },
       {
@@ -3390,7 +3390,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%b9%a5%bf%a5%f3%26%a5%a2%a5%ea%a1%bc%a5%b6",
+        url: "%c9%f7%5f%a5%b9%a5%bf%a5%f3%26%a5%a2%a5%ea%a1%bc%a5%b6",
         img: 'img/3040233000_01.jpg',
       },
       {
@@ -3404,7 +3404,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%bf%a5%f4%a5%a3%a1%bc%a5%ca",
+        url: "%b2%d0%5f%a5%bf%a5%f4%a5%a3%a1%bc%a5%ca",
         img: 'img/3040234000_01.jpg',
       },
       {
@@ -3418,7 +3418,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%b3%a5%ed%a5%c3%a5%b5%a5%b9",
+        url: "%b2%d0%5f%a5%b3%a5%ed%a5%c3%a5%b5%a5%b9",
         img: 'img/3040235000_01.jpg',
       },
       {
@@ -3432,7 +3432,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b5%a5%e9",
+        url: "%b8%f7%5f%a5%b5%a5%e9",
         img: 'img/3040236000_01.jpg',
       },
       {
@@ -3446,7 +3446,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%b8%a1%bc%a5%af%a5%d5%a5%ea%a1%bc%a5%c8",
+        url: "%b2%d0%5f%a5%b8%a1%bc%a5%af%a5%d5%a5%ea%a1%bc%a5%c8",
         img: 'img/3040237000_01.jpg',
       },
       {
@@ -3460,7 +3460,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e2%a5%cb%a5%abLimited",
+        url: "%c9%f7%5f%a5%e2%a5%cb%a5%abLimited",
         img: 'img/3040238000_01.jpg',
       },
       {
@@ -3474,7 +3474,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%bc%a5%bf%a1%f5%a5%d0%a5%b6%a5%e9%a5%ac",
+        url: "%c5%da%5f%a5%bc%a5%bf%a1%f5%a5%d0%a5%b6%a5%e9%a5%ac",
         img: 'img/3040239000_01.jpg',
       },
       {
@@ -3488,7 +3488,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%cf%a5%ec%a5%bc%a5%ca%e8%df%c0%bb",
+        url: "%b8%f7%5f%a5%cf%a5%ec%a5%bc%a5%ca%e8%df%c0%bb",
         img: 'img/3040240000_01.jpg',
       },
       {
@@ -3502,7 +3502,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%bd%a5%b7%a5%a8",
+        url: "%c9%f7%5f%a5%bd%a5%b7%a5%a8",
         img: 'img/3040241000_01.jpg',
       },
       {
@@ -3516,7 +3516,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%b3%a5%a6",
+        url: "%b0%c7%5f%a5%b3%a5%a6",
         img: 'img/3040242000_01.jpg',
       },
       {
@@ -3530,7 +3530,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%f4%a5%a3%a1%bc%a5%e9",
+        url: "%b2%d0%5f%a5%f4%a5%a3%a1%bc%a5%e9",
         img: 'img/3040243000_01.jpg',
       },
       {
@@ -3544,7 +3544,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b7%a5%c8%a5%ea",
+        url: "%b8%f7%5f%a5%b7%a5%c8%a5%ea",
         img: 'img/3040244000_01.jpg',
       },
       {
@@ -3558,7 +3558,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%afLimited",
+        url: "%b8%f7%5f%a5%b8%a5%e3%a5%f3%a5%cc%a5%c0%a5%eb%a5%afLimited",
         img: 'img/3040245000_01.jpg',
       },
       {
@@ -3572,7 +3572,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%df%a5%e5%a5%aa%a5%f3",
+        url: "%c9%f7%5f%a5%df%a5%e5%a5%aa%a5%f3",
         img: 'img/3040246000_01.jpg',
       },
       {
@@ -3586,7 +3586,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%de%a5%ae%a5%b5%c0%bb%c3%c2",
+        url: "%c5%da%5f%a5%de%a5%ae%a5%b5%c0%bb%c3%c2",
         img: 'img/3040247000_01.jpg',
       },
       {
@@ -3600,7 +3600,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%ac%a5%c1%a5%e3%a5%d4%a5%f3",
+        url: "%c9%f7%5f%a5%ac%a5%c1%a5%e3%a5%d4%a5%f3",
         img: 'img/3040248000_01.jpg',
       },
       {
@@ -3614,7 +3614,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%ca%a5%eb%a5%e1%a5%a2%c0%bb%c3%c2",
+        url: "%c5%da%5f%a5%ca%a5%eb%a5%e1%a5%a2%c0%bb%c3%c2",
         img: 'img/3040249000_01.jpg',
       },
       {
@@ -3628,7 +3628,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%bb%a5%eb%a5%a8%a5%eb%c0%bb%c3%c2",
+        url: "%c9%f7%5f%a5%bb%a5%eb%a5%a8%a5%eb%c0%bb%c3%c2",
         img: 'img/3040250000_01.jpg',
       },
       {
@@ -3642,7 +3642,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%d8%a5%ec%a5%eb%a1%a6%a5%d9%a5%f3%a1%a6%a5%b7%a5%e3%a5%ec%a5%e0Limited",
+        url: "%b0%c7%5f%a5%d8%a5%ec%a5%eb%a1%a6%a5%d9%a5%f3%a1%a6%a5%b7%a5%e3%a5%ec%a5%e0Limited",
         img: 'img/3040251000_01.jpg',
       },
       {
@@ -3656,7 +3656,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%d3%a5%ab%a5%e9",
+        url: "%b0%c7%5f%a5%d3%a5%ab%a5%e9",
         img: 'img/3040252000_01.jpg',
       },
       {
@@ -3670,7 +3670,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b2%d0%5f%a5%e6%a5%a4%a5%b7%a5%b9",
+        url: "%b2%d0%5f%a5%e6%a5%a4%a5%b7%a5%b9",
         img: 'img/3040253000_01.jpg',
       },
       {
@@ -3684,7 +3684,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b0%c7%5f%a5%eb%a5%b7%a5%a6%a5%b9",
+        url: "%b0%c7%5f%a5%eb%a5%b7%a5%a6%a5%b9",
         img: 'img/3040254000_01.jpg',
       },
       {
@@ -3698,7 +3698,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%ce%a5%a2Limited",
+        url: "%b8%f7%5f%a5%ce%a5%a2Limited",
         img: 'img/3040255000_01.jpg',
       },
       {
@@ -3712,7 +3712,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%c0%a5%cc%a5%a2",
+        url: "%b8%f7%5f%a5%c0%a5%cc%a5%a2",
         img: 'img/3040256000_01.jpg',
       },
       {
@@ -3726,7 +3726,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c5%da%5f%a5%b8%a5%f3",
+        url: "%c5%da%5f%a5%b8%a5%f3",
         img: 'img/3040257000_01.jpg',
       },
       {
@@ -3740,7 +3740,7 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%b8%f7%5f%a5%a4%a5%eb%a5%b6",
+        url: "%b8%f7%5f%a5%a4%a5%eb%a5%b6",
         img: 'img/3040258000_01.jpg',
       },
       {
@@ -3754,8 +3754,92 @@ var app = new Vue({
         show: true,
         own: false,
         final: false,
-        url: "https://gbfssrlistbyod.memo.wiki/d/%c9%f7%5f%a5%e8%a5%c0%a5%eb%a5%e9%a1%bc%a5%cf",
+        url: "%c9%f7%5f%a5%e8%a5%c0%a5%eb%a5%e9%a1%bc%a5%cf",
         img: 'img/3040259000_01.jpg',
+      },
+      {
+        name: 'スカーサハ(情人節)',
+        element: '火',
+        race: ['獸耳'],
+        weapon: ['格鬥'],
+        type: '回復',
+        gender: ['女'],
+        get: '季節限定',
+        show: true,
+        own: false,
+        final: false,
+        url: "%b2%d0%5f%a5%b9%a5%ab%a1%bc%a5%b5%a5%cf%be%f0%bf%cd",
+        img: 'img/3040260000_01.jpg',
+      },
+      {
+        name: 'グリームニル(情人節)',
+        element: '風',
+        race: ['星晶獸'],
+        weapon: ['槍','杖'],
+        type: '特殊',
+        gender: ['男'],
+        get: '季節限定',
+        show: true,
+        own: false,
+        final: false,
+        url: "%c9%f7%5f%a5%b0%a5%ea%a1%bc%a5%e0%a5%cb%a5%eb%be%f0%bf%cd",
+        img: 'img/3040261000_01.jpg',
+      },
+      {
+        name: 'シス',
+        element: '暗',
+        race: ['獸耳'],
+        weapon: ['格鬥'],
+        type: '攻擊',
+        gender: ['男'],
+        get: '活動',
+        show: true,
+        own: false,
+        final: false,
+        url: "%b0%c7%5f%a5%b7%a5%b9",
+        img: 'img/3040262000_01.jpg',
+      },
+      {
+        name: 'リーシャ',
+        element: '水',
+        race: ['人族'],
+        weapon: ['劍','銃'],
+        type: '攻擊',
+        gender: ['女'],
+        get: '恒常',
+        show: true,
+        own: false,
+        final: false,
+        url: "%bf%e5%5f%a5%ea%a1%bc%a5%b7%a5%e3",
+        img: 'img/3040263000_01.jpg',
+      },
+      {
+        name: '飛竜と吸血姫 ヴァンピィ＆ベス',
+        element: '水',
+        race: ['其他'],
+        weapon: ['杖','格鬥'],
+        type: '特殊',
+        gender: ['女'],
+        get: '恒常',
+        show: true,
+        own: false,
+        final: false,
+        url: "%bf%e5%5f%a5%f4%a5%a1%a5%f3%a5%d4%a5%a3%a1%f5%a5%d9%a5%b9",
+        img: 'img/3040264000_01.jpg',
+      },
+      {
+        name: 'レイ',
+        element: '暗',
+        race: ['矮人'],
+        weapon: ['杖','刀'],
+        type: '特殊',
+        gender: ['女'],
+        get: 'Fes限',
+        show: true,
+        own: false,
+        final: false,
+        url: "%b0%c7%5f%a5%ec%a5%a4Limited",
+        img: 'img/3040265000_01.jpg',
       },
       // http://game-a1.granbluefantasy.jp/assets/img/sp/assets/npc/m/3040071000_01.jpg
     ]
