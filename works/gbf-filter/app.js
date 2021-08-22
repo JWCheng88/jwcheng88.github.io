@@ -5031,6 +5031,20 @@ var app = new Vue({
         url: "%bf%e5%5f%a5%d8%a5%ec%a5%eb%a1%a6%a5%d9%a5%f3%a1%a6%a5%b7%a5%e3%a5%ec%a5%e0%b1%cb%ea%e6",
         img: 'img/3040351000_01.jpg',
       },
+      {
+        name: 'シヴァ(水着)',
+        element: '光',
+        race: ['星晶獸'],
+        weapon: ['槍','杖'],
+        type: '攻擊',
+        gender: ['男'],
+        get: '季節限定',
+        show: true,
+        own: false,
+        final: false,
+        url: "%b8%f7%5f%a5%b7%a5%f4%a5%a1%b1%cb%ea%e6",
+        img: 'img/3040352000_01.jpg',
+      },
       // http://game-a1.granbluefantasy.jp/assets/img/sp/assets/npc/m/3040071000_01.jpg
     ]
   },
