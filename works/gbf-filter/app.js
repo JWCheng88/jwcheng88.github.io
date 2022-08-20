@@ -5905,7 +5905,7 @@ var app = new Vue({
         race: ['矮人'],
         weapon: ['杖','斧'],
         type: '防禦',
-        gender: ['女'],
+        gender: ['不詳'],
         get: 'Fes限',
         show: true,
         own: false,
